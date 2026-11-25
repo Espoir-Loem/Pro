@@ -110,8 +110,8 @@ Rust est la seule exception à tout TypeScript, et uniquement pour la coque desk
 
 - Le seuil est zéro CVE connue et non traitée au merge et à la release. Ce n'est pas une promesse d'absence absolue dans le temps. Un monitoring continu réévalue chaque nouvelle alerte.
 - Sur chaque pull request : revue du lockfile, scan SCA, SAST, recherche de secrets, contrôle des licences, typecheck, lint, tests unitaires, d'intégration et de contrat.
-- À chaque release : SBOM CycloneDX signé, relié au digest de l'artefact, artefacts signés, notes générées par CI et preuve de passe CI. Une exception est bornée avec propriétaire, contrôle compensatoire, date d'expiration et statut VEX.
-- Niveau OWASP ASVS visé à arbitrer en A-11. Les contrôles de `docs/Technique/securite.md` s'appliquent dès maintenant et sont rejoués sur les trois clients.
+- À chaque release : SBOM CycloneDX signé avec `cosign` 3.1.6, VEX CycloneDX daté, reliés au digest de l'artefact, notes générées par CI et preuve de passe CI. Une exception est bornée avec propriétaire, contrôle compensatoire, date d'expiration et statut VEX.
+- Niveau OWASP ASVS 2 visé depuis l'arbitrage A-11 du 26 novembre 2026. Les outils épinglés et les contrôles de `docs/Technique/securite.md` s'appliquent dès maintenant et sont rejoués sur les trois clients.
 - Desktop : signature et intégrité vérifiées avant installation, retour à la version précédente en cas d'échec, session en cours non interrompue, aucun identifiant machine écrit.
 - Aucun co-auteur de modèle. Aucun trailer `Co-authored-by` pour Claude, freecode, opencode ou tout autre modèle. Les commits sont signés par un humain nommé.
 
