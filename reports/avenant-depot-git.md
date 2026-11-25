@@ -38,7 +38,7 @@ Aucune protection de branche n'est posée, car aucun dépôt distant n'existe. L
 | `9bf19a1` | `chore: initialize repository hygiene` | Trois fichiers de configuration du dépôt |
 | `382f6ab` | `docs: add product framing and agent guidance` | Cadrage produit, documentation, mémoires, rapports et notes de recherche, soit soixante-seize fichiers |
 | `eb78d94` | `docs: record git repository preparation` | Présent avenant et pointeur dans `docs/README.md` |
-| `45ee8ee` | `docs: remove phantom decision identifier` | Exemple `D-025` remplacé dans `docs/Product/arbitrage.md` par un renvoi au numéro attribué |
+| `45ee8ee` | `docs: remove phantom decision identifier` | Identifiant fictif remplacé dans `docs/Product/arbitrage.md` par un renvoi au numéro attribué |
 | Commit courant | `docs: record final repository verification` | Résultats détaillés des contrôles dans le présent avenant |
 
 Chaque commit porte un changement logique. Aucun contenu de modèle n'est co-signé.
