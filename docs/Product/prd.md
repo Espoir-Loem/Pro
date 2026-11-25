@@ -442,6 +442,15 @@ Ces cibles de revue découlent de la référence de rapidité donnée par le por
 
 **Accessibilité.** Le web vise WCAG 2.2 AA. Cibles tactiles d'au moins 24 sur 24 CSS px selon SC 2.5.8, avec un objectif produit de 44 pixels. Ratio de contraste visé à confirmer lors de la revue d'accessibilité. Libellés pour lecteur d'écran et navigation au clavier sur le web. Le desktop suit les API d'accessibilité natives Windows et macOS avec les mêmes objectifs de lisibilité, de focus et de contraste, vérifiés en revue d'accessibilité. Les vidéos avec son du MVP disposent de sous-titres générés automatiquement et corrigés par l'auteur avant publication. Si la correction n'est pas faite, la vidéo reste en brouillon et n'est pas publiée (D-021, FS-02 et FS-05).
 
+**Référencement web.** Le client web suit la fiche [seo-web.md](../Technique/seo-web.md). La checklist minimale porte sur la structure sémantique, l'unicité du titre et de la description, l'URL canonique sans paramètre de session, la déclaration de langue, les données structurées, le plan du site et les signaux web essentiels. Aucune page n'est créée pour un moteur seulement, aucun classement payant n'est introduit et la lecture publique sans compte reste intacte. Les mesures SEO-01 et SEO-02 sont définies dans [kpi.md](./kpi.md), sans cible chiffrée avant décision écrite.
+
+| Contrôle SEO | Moment | Preuve |
+|---|---|---|
+| Titre, description et URL canonique uniques | Avant la revue de chaque page publique | Extrait du rendu et de l'en-tête |
+| Données structurées conformes au contenu réel | Avant la publication d'une offre, d'une vidéo ou d'une organisation | Validation du schéma |
+| Plan du site et règles d'accès sans contenu privé | Avant le déploiement web | Fichiers publiés et chemin vérifié |
+| Signaux web essentiels | Après chaque mise en production web | Rapport de terrain daté |
+
 **Confidentialité.** Pas d'empreinte d'appareil. Jeton de visiteur à courte durée. Pas de suivi entre appareils. Pas de traceur tiers pour les non-connectés. Durée de conservation des événements de session fixée à 30 jours. Aucune cohorte visiteur à sept jours, conformément à D-020. La durée de conservation des agrégats et leur finalité sont inscrites au registre avant la première mesure.
 
 **Sécurité.** Authentification limitée à cinq tentatives par minute et par adresse. Lecture limitée à 200 requêtes par minute. Vitesse de follow et de like surveillée. Les erreurs répétées consomment plus vite le budget de requêtes. Le niveau ASVS visé est une décision technique à prendre, décrite dans `../Technique/README.md`.
