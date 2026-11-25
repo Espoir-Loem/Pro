@@ -30,41 +30,42 @@ flowchart LR
 | Réf. | À arbitrer | Options ouvertes | Ce qu'il faut écrire | Documents touchés | Responsable | Échéance |
 |---|---|---|---|---|---|---|
 | A-01 | D-009 : stack `mobile`, `web` et `desktop`, arbitrée le 25 novembre 2026, voir D-009 | Clôturée. Option retenue : tout TypeScript, détaillée dans `../Technique/adr-001-stack.md` | Option retenue, versions LTS, familles de langages ou cadres, hébergeur après D-022, propriétaire, date. Outils inscrits dans l'ADR unique. | `adr-001-stack.md`, `architecture.md`, `video.md`, `performance.md`, `roadmap.md` | Équipe produit et technique, titulaire à nommer | Atteinte le 25 novembre 2026 |
-| A-02 | D-022 : budget CDN et modération | 1. Budget par vue et par ville. 2. Enveloppe mensuelle avec plafond par ville. 3. Budget provisoire arrêté après la Phase 0. | Montant, devise, fenêtre, règle de seuil par vue, propriétaire. Le coût n'est pas présenté comme déjà couvert. | `video.md`, `montee-en-charge.md`, `mesure.md`, `roadmap.md` | à nommer | avant le gel de `video.md` |
-| A-03 | D-023 : cibles numériques du client `desktop` | 1. Confirmer les cinq cibles proposées. 2. Les réviser après benchmark sur machine de référence. 3. Distinguer Windows et macOS. | Machine de référence, valeurs retenues, méthode de mesure, date de revue. Aucune valeur n'est présentée comme mesurée. | `prd.md` section 9, `performance.md`, `mesure.md`, définition de terminé | à nommer | avant le sprint 1 |
-| A-04 | Équipe et effectif | 1. Confirmation de l'effectif écrit dans le PRD. 2. Équipe réduite avec prestataire pour le client `desktop`. 3. Effectif réévalué après arbitrage du budget. | Rôles, nombre, propriétaire du recrutement, conséquence sur les phases. | `prd.md`, `roadmap.md`, `decisions.md` | à nommer | avant le planning |
-| A-05 | Date de lancement et calendrier | 1. Jalons par critères, sans date fixe. 2. Date fixe après arbitrages. 3. Fenêtre conditionnée à la sortie de la Phase 0. | Date ou règle de date, propriétaire, conséquence sur le recrutement et l'astreinte. | `roadmap.md`, `acquisition-brazzaville.md`, `acquisition-kinshasa.md`, `astreinte.md` | à nommer | avant le planning |
-| A-13 | Portée mobile de D-024, mise à jour sans cycle de store | 1. Règles, contenus et éléments d'interface autorisés servis côté serveur seulement. 2. Ajout de bundles légers autorisés par les règles des stores. 3. Aucun élément modifiable hors binaire natif sur mobile. | Liste fermée de ce qui est modifiable hors binaire, règle par store, date de validation, propriétaire, conduite à tenir si la règle change. Aucune règle de store n'est affirmée sans preuve écrite. | `prd.md` section 10.1, `adr-001-stack.md`, `securite.md`, `confidentialite-visiteur.md`, définition de terminé | à nommer | avant le sprint 1 |
+| A-02 | D-022 : budget CDN et modération | Décision intérimaire du porteur, 25 novembre 2026 : option 2, enveloppe mensuelle avec plafond par ville. | Montant, devise, fenêtre et seuil de coût par vue restent à nommer. Le coût n'est pas présenté comme déjà couvert. | `video.md`, `montee-en-charge.md`, `mesure.md`, `roadmap.md` | Espoir LOEMBA, intérimaire | avant le gel de `video.md` |
+| A-03 | D-023 : cibles numériques du client `desktop` | Décision intérimaire du porteur, 25 novembre 2026 : option 1, les cinq cibles proposées sont retenues comme cibles. | Machine de référence, méthode de mesure et date de revue restent à confirmer. Aucune valeur n'est présentée comme mesurée. | `prd.md` section 9, `performance.md`, `mesure.md`, définition de terminé | Espoir LOEMBA, intérimaire | avant le sprint 1 |
+| A-04 | Équipe et effectif | Décision intérimaire du porteur, 25 novembre 2026 : porteur unique appuyé par les outils IA, prestataires à nommer pour le client `desktop`. | L'effectif du PRD reste une référence, pas un engagement. Rôles, prestataires et conséquence sur les phases restent à écrire. | `prd.md`, `roadmap.md`, `decisions.md` | Espoir LOEMBA, intérimaire | avant le planning |
+| A-05 | Date de lancement et calendrier | Décision intérimaire du porteur, 25 novembre 2026 : option 1, jalons par critères sans date fixe. | Aucune date de lancement n'est inventée. La conséquence sur le recrutement et l'astreinte reste à écrire. | `roadmap.md`, `acquisition-brazzaville.md`, `acquisition-kinshasa.md`, `astreinte.md` | Espoir LOEMBA, intérimaire | avant le planning |
+| A-13 | Portée mobile de D-024, mise à jour sans cycle de store | Décision intérimaire du porteur, 25 novembre 2026 : option 1, éléments servis côté serveur seulement. | Liste fermée et règle par store restent à prouver par écrit. Conduite à tenir si la règle change reste à écrire. | `prd.md` section 10.1, `adr-001-stack.md`, `securite.md`, `confidentialite-visiteur.md`, définition de terminé | Espoir LOEMBA, intérimaire | avant le sprint 1 |
 
 ## 2. Arbitrage avant la Phase 2
 
 | Réf. | À arbitrer | Options ouvertes | Ce qu'il faut écrire | Documents touchés | Responsable | Échéance |
 |---|---|---|---|---|---|---|
-| A-06 | D-010 : règle N2 pour les candidatures | 1. Vérification obligatoire pour toutes les candidatures. 2. Vérification seulement à la demande de l'employeur. 3. Vérification obligatoire pour les offres signalées. | Règle retenue, preuve acceptée, réversibilité du badge, événement dédié si nécessaire. | `prd.md` section 14, `verification-identite.md`, `userstories.md` US-16, `mesure.md` | à nommer | avant l'ouverture des offres |
-| A-07 | D-011 : nom et privilèges du niveau organisations payant | 1. Nom neutre avec statistiques avancées. 2. Nom lié à l'organisation avec offres signalées hors recherche. 3. Privilèges d'administration supplémentaires. | Nom, liste fermée de privilèges, phase d'entrée. D-019 interdit tout classement payant dans la recherche. | `roadmap.md` phase 5, `manifeste.md`, `prd.md` section 14.5, `decisions.md` | à nommer | avant la conception de la phase 5 |
-| A-08 | Langues après le français | 1. Aucune autre langue avant la Phase 3. 2. Une langue par marché après recherche locale. 3. Anglais après validation d'un marché. | Langue, marché, date, responsable. Toute nouvelle langue est inscrite au registre selon D-008. | `vision.md`, `prd.md`, `manifeste.md`, `decisions.md`, `ux-research.md` | à nommer | avant l'extension hors des deux Congo |
+| A-06 | D-010 : règle N2 pour les candidatures | Décision intérimaire du porteur, 25 novembre 2026 : option 2, vérification seulement à la demande de l'employeur. | Preuve acceptée, réversibilité du badge et événement dédié restent à écrire. | `prd.md` section 14, `verification-identite.md`, `userstories.md` US-16, `mesure.md` | Espoir LOEMBA, intérimaire | avant l'ouverture des offres |
+| A-07 | D-011 : nom et privilèges du niveau organisations payant | Décision intérimaire du porteur, 25 novembre 2026 : option 1, nom neutre avec statistiques avancées. | Nom exact et liste fermée des privilèges restent à confirmer. D-019 interdit tout classement payant dans la recherche. | `roadmap.md` phase 5, `manifeste.md`, `prd.md` section 14.5, `decisions.md` | Espoir LOEMBA, intérimaire | avant la conception de la phase 5 |
+| A-08 | Langues après le français | Décision intérimaire du porteur, 25 novembre 2026 : option 1, aucune autre langue avant la Phase 3. | Toute nouvelle langue est inscrite au registre selon D-008. | `vision.md`, `prd.md`, `manifeste.md`, `decisions.md`, `ux-research.md` | Espoir LOEMBA, intérimaire | avant l'extension hors des deux Congo |
 
 ## 3. Arbitrage avant ouverture publique
 
 | Réf. | À arbitrer | Options ouvertes | Ce qu'il faut écrire | Documents touchés | Responsable | Échéance |
 |---|---|---|---|---|---|---|
-| A-09 | Modèle de modération | 1. Bénévole. 2. Salarié. 3. Mixte avec noyau salarié et renfort bénévole. | Modèle retenu, couverture horaire, propriétaire, lien avec D-022. | `Operations/README.md`, `astreinte.md`, `montee-en-charge.md`, `decisions.md` | à nommer | avant tout lien public |
-| A-10 | Seuil de fil non vide | 1. Seuil par métier et par ville. 2. Seuil global par ville. 3. Aucun seuil et repli immédiat vers le fil général. | Nombre, ville, métier, propriétaire, règle de repli. Le seuil n'est pas transposé d'une ville à l'autre. | `lanceurs-metiers.md`, `mesure.md`, `acquisition-brazzaville.md`, `acquisition-kinshasa.md` | à nommer | avant ouverture |
-| A-11 | Niveau OWASP ASVS visé | 1. Niveau 1. 2. Niveau 2. 3. Niveau 3. | Niveau retenu, portée d'application, propriétaire de la revue. | `securite.md`, `responsabilites.md`, définition de terminé | à nommer | avant la revue de sortie MVP |
-| A-12 | Qualification juridique et périmètre RGPD | 1. RGPD applicable dès les deux Congo, sous avis écrit. 2. RGPD non applicable au démarrage, sous avis écrit. 3. Qualification DSA différée à une ouverture européenne. | Avis du conseil local, pays concernés, date, propriétaire. Ce document ne tranche aucune obligation. | `perimetre-juridique.md`, `union-europeenne.md`, `confidentialite-visiteur.md`, `adr-001-stack.md` | conseil local, à nommer | avant le choix de l'hébergeur, la région de stockage et la première migration |
+| A-09 | Modèle de modération | Décision intérimaire du porteur, 25 novembre 2026 : option 3 retenue dans son principe, modèle mixte. | Noyau, renfort bénévole et couverture horaire restent à nommer. Lien avec D-022 à écrire. | `Operations/README.md`, `astreinte.md`, `montee-en-charge.md`, `decisions.md` | Espoir LOEMBA, intérimaire | avant tout lien public |
+| A-10 | Seuil de fil non vide | Décision intérimaire du porteur, 25 novembre 2026 : option 3, aucun seuil et repli immédiat vers le fil général. | Aucun seuil n'est transposé d'une ville à l'autre. Règle de repli à confirmer par ville. | `lanceurs-metiers.md`, `mesure.md`, `acquisition-brazzaville.md`, `acquisition-kinshasa.md` | Espoir LOEMBA, intérimaire | avant ouverture |
+| A-11 | Niveau OWASP ASVS visé | En attente. Le niveau reste à nommer par décision écrite. | Niveau retenu, portée d'application et propriétaire de la revue restent à écrire. | `securite.md`, `responsabilites.md`, définition de terminé | Espoir LOEMBA, intérimaire | avant la revue de sortie MVP |
+| A-12 | Qualification juridique et périmètre RGPD | En attente d'avis externe. Aucune obligation n'est tranchée dans ce document. | Avis du conseil local, pays concernés et date restent à nommer. | `perimetre-juridique.md`, `union-europeenne.md`, `confidentialite-visiteur.md`, `adr-001-stack.md` | conseil local, à nommer | avant le choix de l'hébergeur, la région de stockage et la première migration |
 
 ## 4. À nommer sans arbitrage de principe
 
-Ces champs sont des titulaires à désigner, pas des options à départager. Ils doivent être remplis avant les jalons indiqués.
+Ces champs sont des titulaires à désigner, pas des options à départager. Le porteur unique les cumule de manière intérimaire depuis le 25 novembre 2026, sauf l'avis juridique local qui reste externe. Toute délégation future est écrite puis assignée explicitement.
 
-| Champ | Document | Jalons |
-|---|---|---|
-| Titulaire de la stack et de l'architecture | `responsabilites.md`, `adr-001-stack.md` | avant le sprint 1 |
-| Validateur des hypothèses H1 à H8 | `ux-research.md`, `roadmap.md` | avant la Phase 0 |
-| Référent produit et référent technique par ville | `Operations/README.md`, `Growth/README.md` | avant ouverture |
-| Coordinateur de garde et relecteur par ville | `astreinte.md`, `contestation.md` | avant tout lien public |
-| Propriétaire des mesures et des alertes | `mesure.md`, `tableau-de-bord.md` | avant instrumentation de FS-11 |
-| Responsable d'extension par marché | `extension-afrique.md`, `decisions.md` | avant la Phase 3 |
+| Champ | Document | Jalons | Titulaire intérimaire |
+|---|---|---|---|
+| Titulaire de la stack et de l'architecture | `responsabilites.md`, `adr-001-stack.md` | avant le sprint 1 | Espoir LOEMBA |
+| Validateur des hypothèses H1 à H8 | `ux-research.md`, `roadmap.md` | avant la Phase 0 | Espoir LOEMBA |
+| Référent produit et référent technique par ville | `Operations/README.md`, `Growth/README.md` | avant ouverture | Espoir LOEMBA |
+| Coordinateur de garde et relecteur par ville | `astreinte.md`, `contestation.md` | avant tout lien public | Espoir LOEMBA |
+| Propriétaire des mesures et des alertes | `mesure.md`, `tableau-de-bord.md` | avant instrumentation de FS-11 | Espoir LOEMBA |
+| Responsable d'extension par marché | `extension-afrique.md`, `decisions.md` | avant la Phase 3 | Espoir LOEMBA |
+| Avis juridique local | `perimetre-juridique.md`, `confidentialite-visiteur.md` | avant le choix de l'hébergeur et de la région de stockage | conseil local, à nommer |
 
 ## 5. Après un arbitrage
 
