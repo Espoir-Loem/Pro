@@ -1,6 +1,6 @@
 # Sécurité : socle de contrôles
 
-**Propriétaire.** à nommer. **Statut.** proposée. **Date.** 25 novembre 2026.
+**Propriétaire.** Espoir LOEMBA, intérimaire depuis le 25 novembre 2026. **Statut.** proposée. **Date.** 25 novembre 2026.
 **Déclenchement.** Socle avant FS-01 et FS-02, revue complémentaire avant FS-07 et FS-09. `menaces.md` précède cette fiche.
 
 ## Contrôles
@@ -19,6 +19,22 @@
 | Client desktop | Aucun identifiant de machine ou d'installation, cache local sans décision de visibilité, mêmes contrôles que les deux autres clients | Test T1 de `architecture.md` rejoué depuis le client desktop |
 | Secrets | Clés de pseudonymisation conservées séparément des pseudonymes, rotation journalisée | Une clé remplacée est tracée et les anciennes valeurs restent lisibles selon `conservation.md` |
 | Mise à jour automatique | Paquet signé et vérifié avant installation sur `desktop`, retour à la version précédente en cas d'échec, aucune interruption de session, aucun identifiant d'appareil ou d'installation | Une mise à jour non signée est refusée ; la version précédente reste active ; la session en cours n'est pas coupée ; aucun identifiant machine n'est écrit dans `analytics_event` |
+
+## Chaîne d'approvisionnement
+
+Les contrôles suivants sont requis au merge et à la release. Le porteur unique en est le propriétaire intérimaire. Les outils, leurs versions et leurs seuils restent à nommer par décision écrite, conformément aux points A-03 à A-09 et à l'issue 12 du tableau de bord.
+
+| Contrôle | Règle | Preuve attendue | État |
+|---|---|---|---|
+| SCA | Analyser les dépendances avant le merge et bloquer toute CVE connue et non traitée | Rapport horodaté, identifiant de la CVE, décision de traitement | Outillage à nommer |
+| SAST | Analyser le code source avant le merge et bloquer toute faille retenue | Rapport horodaté avec règle, fichier et correction | Outillage à nommer |
+| Secrets | Détecter tout secret avant le merge et bloquer toute correspondance | Rapport horodaté sans valeur sensible divulguée | Outillage à nommer |
+| Licences | Vérifier la compatibilité des licences avant le merge et bloquer toute licence interdite | Rapport horodaté et registre des licences retenues | Outillage à nommer |
+| SBOM | Produire un SBOM CycloneDX signé à chaque release | Fichier signé joint à la release, avec empreinte vérifiable | Outillage à nommer |
+| VEX | Publier un document VEX daté qui justifie chaque non application | Document daté lié à la release et aux exceptions | Format à nommer |
+| Exceptions | Toute exception est bornée dans le temps, avec motif, propriétaire et date d'expiration | Ligne datée dans le registre des exceptions | À écrire |
+
+Aucun contrôle n'est déclaré opérationnel tant que son outil, sa version épinglée et son seuil ne sont pas écrits. Aucune CVE connue et non traitée n'est acceptée au merge ou à la release.
 
 ## Journal de publication
 

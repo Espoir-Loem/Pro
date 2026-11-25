@@ -49,13 +49,13 @@ Conséquences de D-009 : Node 26 LTS est la base de compilation, Node 27 alpha e
 
 ## Questions ouvertes
 
-Ces trois lignes ne sont pas des décisions. Elles restent hors sprint jusqu'à leur arbitrage et leur inscription dans la table des décisions retenues.
+Ces trois lignes ne sont pas des décisions. Elles restent hors sprint jusqu'à leur arbitrage et leur inscription dans la table des décisions retenues. Le porteur a retenu des principes intérimaires le 25 novembre 2026, consignés dans [arbitrage.md](./arbitrage.md). Ces principes ne ferment pas les questions : les champs exacts restent à écrire avant l'entrée en phase.
 
 | Identifiant | Question ouverte | Responsable | Phase | Déclencheur | Date cible |
 |---|---|---|---|---|---|
-| D-010 | Règle N2 : vérification du profil pour toutes les candidatures ou seulement à la demande de l'employeur | à nommer | Phase 2, hors MVP | Avant l'ouverture des offres et de la messagerie recruteur | à nommer, avant la Phase 2 |
-| D-011 | Nom et privilèges du niveau organisations payant de la phase 5, non définis | à nommer | Phase 5 | Avant la conception du niveau payant | à nommer, avant la Phase 5 |
-| D-022 | Budget CDN et modération, avec seuil de coût par vue à fixer | à nommer | Phase 1, avant FS-02 | Avant `video.md` dans `../Technique/README.md` et la montée en charge dans `../Operations/README.md` | à nommer, avant le gel de `video.md` et la montée en charge |
+| D-010 | Règle N2 : vérification du profil pour toutes les candidatures ou seulement à la demande de l'employeur | Espoir LOEMBA, intérimaire | Phase 2, hors MVP | Avant l'ouverture des offres et de la messagerie recruteur | à nommer, avant la Phase 2 |
+| D-011 | Nom et privilèges du niveau organisations payant de la phase 5, non définis | Espoir LOEMBA, intérimaire | Phase 5 | Avant la conception du niveau payant | à nommer, avant la Phase 5 |
+| D-022 | Budget CDN et modération, avec seuil de coût par vue à fixer | Espoir LOEMBA, intérimaire | Phase 1, avant FS-02 | Avant `video.md` dans `../Technique/README.md` et la montée en charge dans `../Operations/README.md` | à nommer, avant le gel de `video.md` et la montée en charge |
 
 ## Comment rouvrir une décision
 
