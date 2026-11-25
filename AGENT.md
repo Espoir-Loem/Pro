@@ -137,6 +137,12 @@ Le dossier canonique du client mobile est `apps/mobile`. Chaque application gard
 - Tags annotés `vX.Y.Z` sur `main`. GitHub Release généré par CI, jamais à la main, avec notes issues des commits, SBOM signé, artefacts signés et preuve CI.
 - Aucun co-auteur de modèle, aucun trailer `Co-authored-by`. L'auteur par défaut des commits, tags annotés, releases, notes de release et messages publiés sur GitHub est Espoir LOEMBA (`@Espoir-Loem`), chef de projet. L'adresse email de signature est validée par le titulaire avant le premier commit.
 - Tout automatisme que nous contrôlons sur GitHub porte un nom de la forme `Pro[<Name>]`. La liste fermée est `Pro[CI]` pour les contrôles et les commits de CI, `Pro[Info]` pour les commentaires et messages informatifs, `Pro[Release]` pour les releases. Aucun bot générique n'est laissé sans préfixe. Les bots natifs de GitHub ne sont pas renommables et leur usage doit être documenté dans un avenant.
+- Un seul fichier par commit, sans exception. Un changement qui touche plusieurs fichiers est découpé en autant de commits que de fichiers.
+- Aucune pull request sans issue ouverte référencée dans son corps avec `Closes #<numéro>`. Le contrôle bloque toute référence absente, fermée ou divergente.
+- Aucune revendication d'issue par commande de prise en charge. L'assignation est explicite et décidée par le porteur ou le propriétaire désigné.
+- Chaque issue contient un objectif, des sous-tâches vérifiables, une définition de terminé, un KPI associé ou la mention absent, et un propriétaire nommé ou la mention à nommer.
+- Le GitHub Project `Pro - Suivi du projet` est la source de vérité de l'avancement. Ses champs sont Statut, Priorité, Domaine et KPI. Toute issue créée y est ajoutée comme item avec ses champs renseignés.
+- Les KPI bugs, UX, produit et SEO sont définis dans `docs/Product/kpi.md`. Toute cible, tout propriétaire et tout seuil d'alerte sont nommés par décision écrite avant publication.
 
 ## 11. Tests et CI
 
@@ -146,6 +152,8 @@ Le dossier canonique du client mobile est `apps/mobile`. Chaque application gard
 - Accessibilité WCAG 2.2 AA : cibles de 24 sur 24 pixels CSS au minimum, objectif 44 pixels, contraste 4,5:1 pour le texte courant et 3:1 pour les grands textes et composants.
 - Performance desktop : taille installateur, démarrage à froid, mémoire au repos et latence de navigation selon A-03. Aucune valeur inventée.
 - La CI bloque le merge sur toute erreur de typecheck, lint, test, accessibilité, scan de sécurité ou CVE connue non traitée. Les trois clients sont compilés et testés sur chaque pull request.
+- Le contrôle `scripts/check_pr_issue.py` vérifie qu'une pull request référence une issue ouverte et rejette toute référence divergente.
+- Le contrôle `scripts/check_kpi.py` vérifie les sections et les dix identifiants de `docs/Product/kpi.md` avant chaque fusion.
 
 ## 12. Design et contenu
 

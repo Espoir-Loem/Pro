@@ -13,8 +13,9 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",
     "check:docs": "python3 scripts/check_docs.py",
+    "check:kpi": "python3 scripts/check_kpi.py",
     "check:style": "python3 scripts/check_code_style.py",
-    "check": "npm run format:check && npm run lint && npm run typecheck && npm run test && npm run check:docs && npm run check:style"
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm run test && npm run check:docs && npm run check:kpi && npm run check:style"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
