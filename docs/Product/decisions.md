@@ -1,0 +1,70 @@
+# Pro : registre des décisions produit
+
+**Statut** : version 5, 25 novembre 2026  
+**Règle** : une décision n'est pas une préférence. Elle a une date, un motif, un propriétaire, une source liée et une portée. Toute révision est tracée dans la colonne Historique.  
+**Langues** : Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.  
+**Documents liés** : [Vision](./vision.md), [PRD](./prd.md), [Roadmap](./roadmap.md), [Mesure](./mesure.md), [Modèle ADR](../Technique/README.md)
+
+Les décisions retenues sont opposables. Les questions ouvertes figurent dans une table séparée et n'entrent dans aucun sprint avant d'être passées en décision retenue.
+
+**Titulaire par défaut.** Espoir LOEMBA (`@Espoir-Loem`) est le chef de projet et le titulaire par défaut des décisions produit, vérifié le 25 novembre 2026 sur https://github.com/Espoir-Loem. Les champs « à nommer » ci-dessous désignent des rôles techniques, opérationnels ou juridiques distincts, pas le chef de projet.
+
+**Plateformes.** La dimension `plateforme` prend les valeurs `mobile`, `web` et `desktop`, définies ainsi :
+
+- `mobile` : applications natives iOS et Android sur téléphone.
+- `web` : site responsive dans un navigateur, utilisé sur ordinateur et tablette.
+- `desktop` : application exécutable installée sur Windows et macOS. Linux est différé et non spécifié en phase 1.
+
+## Décisions retenues
+
+| Identifiant | Décision | Statut | Date | Motif | Propriétaire | Source liée | Portée | Historique |
+|---|---|---|---|---|---|---|---|---|
+| D-001 | Lecture publique sans compte, identité demandée au premier geste social | retenue | 25 novembre 2026 | Le visiteur doit juger le produit avant de donner ses données | Équipe produit | [Vision, section 5](./vision.md) | Toutes les phases | Créée le 25 novembre 2026, version 1 |
+| D-002 | Quatre niveaux d'accès N0 à N3 | retenue | 25 novembre 2026 | Quatre niveaux distinguent lecture, compte, vérification et organisation sans multiplier les états | Équipe produit | [Vision, section 5](./vision.md) | Toutes les phases | Créée le 25 novembre 2026, version 1 |
+| D-003 | MVP limité au fil, profils, publication, chat, recherche, modération de base | retenue | 25 novembre 2026 | Le premier chantier porte sur les fonctions qui produisent de la preuve et de la confiance | Équipe produit | [PRD, section 3](./prd.md) | Phase 1 | Créée le 25 novembre 2026, version 1 |
+| D-004 | Les clients `mobile`, `web` et `desktop` livrés ensemble | retenue | 25 novembre 2026 | Le premier marché s'observe sur téléphone, sur navigateur et sur ordinateur, avec une exigence de réactivité sans lenteur | Équipe produit et technique, titulaire à nommer | [PRD, section 2](./prd.md) | Phase 1 | Créée le 25 novembre 2026, version 1 ; périmètre élargi le 25 novembre 2026 |
+| D-005 | Gratuité des phases 1 à 4. La phase 5 introduit un niveau organisations payant, dont le nom et les privilèges ne sont pas définis | retenue | 25 novembre 2026 | La gratuité est la condition d'acquisition ; la monétisation est reportée après l'ouverture au monde | Équipe produit | [Vision, section 5](./vision.md), [Roadmap, phases 4 et 5](./roadmap.md) | Phases 1 à 4, principe pour la phase 5 | Version 1 : phases 1 à 3 ; précisée le 25 novembre 2026 avec phase 4 gratuite et phase 5 séparée |
+| D-006 | Pages d'organisation identiques en capacités, rôles propres à chaque page | retenue | 25 novembre 2026 | Une organisation peut avoir plusieurs pages sans dupliquer les règles de droit | Équipe produit | [PRD, section 14](./prd.md) | Phase 2 | Créée le 25 novembre 2026, version 1 |
+| D-007 | Premier marché : République du Congo et RDC, puis Afrique, puis monde | retenue | 25 novembre 2026 | Le premier marché est connu ; l'extension reste conditionnée à une recherche locale | Équipe produit | [Vision, section 5](./vision.md) | Phases 0 à 4 | Créée le 25 novembre 2026, version 1 |
+| D-008 | Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage. | retenue | 25 novembre 2026 | Une formulation unique évite deux sources de vérité sur la langue de travail et sur l'anglais | Équipe produit | [Vision, section 5](./vision.md), [PRD, section 2](./prd.md), [Manifeste, point 7](./manifeste.md) | Toutes les phases | Version 1 : formulation convergente ; reformulée le 25 novembre 2026, aucune autre langue datée |
+| D-009 | Stack tout TypeScript : `web` en React, `desktop` en React dans Tauri avec coque Rust minimale, `mobile` en React Native via Expo managé, backend NestJS avec Postgres et Prisma | retenue | 25 novembre 2026 | Le porteur demande une rigueur de production, une famille de langage unique pour les interfaces et les règles partagées, et un client desktop léger et signé ; Rust reste limité à la coque | Équipe produit et technique, titulaire à nommer | Demande du 25 novembre 2026, [ADR 001](../Technique/adr-001-stack.md), [arbitrage A-01](./arbitrage.md) | Phase 1 et suivantes, sur `mobile`, `web`, `desktop` et `packages/api` | Question ouverte le 25 novembre 2026, arbitrée et inscrite le 25 novembre 2026, version 1 |
+| D-012 | Aucun identifiant permanent pour le visiteur | retenue | 25 novembre 2026 | La minimisation des données du visiteur conditionne la mesure, la modération et la confiance | Équipe produit et conformité, titulaire à nommer | [Vision, sections 6 et 7](./vision.md), [PRD, FS-11 et section 10](./prd.md) | Toutes les phases | Version 1 : sources partielles ; sources complétées le 25 novembre 2026 |
+| D-013 | Notifications push réservées aux niveaux N1 et suivants | retenue | 25 novembre 2026 | Un visiteur sans compte ne peut pas recevoir la réponse à un contenu qu'il n'a pas publié | Équipe produit | [Vision, section 7](./vision.md), [PRD, FS-10](./prd.md) | Phase 1 et suivantes | Inscrite le 25 novembre 2026 |
+| D-014 | Modération en deux temps : texte vérifiable avant publication, vidéo en `pending_review`, signalement ouvert aux visiteurs | retenue | 25 novembre 2026 | La publication vidéo doit être réversible et toute action doit laisser une trace | Équipe produit et opérations, titulaire à nommer | [Vision, section 7](./vision.md), [PRD, FS-09](./prd.md) | Phase 1 et suivantes | Inscrite le 25 novembre 2026 |
+| D-015 | Conservation des événements de session fixée à 30 jours | retenue | 25 novembre 2026 | La mesure suffit à court terme sans constituer un historique individuel | Équipe produit et technique, titulaire à nommer | [PRD, section 10](./prd.md), [Mesure](./mesure.md) | Phase 1 et suivantes | Inscrite le 25 novembre 2026 |
+| D-016 | Séparation du chemin de lecture et du chemin d'écriture ; un cache n'est jamais une autorisation | retenue | 25 novembre 2026 | Les règles de visibilité doivent être appliquées au moment de la lecture, malgré le cache et le CDN | Équipe produit et technique, titulaire à nommer | [Vision, section 7](./vision.md), [Modèle ADR](../Technique/README.md) | Toutes les phases | Inscrite le 25 novembre 2026 |
+| D-017 | Taxonomie initiale des métiers et des villes calibrée sur Brazzaville et Kinshasa | retenue | 25 novembre 2026 | Le fil ne peut être pertinent au lancement qu'avec des métiers observés sur le premier marché | Équipe produit | [PRD, section 3.1 et FS-03](./prd.md) | Phase 1 | Inscrite le 25 novembre 2026 |
+| D-018 | Vérification limitée à l'email en phase 1 ; téléphone et connexion sociale en phase 2, non spécifiés | retenue | 25 novembre 2026 | Le parcours A et l'événement `signup_verified` ne couvrent que l'email vérifié | Équipe produit | [PRD, section 3.2 et FS-11](./prd.md), [Vision, section 5](./vision.md) | Phase 1, principe pour la phase 2 | Inscrite le 25 novembre 2026 |
+| D-019 | Aucun classement payant dans la recherche ; offres signalées éventuelles hors recherche et en phase 5 | retenue | 25 novembre 2026 | La position dans une recherche ne doit pas s'acheter, même lorsqu'un niveau payant existera | Équipe produit | [Manifeste, point 8](./manifeste.md), [Roadmap, phase 5](./roadmap.md) | Toutes les phases | Inscrite le 25 novembre 2026 |
+| D-020 | La mesure à sept jours porte sur les comptes ayant un email vérifié. Aucune cohorte visiteur à sept jours n'est calculée, puisqu'aucun identifiant permanent visiteur n'est conservé. | retenue | 25 novembre 2026 | Aucun identifiant permanent visiteur n'est conservé, donc un retour visiteur à J7 est impossible sans créer un suivi interdit par D-012 | Équipe produit | [Vision, section 8](./vision.md), [Mesure](./mesure.md) | Phase 1 et suivantes | Inscrite le 25 novembre 2026 |
+| D-021 | Les vidéos avec son du MVP disposent de sous-titres générés automatiquement et corrigés par l'auteur avant publication. Si la correction n'est pas faite, la vidéo reste en brouillon et n'est pas publiée. | retenue | 25 novembre 2026 | WCAG 2.2 SC 1.2.2, niveau A | Équipe produit et design, titulaire à nommer | [PRD, FS-02 et FS-05](./prd.md), [W3C WCAG 2.2 SC 1.2.2](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html) | Phase 1 et suivantes | Inscrite le 25 novembre 2026 |
+| D-023 | Client desktop exécutable Windows et macOS, léger et rapide, sans attente perceptible | retenue | 25 novembre 2026 | Référence de rapidité de type Telegram donnée par le porteur du produit, sans recopier de chiffre non vérifié | Équipe produit et technique, titulaire à nommer | Demande du 25 novembre 2026, [PRD, section 9](./prd.md) | Phase 1 | Inscrite le 25 novembre 2026 |
+| D-024 | Mise à jour automatique des clients, sans dépendance à un cycle de validation de store pour ce qui peut être servi hors binaire natif | retenue | 25 novembre 2026 | Le porteur demande des applications qui restent à jour sans attendre un passage par le store ; la réactivité sans attente perceptible comprend la correction rapide des défauts | Équipe produit et technique, titulaire à nommer | Demande du 25 novembre 2026, [PRD, section 10.1](./prd.md) | Phase 1 et suivantes, sur `mobile`, `web` et `desktop` | Inscrite le 25 novembre 2026 |
+
+Conséquences de D-023 : Linux différé, taille installateur, démarrage à froid, mémoire au repos et latence de navigation sont des cibles de revue à confirmer avant le sprint 1. Aucune valeur n'est présentée comme mesurée dans ce registre.
+
+Conséquences de D-024 : le web est mis à jour côté serveur, le client desktop applique un paquet signé vérifié avec retour à la version précédente, et la part du mobile modifiable hors binaire natif est listée par écrit avant le sprint 1 au point A-13 de [arbitrage.md](./arbitrage.md). Aucune règle de store n'est affirmée dans ce registre sans validation. Aucune mise à jour ne coupe une session en cours, ne contourne la modération et ne crée d'identifiant permanent pour le visiteur.
+
+Conséquences de D-009 : Node 26 LTS est la base de compilation, Node 27 alpha est interdit, Expo SDK 58 et React Native 0.88 sont retenus avec un minimum Node 22.13.x. Aucune dépendance en `latest`, `canary`, `beta`, `rc` ou alpha n'est acceptée. Les contrats entre clients et backend sont typés et partagés. Le stockage objet compatible S3 et le CDN restent derrière une interface, avec fournisseur après D-022. Le périmètre mobile modifiable hors binaire natif reste précisé en A-13. La coque Rust du desktop ne porte que la signature, l'installateur et la mise à jour.
+
+## Questions ouvertes
+
+Ces trois lignes ne sont pas des décisions. Elles restent hors sprint jusqu'à leur arbitrage et leur inscription dans la table des décisions retenues.
+
+| Identifiant | Question ouverte | Responsable | Phase | Déclencheur | Date cible |
+|---|---|---|---|---|---|
+| D-010 | Règle N2 : vérification du profil pour toutes les candidatures ou seulement à la demande de l'employeur | à nommer | Phase 2, hors MVP | Avant l'ouverture des offres et de la messagerie recruteur | à nommer, avant la Phase 2 |
+| D-011 | Nom et privilèges du niveau organisations payant de la phase 5, non définis | à nommer | Phase 5 | Avant la conception du niveau payant | à nommer, avant la Phase 5 |
+| D-022 | Budget CDN et modération, avec seuil de coût par vue à fixer | à nommer | Phase 1, avant FS-02 | Avant `video.md` dans `../Technique/README.md` et la montée en charge dans `../Operations/README.md` | à nommer, avant le gel de `video.md` et la montée en charge |
+
+## Comment rouvrir une décision
+
+Une décision retenue ne se change pas en silence. Il faut écrire :
+
+1. la nouvelle preuve ou la nouvelle contrainte ;
+2. la date de la révision ;
+3. la décision remplacée ;
+4. les documents touchés ;
+5. la ligne d'historique correspondante dans ce registre.
+
+Une question ouverte se traite dans le document de phase concerné. Elle n'entre pas dans un sprint avant d'être passée en décision retenue, avec date, motif, propriétaire et source liée. Le modèle ADR unique est décrit dans `../Technique/README.md`.
