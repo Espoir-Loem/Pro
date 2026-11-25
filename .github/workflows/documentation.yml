@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: read
+  issues: read
+  pull-requests: read
 
 jobs:
   documentation:
@@ -33,5 +35,13 @@ jobs:
           git config user.email "pro-ci@users.noreply.github.com"
       - name: "Pro[CI]: Python tests"
         run: python3 -m unittest discover -s scripts -p "test_*.py"
+      - name: "Pro[CI]: KPI coverage"
+        run: python3 scripts/check_kpi.py
+      - name: "Pro[CI]: pull request issue"
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: python3 scripts/check_pr_issue.py "$PR_NUMBER"
       - name: "Pro[CI]: repository check"
         run: npm run check
