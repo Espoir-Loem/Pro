@@ -5,7 +5,7 @@ from pathlib import Path
 
 TEXT_SUFFIXES = {".md", ".txt", ".json", ".yml", ".yaml", ".py"}
 TEXT_NAMES = {".gitignore", ".gitattributes", ".editorconfig"}
-IGNORED_PARTS = {".git", "node_modules", "dist", "build", "coverage"}
+IGNORED_PARTS = {".git", "node_modules", "dist", "build", "coverage", ".tmp"}
 IGNORED_NAMES = {"package-lock.json", "pnpm-lock.yaml", "yarn.lock", "Cargo.lock"}
 SKIPPED_PREFIXES = ("http://", "https://", "mailto:", "#", "data:", "file:")
 MARKERS = ("TO" + "DO", "FI" + "XME", "T" + "BD", "X" + "X" + "X")
