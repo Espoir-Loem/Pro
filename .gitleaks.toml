@@ -1,0 +1,3 @@
+[allowlist]
+description = "Le dossier temporaire du depot n'est pas du code source du projet"
+paths = ['''(^|/)\.tmp/''']

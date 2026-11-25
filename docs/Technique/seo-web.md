@@ -2,7 +2,7 @@
 
 **Version.** 1.
 **Date.** 25 novembre 2026.
-**Statut.** Règles de cadrage, sans code applicatif. Les valeurs de performance et les propriétaires restent à nommer.
+**Statut.** Règles de cadrage, sans code applicatif. Les cibles, les sources et les fréquences sont arrêtées le 26 novembre 2026 à titre intérimaire.
 **Périmètre.** Client web uniquement. Le mobile et le desktop suivent leurs propres règles de découverte.
 
 ## 1. Principes
@@ -28,7 +28,14 @@ La lecture publique sans compte est préservée pour les contenus indexables. Au
 
 ## 3. Liens avec les KPI
 
-Les mesures SEO sont définies dans [kpi.md](../Product/kpi.md) sous les identifiants SEO-01 et SEO-02. Elles ne fixent aucune cible chiffrée avant décision écrite. Le porteur unique cumule la propriété de ces mesures de manière intérimaire depuis le 25 novembre 2026. Les sources datées et la fréquence d'extraction restent à nommer avant l'instrumentation du client web.
+Les mesures SEO sont définies dans [kpi.md](../Product/kpi.md) sous les identifiants SEO-01 et SEO-02. Le porteur unique cumule la propriété de ces mesures de manière intérimaire depuis le 25 novembre 2026. Les cibles, les sources et les fréquences ci-dessous sont arrêtées le 26 novembre 2026. Aucune valeur n'est présentée comme relevée avant la première extraction datée.
+
+| Identifiant | Source datée | Fréquence d'extraction | Format de l'extrait | Cible intérimaire |
+|---|---|---|---|---|
+| SEO-01 | Google Search Console, vue Performance, filtrée sur les pages publiables du domaine | Hebdomadaire, lundi à 09:00 UTC | JSON avec `date`, `source`, `scope`, `pages_publiables`, `pages_indexees`, `ratio` | Au moins 90 % des pages publiables indexées sous 30 jours |
+| SEO-02 | Chrome UX Report via l'API PageSpeed Insights, sur les URL publiques du domaine | Mensuelle, le 1er du mois à 09:00 UTC | JSON avec `date`, `source`, `url`, `metric`, `pass_rate` | Au moins 90 % des URL qui passent les trois signaux de terrain |
+
+Chaque extrait est archivé dans `memoires/` avec la date d'extraction, la date de la donnée et la portée. Aucun extrait n'est publié sans ces trois champs. Aucun achat de position dans la recherche n'est utilisé pour améliorer ces mesures, conformément à D-019. La première extraction sert de base de lecture, pas de cible relevée.
 
 ## 4. Règles de mise à jour
 

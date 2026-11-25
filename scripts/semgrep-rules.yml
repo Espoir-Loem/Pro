@@ -1,0 +1,29 @@
+rules:
+  - id: no-eval
+    languages:
+      - python
+      - javascript
+      - typescript
+    message: "eval is forbidden in Pro source"
+    severity: ERROR
+    pattern: eval(...)
+  - id: no-hardcoded-secret
+    languages:
+      - python
+      - javascript
+      - typescript
+    message: "Hardcoded secret value is forbidden"
+    severity: ERROR
+    patterns:
+      - pattern-either:
+          - pattern: $NAME = "..."
+          - pattern: '$NAME: "..."'
+      - metavariable-regex:
+          metavariable: $NAME
+          regex: (?i)(password|passwd|secret|token|api_key|apikey)
+  - id: no-subprocess-shell
+    languages:
+      - python
+    message: "shell=True is forbidden in Pro scripts"
+    severity: ERROR
+    pattern: subprocess.$FUNC(..., shell=True, ...)

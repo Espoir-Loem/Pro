@@ -3,7 +3,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 SOURCE_SUFFIXES = {".ts", ".tsx", ".rs"}
-IGNORED_PARTS = {".git", "node_modules", "target", "dist"}
+IGNORED_PARTS = {".git", "node_modules", "target", "dist", ".tmp"}
 
 
 @dataclass
