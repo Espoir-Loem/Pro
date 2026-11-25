@@ -146,7 +146,7 @@ def check_doc_count(root, expected):
     return ["docs: " + str(count) + " fichiers, attendu " + str(expected)]
 
 
-def run_checks(root, expected_doc_count=59):
+def run_checks(root, expected_doc_count=61):
     texts = list(text_files(root))
     markdowns = list(canonical_markdown(root))
     failures = check_typography(texts, root)
