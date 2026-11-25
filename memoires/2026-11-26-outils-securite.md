@@ -13,9 +13,7 @@
 | Action SBOM | `anchore/sbom-action` | 0.24.4 | https://github.com/anchore/sbom-action/releases/tag/v0.24.4 |
 | Signature | `cosign` | 3.1.6 | https://github.com/sigstore/cosign/releases/tag/v3.1.6 |
 | Action signature | `sigstore/cosign-installer` | 4.1.4 | https://github.com/sigstore/cosign-installer/releases/tag/v4.1.4 |
-| VEX | `vexctl` | 0.4.4 | https://github.com/openvex/vexctl/releases/tag/v0.4.4 |
-| Spécification VEX | OpenVEX | 0.2.0 | https://github.com/openvex/spec/releases/tag/v0.2.0 |
-| Spécification SBOM | CycloneDX | 1.7.2 | https://github.com/CycloneDX/specification/releases/tag/1.7.2 |
+| VEX et SBOM | spécification CycloneDX | 1.7.2 | https://github.com/CycloneDX/specification/releases/tag/1.7.2 |
 
 ## Vérifications locales rejouées
 
@@ -23,7 +21,7 @@
 - `gitleaks detect --no-git --redact` avec la version 8.30.1 : aucune correspondance signalée.
 - `license-checker-rseidelsohn` en mode production avec la liste fermée retenue : aucune licence interdite sur les dépendances npm de production.
 - `semgrep` en version 1.187.0 avec les règles locales : aucune règle déclenchée sur les fichiers courants.
-- Sommes de contrôle des binaires vérifiées avant exécution pour `gitleaks` et `vexctl`.
+- Somme de contrôle du binaire vérifiée avant exécution pour `gitleaks`.
 
 ## Empreintes des actions retenues
 
