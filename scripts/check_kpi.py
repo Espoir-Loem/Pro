@@ -1,5 +1,5 @@
-from pathlib import Path
 import sys
+from pathlib import Path
 
 REQUIRED_IDS = (
     "BUG-01",
