@@ -95,6 +95,12 @@ Rust est la seule exception à tout TypeScript, et uniquement pour la coque desk
 - Avant de corriger un bug, lire la documentation et le code source de la librairie concernée. Écrire un test qui reproduit le bug avant la correction. Si le raisonnement vaut la peine d'être gardé, écrire une note dans `memoires/`.
 - Utiliser de vraies librairies évaluées : mainteneur, historique de sécurité, licence, OSSF Scorecard et dépendances transitives. Aucune librairie inventée, aucun paquet choisi pour son apparence.
 - Toute vérification déterministe devient un script dans `scripts/` et une étape CI. Les tokens sont réservés aux échecs, aux arbitrages et au jugement de conception.
+- Aucune fonction, méthode ou composant ne dépasse dix lignes de logique effective. Les lignes vides, les lignes de signature et les accolades seules ne comptent pas. Le seuil est appliqué par ESLint et Clippy.
+- Aucune logique dans les fichiers TSX. Un composant ne fait que du rendu. Toute logique va dans un hook ou un module TypeScript dédié.
+- Un seul appel à `.map()` par fichier TSX, jamais imbriqué. Le deuxième appel est bloqué par `scripts/check_code_style.py`.
+- La réutilisation et la factorisation sont prioritaires. Aucune duplication de logique, de fonction, de classe ou de fichier. Le code partagé va dans `packages/domain`.
+- Aucun commentaire dans le code, sauf les commentaires de documentation `/** ... */` en TypeScript et `///` ou `//!` en Rust. Les commentaires en ligne sont interdits.
+- Tout code est en anglais : identifiants, messages, chaînes techniques et noms de fichiers de code. La documentation produit et les rapports restent en français.
 
 ## 8. Sécurité, versions et chaîne d'approvisionnement
 
@@ -130,6 +136,7 @@ Le dossier canonique du client mobile est `apps/mobile`. Chaque application gard
 - Chaque changement logique ou algorithme a son commit, avec son test. Chaque fonction a un traitement, chaque classe une intention.
 - Tags annotés `vX.Y.Z` sur `main`. GitHub Release généré par CI, jamais à la main, avec notes issues des commits, SBOM signé, artefacts signés et preuve CI.
 - Aucun co-auteur de modèle, aucun trailer `Co-authored-by`. L'auteur par défaut des commits, tags annotés, releases, notes de release et messages publiés sur GitHub est Espoir LOEMBA (`@Espoir-Loem`), chef de projet. L'adresse email de signature est validée par le titulaire avant le premier commit.
+- Tout automatisme que nous contrôlons sur GitHub porte un nom de la forme `Pro[<Name>]`. La liste fermée est `Pro[CI]` pour les contrôles et les commits de CI, `Pro[Info]` pour les commentaires et messages informatifs, `Pro[Release]` pour les releases. Aucun bot générique n'est laissé sans préfixe. Les bots natifs de GitHub ne sont pas renommables et leur usage doit être documenté dans un avenant.
 
 ## 11. Tests et CI
 
@@ -153,6 +160,9 @@ Le dossier canonique du client mobile est `apps/mobile`. Chaque application gard
 
 - Toute vérification déterministe devient un script puis une étape CI.
 - Le contrôle documentaire est porté par `scripts/check_docs.py`, testé par `scripts/test_check_docs.py` et rejoué par `.github/workflows/documentation.yml` sur chaque push et chaque pull request.
+- Le contrôle de style est porté par `scripts/check_code_style.py`, testé par `scripts/test_check_code_style.py` et rejoué par les mêmes étapes.
+- La configuration est épinglée dans `package.json`, `package-lock.json`, `tsconfig.json`, `vitest.config.ts`, `eslint.config.mjs`, `.prettierrc.json`, `pyproject.toml`, `rustfmt.toml`, `clippy.toml`, `rust-toolchain.toml` et `.pre-commit-config.yaml`.
+- Les commandes `npm run check` et `pre-commit run --all-files` rejouent l'ensemble des contrôles locaux avant toute pull request.
 - Un script est nommé clairement, documenté, idempotent et exécutable sans contexte humain.
 - Si un audit ou un modèle ne sait pas faire une vérification de façon fiable, écrire le script plutôt que de deviner.
 - Les tokens servent aux échecs, aux arbitrages et au jugement. Ils ne servent pas à refaire à la main ce qu'un script peut rejouer.

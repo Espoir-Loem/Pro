@@ -1,4 +1,4 @@
-name: documentation
+name: "Pro[CI]: documentation"
 
 on:
   push:
@@ -11,15 +11,27 @@ permissions:
 
 jobs:
   documentation:
+    name: "Pro[CI]: documentation"
     runs-on: ubuntu-24.04
     steps:
-      - name: Reprise du depot
+      - name: "Pro[CI]: checkout"
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - name: Installation de Python
+      - name: "Pro[CI]: setup Python"
         uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
-          python-version: '3.13'
-      - name: Tests du controle documentaire
-        run: python3 scripts/test_check_docs.py
-      - name: Controles documentaires
-        run: python3 scripts/check_docs.py
+          python-version: "3.13"
+      - name: "Pro[CI]: setup Node"
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "26.13.0"
+          cache: npm
+      - name: "Pro[CI]: install dependencies"
+        run: npm ci --ignore-scripts
+      - name: "Pro[CI]: configure identity"
+        run: |
+          git config user.name "Pro[CI]"
+          git config user.email "pro-ci@users.noreply.github.com"
+      - name: "Pro[CI]: Python tests"
+        run: python3 -m unittest discover -s scripts -p "test_*.py"
+      - name: "Pro[CI]: repository check"
+        run: npm run check

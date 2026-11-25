@@ -13,7 +13,9 @@ def write_clean_fixture(root):
     ids += ["US-" + str(n).zfill(2) for n in range(1, 18)]
     ids += ["D-" + str(n).zfill(3) for n in range(1, 25)]
     ids += ["A-" + str(n).zfill(2) for n in range(1, 14)]
-    (docs / "README.md").write_text("Contenu sans défaut. " + " ".join(ids) + "\n", encoding="utf-8")
+    (docs / "README.md").write_text(
+        "Contenu sans défaut. " + " ".join(ids) + "\n", encoding="utf-8"
+    )
     return docs
 
 
@@ -39,15 +41,17 @@ class TestForbiddenTypography(unittest.TestCase):
 
 class TestLinks(unittest.TestCase):
     def test_ignores_external_code_and_anchors(self):
-        text = "\n".join([
-            "[interne](docs/Product/prd.md)",
-            "[web](https://example.com/page)",
-            "[ancre](#section)",
-            "`[faux](code.md)`",
-            "```",
-            "[faux](bloque.md)",
-            "```",
-        ])
+        text = "\n".join(
+            [
+                "[interne](docs/Product/prd.md)",
+                "[web](https://example.com/page)",
+                "[ancre](#section)",
+                "`[faux](code.md)`",
+                "```",
+                "[faux](bloque.md)",
+                "```",
+            ]
+        )
         self.assertEqual(check_docs.relative_link_targets(text), ["docs/Product/prd.md"])
 
 
@@ -70,6 +74,20 @@ class TestMermaid(unittest.TestCase):
 
     def test_accepts_closed_block(self):
         self.assertFalse(check_docs.mermaid_open("```mermaid\ngraph TD\n```\n"))
+
+
+class TestGeneratedFiles(unittest.TestCase):
+    def test_ignores_dependencies_and_lockfile(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_clean_fixture(root)
+            (root / "README.md").write_text("[guide](docs/README.md)\n", encoding="utf-8")
+            dependency = root / "node_modules" / "paquet" / "note.md"
+            dependency.parent.mkdir(parents=True)
+            dependency.write_text("texte " + chr(0x2014), encoding="utf-8")
+            (root / "package-lock.json").write_text("TO" + "DO", encoding="utf-8")
+            report = check_docs.run_checks(root, expected_doc_count=1)
+            self.assertEqual(report.failures, [])
 
 
 class TestRunChecks(unittest.TestCase):

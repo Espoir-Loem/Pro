@@ -1,0 +1,6 @@
+*.md
+docs/
+reports/
+memoires/
+research_notes/
+package-lock.json
