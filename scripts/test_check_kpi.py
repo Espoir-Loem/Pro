@@ -13,7 +13,11 @@ def complete_text():
         "## 4. Produit",
         "## 5. SEO web",
     ]
-    lines += ["| " + identifiant + " | nom | formule | source | proprietaire | cible |" for identifiant in check_kpi.REQUIRED_IDS]
+    rows = [
+        "| " + identifiant + " | nom | formule | source | proprietaire | cible |"
+        for identifiant in check_kpi.REQUIRED_IDS
+    ]
+    lines += rows
     return "\n".join(lines) + "\n"
 
 
