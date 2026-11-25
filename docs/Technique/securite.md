@@ -1,6 +1,6 @@
 # Sécurité : socle de contrôles
 
-**Propriétaire.** Espoir LOEMBA, intérimaire depuis le 25 novembre 2026. **Statut.** proposée. **Date.** 25 novembre 2026.
+**Propriétaire.** Espoir LOEMBA, intérimaire depuis le 25 novembre 2026. **Statut.** opposée. **Date.** 26 novembre 2026, sur la base de la fiche proposée le 25 novembre 2026.
 **Déclenchement.** Socle avant FS-01 et FS-02, revue complémentaire avant FS-07 et FS-09. `menaces.md` précède cette fiche.
 
 ## Contrôles
@@ -22,19 +22,30 @@
 
 ## Chaîne d'approvisionnement
 
-Les contrôles suivants sont requis au merge et à la release. Le porteur unique en est le propriétaire intérimaire. Les outils, leurs versions et leurs seuils restent à nommer par décision écrite, conformément aux points A-03 à A-09 et à l'issue 12 du tableau de bord.
+Les contrôles suivants sont requis au merge et à la release. Ils sont décidés le 26 novembre 2026 par le porteur unique. Les versions sont épinglées, vérifiées le 26 novembre 2026 sur les dépôts officiels et archivées dans `../../memoires/2026-11-26-outils-securite.md`. Aucun canal `latest`, `canary`, `beta`, `rc` ou alpha n'est accepté.
 
-| Contrôle | Règle | Preuve attendue | État |
-|---|---|---|---|
-| SCA | Analyser les dépendances avant le merge et bloquer toute CVE connue et non traitée | Rapport horodaté, identifiant de la CVE, décision de traitement | Outillage à nommer |
-| SAST | Analyser le code source avant le merge et bloquer toute faille retenue | Rapport horodaté avec règle, fichier et correction | Outillage à nommer |
-| Secrets | Détecter tout secret avant le merge et bloquer toute correspondance | Rapport horodaté sans valeur sensible divulguée | Outillage à nommer |
-| Licences | Vérifier la compatibilité des licences avant le merge et bloquer toute licence interdite | Rapport horodaté et registre des licences retenues | Outillage à nommer |
-| SBOM | Produire un SBOM CycloneDX signé à chaque release | Fichier signé joint à la release, avec empreinte vérifiable | Outillage à nommer |
-| VEX | Publier un document VEX daté qui justifie chaque non application | Document daté lié à la release et aux exceptions | Format à nommer |
-| Exceptions | Toute exception est bornée dans le temps, avec motif, propriétaire et date d'expiration | Ligne datée dans le registre des exceptions | À écrire |
+La source canonique des alertes de vulnérabilité est OSV, complétée par la base d'avis GitHub pour les écosystèmes couverts. Le seuil opposable est zéro CVE connue et non traitée au merge et à la release. Une CVE connue bloque le merge jusqu'à correction ou jusqu'à une exception bornée avec statut VEX.
 
-Aucun contrôle n'est déclaré opérationnel tant que son outil, sa version épinglée et son seuil ne sont pas écrits. Aucune CVE connue et non traitée n'est acceptée au merge ou à la release.
+| Contrôle | Outil épinglé | Règle | Preuve attendue | État |
+|---|---|---|---|---|
+| SCA | `osv-scanner` 2.7.1 | Analyser les lockfiles avant le merge et bloquer toute vulnérabilité connue non traitée | Rapport horodaté avec identifiant OSV ou CVE et décision | rejoué par `Pro[CI]: documentation` |
+| SAST | `semgrep` 1.187.0 avec les règles locales de `scripts/semgrep-rules.yml` | Analyser le code avant le merge et bloquer toute règle déclenchée | Rapport horodaté avec règle, fichier et correction | rejoué par `Pro[CI]: documentation` |
+| Secrets | `gitleaks` 8.30.1 | Détecter tout secret avant le merge et bloquer toute correspondance, avec sortie masquée | Rapport horodaté sans valeur sensible divulguée | rejoué par `Pro[CI]: documentation` |
+| Licences | `license-checker-rseidelsohn` 5.0.1 | Autoriser MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause, ISC, Unlicense et CC0-1.0 pour les dépendances npm de production, puis étendre la liste avant tout lockfile Python ou Rust | Rapport horodaté et registre des licences retenues | rejoué par `Pro[CI]: documentation` |
+| SBOM | `syft` 1.57.2 via `anchore/sbom-action` 0.24.4 | Produire un SBOM CycloneDX JSON à chaque merge et à chaque release | Fichier `sbom.cdx.json` horodaté, conforme à la spécification CycloneDX 1.7.2 | généré par `Pro[CI]: documentation` |
+| Signature SBOM | `cosign` 3.1.6 via `sigstore/cosign-installer` 4.1.4 | Signer le SBOM à chaque release et lier la signature au digest | Signature et certificat joints à la release | rejouée sur le premier tag de version |
+| VEX | `vexctl` 0.4.4, format OpenVEX 0.2.0 | Publier un document daté qui justifie chaque non application | Document daté lié à la release et aux exceptions | rejoué sur le premier tag de version |
+| Exceptions | registre ci-dessous | Toute exception est bornée dans le temps, avec motif, propriétaire, contrôle compensatoire et date d'expiration | Ligne datée dans le registre des exceptions | aucune exception ouverte |
+
+Aucun contrôle n'est déclaré opérationnel avant d'avoir été rejoué par la CI. Les contrôles de merge sont rejoués sur chaque pull request. La signature SBOM et le document VEX sont rejoués sur le premier tag de version. Aucune CVE connue et non traitée n'est acceptée au merge ou à la release.
+
+### Registre des exceptions
+
+| Identifiant | Composant | Motif | Contrôle compensatoire | Propriétaire | Date d'expiration | Statut VEX |
+|---|---|---|---|---|---|---|
+| Aucune ligne ouverte | | | | | | |
+
+L'ajout d'une ligne est une décision écrite datée. Une ligne expirée rouvre la CVE concernée et bloque le merge suivant.
 
 ## Journal de publication
 
@@ -42,4 +53,4 @@ Toute transition de vidéo porte acteur `system`, `moderateur` ou `auteur`, avec
 
 ## Niveau visé
 
-Le niveau [OWASP ASVS](https://owasp.org/projects/asvs) visé reste à trancher et figure dans `responsabilites.md`. En attendant, les contrôles ci-dessus font partie de la définition de terminé et sont exécutés en intégration sur les trois clients livrés ensemble, y compris le client desktop.
+Le niveau [OWASP ASVS](https://owasp.org/projects/asvs) visé est le niveau 2, arbitré le 26 novembre 2026 au point A-11. La portée couvre le backend, les trois clients livrés ensemble et le conteneur `client_desktop`. Le propriétaire de la revue est Espoir LOEMBA, intérimaire. Les contrôles ci-dessus font partie de la définition de terminé et sont exécutés en intégration sur `mobile`, `web` et `desktop`.
