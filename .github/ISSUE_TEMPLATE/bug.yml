@@ -1,0 +1,31 @@
+name: Bug
+description: Signaler un écart par rapport au comportement documenté.
+title: "[Bug] "
+labels: ["type/bug"]
+body:
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation
+      description: Ce qui a été vu, avec date et contexte.
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Attendu
+      description: Comportement prévu et document visé.
+    validations:
+      required: true
+  - type: input
+    id: kpi
+    attributes:
+      label: KPI associé
+      description: BUG-01, BUG-02, BUG-03 ou aucun.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Étapes minimales ou preuve de non reproductibilité.
+    validations:
+      required: true
