@@ -48,3 +48,9 @@ repos:
         language: system
         pass_filenames: false
         always_run: true
+      - id: kpi-check
+        name: "Pro[Info]: KPI check"
+        entry: python3 scripts/check_kpi.py
+        language: system
+        pass_filenames: false
+        always_run: true
