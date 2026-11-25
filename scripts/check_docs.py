@@ -1,7 +1,7 @@
-from dataclasses import dataclass, field
-from pathlib import Path
 import re
 import sys
+from dataclasses import dataclass, field
+from pathlib import Path
 
 TEXT_SUFFIXES = {".md", ".txt", ".json", ".yml", ".yaml", ".py"}
 TEXT_NAMES = {".gitignore", ".gitattributes", ".editorconfig"}
@@ -102,7 +102,9 @@ def check_typography(paths, root):
     for path in paths:
         labels = forbidden_typography(path.read_text(encoding="utf-8", errors="replace"))
         if labels:
-            failures.append(str(path.relative_to(root)) + ": typographie interdite: " + ", ".join(labels))
+            failures.append(
+                str(path.relative_to(root)) + ": typographie interdite: " + ", ".join(labels)
+            )
     return failures
 
 
@@ -122,7 +124,7 @@ def check_links(paths, root):
 
 def check_blocks(paths, contents, root):
     failures = []
-    for path, content in zip(paths, contents):
+    for path, content in zip(paths, contents, strict=False):
         if mermaid_open(content):
             failures.append(str(path.relative_to(root)) + ": bloc de code non ferme")
     return failures

@@ -47,7 +47,9 @@ class TestRunChecks(unittest.TestCase):
             root = Path(tmp)
             app = root / "apps" / "web"
             app.mkdir(parents=True)
-            (app / "a.tsx").write_text("/** Doc. */\nexport const view = () => null;\n", encoding="utf-8")
+            (app / "a.tsx").write_text(
+                "/** Doc. */\nexport const view = () => null;\n", encoding="utf-8"
+            )
             report = check_code_style.run_checks(root)
             self.assertEqual(report.failures, [])
             self.assertEqual(report.files, 1)

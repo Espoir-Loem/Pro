@@ -1,6 +1,6 @@
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
-import sys
 
 SOURCE_SUFFIXES = {".ts", ".tsx", ".rs"}
 IGNORED_PARTS = {".git", "node_modules", "target", "dist"}
@@ -47,14 +47,18 @@ def comment_failures(text, filename):
         if rust and text.startswith("//", index):
             allowed = index + 2 < size and text[index + 2] in ("/", "!")
             if not allowed:
-                failures.append(filename + ":" + str(line_at(text, index)) + ": commentaire interdit")
+                failures.append(
+                    filename + ":" + str(line_at(text, index)) + ": commentaire interdit"
+                )
             index = text.find("\n", index)
             index = size if index < 0 else index
             continue
         if text.startswith("/*", index):
             allowed = text.startswith("/**", index) or (rust and text.startswith("/*!", index))
             if not allowed:
-                failures.append(filename + ":" + str(line_at(text, index)) + ": commentaire interdit")
+                failures.append(
+                    filename + ":" + str(line_at(text, index)) + ": commentaire interdit"
+                )
             end = text.find("*/", index + 2)
             index = size if end < 0 else end + 2
             continue
