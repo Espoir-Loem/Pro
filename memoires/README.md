@@ -32,4 +32,6 @@ Toute note contient, dans cet ordre :
 
 - [2026-11-25-stack-typescript.md](./2026-11-25-stack-typescript.md), raisonnement derrière D-009.
 - [2026-11-25-titulaire-projet.md](./2026-11-25-titulaire-projet.md), identité du chef de projet et auteur par défaut des publications GitHub.
+- [2026-11-25-outillage-depot.md](./2026-11-25-outillage-depot.md), versions vérifiées de l'outillage du dépôt.
+- [2026-11-26-outils-securite.md](./2026-11-26-outils-securite.md), versions vérifiées des contrôles SCA, SAST, secrets, licences, SBOM et VEX.
 - [modele-de-note.md](./modele-de-note.md), modèle à recopier pour une nouvelle note.

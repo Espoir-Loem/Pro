@@ -1,7 +1,7 @@
 # Pro : schéma de lecture du tableau de bord
 
 **Statut** : version 1, 25 novembre 2026  
-**Rôle** : décrire comment les mesures du [dictionnaire canonique](./mesure.md) sont lues, ventilées et alertées. Ce fichier ne contient aucune valeur chiffrée de résultat ni aucun seuil inventé.  
+**Rôle** : décrire comment les mesures du [dictionnaire canonique](./mesure.md) sont lues, ventilées et alertées. Les seuils des dix KPI sont dans [kpi.md](./kpi.md) depuis le 26 novembre 2026. Les autres seuils opérationnels ci-dessous sont arrêtés à la même date. Aucun résultat n'est présenté comme mesuré.  
 **Documents liés** : [Mesure](./mesure.md), [Expérimentation](./experimentation.md), [Décisions](./decisions.md), [Opérations](../Operations/README.md), [Croissance](../Growth/README.md), [Observation technique](../Technique/README.md)
 
 **Plateformes.** La dimension `plateforme` prend les valeurs `mobile`, `web` et `desktop`, définies ainsi :
@@ -33,7 +33,7 @@ Une tuile ne peut pas être lue sans son dénominateur. Les sessions de fil et l
 | Population et période | Sessions de fil ou comptes vérifiés sur `mobile`, `web` et `desktop`, fenêtre de 30 jours glissants ; lecture par plateforme ou agrégat nommé « toutes plateformes » |
 | Dimensions | Plateforme avec les valeurs `mobile`, `web` et `desktop`, ville, métier, campagne, avec la valeur « non renseignée » distincte d'une absence de donnée |
 | État | Comparaison au seuil inscrit au registre, sans couleur substituée à une décision écrite |
-| Propriétaire | Équipe produit ou équipe modération, responsable à nommer |
+| Propriétaire | Espoir LOEMBA, intérimaire, pour le produit et la modération |
 | Dernier relevé | Date et heure du calcul, séparées de la date de la donnée |
 | Action | Lien vers la règle d'alerte correspondante |
 
@@ -52,17 +52,17 @@ Toute mesure peut être ventilée par une à quatre de ces dimensions. La dimens
 
 ## Règles d'alerte
 
-Aucun seuil chiffré n'est fixé dans ce document. Chaque seuil est nommé après la Phase 0 ou la décision budgétaire D-022, puis inscrit au registre avec sa date et son propriétaire. Une alerte n'est actionnable que si les cinq champs ci-dessous sont renseignés.
+Les seuils chiffrés sont ceux de [kpi.md](./kpi.md), arrêtés le 26 novembre 2026 à titre intérimaire. Le seuil de coût vidéo reste lié à la décision budgétaire D-022 et n'est pas inventé ici. Une alerte n'est actionnable que si les cinq champs ci-dessous sont renseignés.
 
 | Alerte | Condition de déclenchement | Destination | Action | Délai |
 |---|---|---|---|---|
-| Acquisition vérifiée en baisse | Inscriptions avec email vérifié pour 1 000 sessions de fil sous le seuil inscrit au registre, sur la fenêtre définie, lues par `plateforme` | Responsable produit, à nommer | Vérifier l'instrumentation `signup_verified` et `feed_session_start`, puis relire l'expérimentation en cours | À nommer au registre |
-| Fil moins consulté | Vidéos vues par session sous le seuil inscrit au registre, par `plateforme`, par ville et par métier | Responsable produit, à nommer | Contrôler le fil, la taxonomie D-017 et le profil réseau de référence | À nommer au registre |
-| Publication en baisse | Part des membres qui publient sous le seuil inscrit au registre, sur les comptes avec email vérifié | Responsable produit, à nommer | Vérifier la chaîne FS-02 et FS-05, y compris la correction des sous-titres | À nommer au registre |
-| Retour des comptes en baisse | Retour à sept jours des comptes vérifiés sous le seuil inscrit au registre | Responsable produit, à nommer | Contrôler que la cohorte ne contient aucun visiteur et que `signup_verified` est bien l'email vérifié | À nommer au registre |
-| File de modération sous tension | Délai de première décision au delà du délai inscrit au registre, ou `queue_depth` et `report_age` au delà des seuils inscrits | Astreinte nommée dans `../Operations/README.md` | Appliquer la matrice de priorité et escalader selon la journée type | À nommer au registre |
-| Contestations en hausse | Taux de contestation ou taux de renversement au delà du seuil inscrit au registre | Responsable modération, à nommer | Relire les motifs de décision et la table `appeal` ; prévoir un second relecteur | À nommer au registre |
-| Coût vidéo hors cadre | Coût par vue au delà du seuil fixé après décision budgétaire D-022, par marché | Responsable technique, à nommer | Appliquer la montée en charge décrite dans `../Operations/README.md` et le profil vidéo de `../Technique/README.md` | À nommer au registre |
+| Acquisition vérifiée en baisse | Moins de 20 inscriptions avec email vérifié pour 1 000 sessions de fil, sur 30 jours glissants, lues par `plateforme` | Espoir LOEMBA, intérimaire, responsable produit | Vérifier l'instrumentation `signup_verified` et `feed_session_start`, puis relire l'expérimentation en cours | 1 jour ouvré |
+| Fil moins consulté | Complétion vidéo sous 45 %, par `plateforme`, par ville et par métier | Espoir LOEMBA, intérimaire, responsable produit | Contrôler le fil, la taxonomie D-017 et le profil réseau de référence | 1 jour ouvré |
+| Publication en baisse | Part des membres qui publient sous 10 %, sur les comptes avec email vérifié | Espoir LOEMBA, intérimaire, responsable produit | Vérifier la chaîne FS-02 et FS-05, y compris la correction des sous-titres | 2 jours ouvrés |
+| Retour des comptes en baisse | Retour à sept jours des comptes vérifiés sous 20 % | Espoir LOEMBA, intérimaire, responsable produit | Contrôler que la cohorte ne contient aucun visiteur et que `signup_verified` est bien l'email vérifié | 2 jours ouvrés |
+| File de modération sous tension | Délai de première décision supérieur à 4 heures, ou `queue_depth` supérieur à 50, ou `report_age` supérieur à 24 heures | Espoir LOEMBA, intérimaire, astreinte | Appliquer la matrice de priorité et escalader selon la journée type | 4 heures |
+| Contestations en hausse | Taux de contestation supérieur à 5 % ou taux de renversement supérieur à 10 % | Espoir LOEMBA, intérimaire, relecteur | Relire les motifs de décision et la table `appeal` ; prévoir un second relecteur | 1 jour ouvré |
+| Coût vidéo hors cadre | Coût par vue supérieur au seuil fixé par D-022, par marché | Espoir LOEMBA, intérimaire, responsable technique | Appliquer la montée en charge décrite dans `../Operations/README.md` et le profil vidéo de `../Technique/README.md` | 1 jour ouvré |
 
 Une alerte franchie pendant un test déclenche la règle d'arrêt de `./experimentation.md` avant toute lecture de la métrique primaire. Une alerte sans propriétaire nommé n'est pas considérée comme traitée.
 

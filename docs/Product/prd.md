@@ -453,7 +453,7 @@ Ces cibles de revue découlent de la référence de rapidité donnée par le por
 
 **Confidentialité.** Pas d'empreinte d'appareil. Jeton de visiteur à courte durée. Pas de suivi entre appareils. Pas de traceur tiers pour les non-connectés. Durée de conservation des événements de session fixée à 30 jours. Aucune cohorte visiteur à sept jours, conformément à D-020. La durée de conservation des agrégats et leur finalité sont inscrites au registre avant la première mesure.
 
-**Sécurité.** Authentification limitée à cinq tentatives par minute et par adresse. Lecture limitée à 200 requêtes par minute. Vitesse de follow et de like surveillée. Les erreurs répétées consomment plus vite le budget de requêtes. Le niveau ASVS visé est une décision technique à prendre, décrite dans `../Technique/README.md`.
+**Sécurité.** Authentification limitée à cinq tentatives par minute et par adresse. Lecture limitée à 200 requêtes par minute. Vitesse de follow et de like surveillée. Les erreurs répétées consomment plus vite le budget de requêtes. Le niveau OWASP ASVS 2 est visé depuis le 26 novembre 2026, avec la portée et les contrôles décrits dans `../Technique/securite.md`.
 
 **Modération.** Journal d'audit complet, notification des auteurs, voie de contestation. Les états de livraison et les états de modération sont distincts. L'acteur `system` est journalisé avec sa règle. Le dispositif est conçu pour pouvoir être étendu au cadre applicable si Pro dessert l'Union européenne, sous validation du conseil local dans `../Conformite/README.md`.
 
