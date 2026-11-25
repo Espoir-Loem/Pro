@@ -110,6 +110,8 @@ Un dénominateur est choisi par test. Deux dénominateurs ne sont jamais mélang
 
 H6 et H7 portent sur la question secondaire et utilisent les cinq créateurs réservés. H9 concerne une branche du parcours C marquée comme hypothèse, pas comme règle du PRD. Les pages d'organisation, les offres, la vérification N2 et la monétisation ne sont pas testés dans ce cycle.
 
+La validation de H1 à H8 est assurée par Espoir LOEMBA, titulaire intérimaire depuis le 25 novembre 2026. Chaque hypothèse possède déjà une formulation, un dénominateur et une condition d'infirmation dans le registre ci-dessus. Les résultats sont reliés à UX-01, UX-02 et UX-03 dans [kpi.md](../Product/kpi.md). Aucun seuil n'est modifié sans décision écrite et aucune divergence entre Brazzaville et Kinshasa n'est transposée d'une ville à l'autre.
+
 ## 8. Plan de terrain, dix jours ouvrés
 
 | Jour | Activité | Participants | Livrable |
@@ -247,7 +249,7 @@ Le consentement est demandé avant toute prise de notes ou enregistrement. La pe
 
 Les citations sont relues par la personne participante avant publication dans un livrable et retirables jusqu'à J10. Une citation non relue n'entre dans aucun document.
 
-Base légale : consentement de la personne participante, à confirmer par la personne responsable conformité avant J2. Responsable du traitement des données de recherche : à nommer avant J2. Responsable de la recherche : à nommer avant J1. Aucune obligation juridique supplémentaire n'est affirmée dans ce document ; le périmètre applicable sera tranché dans les documents de conformité.
+Base légale : consentement de la personne participante, à confirmer par la personne responsable conformité avant J2. Responsable du traitement des données de recherche : Espoir LOEMBA, intérimaire depuis le 25 novembre 2026. Responsable de la recherche : Espoir LOEMBA, intérimaire depuis le 25 novembre 2026. L'avis juridique local reste externe et à nommer avant le choix de l'hébergeur. Aucune obligation juridique supplémentaire n'est affirmée dans ce document ; le périmètre applicable sera tranché dans les documents de conformité.
 
 ## 14. Ce que la recherche peut changer au PRD
 

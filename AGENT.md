@@ -43,6 +43,10 @@ Questions ouvertes : D-010, D-011 et D-022. Points A-02 à A-13 ouverts ; A-01 e
 
 Aucune question ouverte n'entre dans un sprint avant son inscription au registre avec date, motif, propriétaire, source liée, portée et historique.
 
+Le porteur unique cumule temporairement les rôles de propriétaire technique, de recherche, de responsable des villes, d'astreinte, de relecteur et de responsable des mesures. Cette accumulation est une décision intérimaire datée du 25 novembre 2026. L'avis juridique local reste externe et à nommer avant le choix de l'hébergeur et de la région de stockage. Toute délégation future est écrite puis assignée explicitement.
+
+Les outils IA sont des outils d'accélération, jamais des auteurs. Ils ne signent aucun commit, aucune release et aucun message publié. Aucun trailer de co-auteur n'est accepté. L'identité Espoir LOEMBA reste l'auteur de tout artefact publié. Les outils sollicités, leur finalité et leurs limites sont consignés dans un avenant distinct.
+
 Toute demande qui contredit une décision retenue impose une réouverture écrite avec la nouvelle preuve, la date, la décision remplacée, les documents touchés et la ligne d'historique. Aucune modification silencieuse n'est acceptée.
 
 ## 4. Portes avant le premier commit de code
