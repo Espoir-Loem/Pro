@@ -152,6 +152,7 @@ Le dossier canonique du client mobile est `apps/mobile`. Chaque application gard
 ## 13. Automatisation et économie de tokens
 
 - Toute vérification déterministe devient un script puis une étape CI.
+- Le contrôle documentaire est porté par `scripts/check_docs.py`, testé par `scripts/test_check_docs.py` et rejoué par `.github/workflows/documentation.yml` sur chaque push et chaque pull request.
 - Un script est nommé clairement, documenté, idempotent et exécutable sans contexte humain.
 - Si un audit ou un modèle ne sait pas faire une vérification de façon fiable, écrire le script plutôt que de deviner.
 - Les tokens servent aux échecs, aux arbitrages et au jugement. Ils ne servent pas à refaire à la main ce qu'un script peut rejouer.
