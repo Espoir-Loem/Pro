@@ -38,7 +38,7 @@ La mise à jour automatique est une contrainte transversale de D-024, décrite d
 | [video.md](video.md) | Octets, bitrates, coût pour 1 000 vues, EXIF | Avant FS-02 | `architecture.md`, arbitrage D-022 | à nommer | proposée, budget ouvert |
 | [api.md](api.md) | Endpoints, réponses sans données privées, limites | Avant FS-04 et FS-08 | `architecture.md`, `adr-002-identite-session.md` | à nommer | proposée |
 | [donnees.md](donnees.md) | Tables, états, transitions et traduction de la conservation | Avant la première migration | `../Conformite/conservation.md`, `adr-002-identite-session.md` | à nommer | proposée |
-| [securite.md](securite.md) | Socle de contrôles, jetons, journal d'audit | Avant FS-01 et FS-02, revue avant FS-07 et FS-09 | `menaces.md`, `adr-002-identite-session.md` | à nommer | proposée |
+| [securite.md](securite.md) | Socle de contrôles, jetons, journal d'audit, outils épinglés et ASVS 2 | Avant FS-01 et FS-02, revue avant FS-07 et FS-09 | `menaces.md`, `adr-002-identite-session.md` | Espoir LOEMBA, intérimaire | opposée le 26 novembre 2026 |
 | [observation.md](observation.md) | Événements canoniques, schéma, tableau de bord et alertes | Avant l'implémentation de FS-11 | `../Product/mesure.md`, `adr-002-identite-session.md` | à nommer | proposée |
 | [responsabilites.md](responsabilites.md) | RACI des ADR, confidentialité, escalade, signature et budget | Avant la revue de sortie MVP | Toutes les fiches ci-dessus | à nommer | proposée |
 
@@ -48,4 +48,4 @@ La mise à jour automatique est une contrainte transversale de D-024, décrite d
 
 ## Première action
 
-Nommer le propriétaire de `adr-001-stack.md`, puis obtenir la validation juridique A-12 et le budget D-022. Les familles de technologie sont retenues en D-009. Tant qu'A-12, D-022 et A-13 ne sont pas écrits, aucun hébergeur, région de stockage, fournisseur CDN ni périmètre mobile hors binaire natif n'est arrêté, et aucun code n'est écrit.
+Le propriétaire de `adr-001-stack.md` est Espoir LOEMBA, intérimaire. Il reste à obtenir la validation juridique A-12 et le budget D-022. Les familles de technologie sont retenues en D-009. Tant qu'A-12, D-022 et A-13 ne sont pas écrits, aucun hébergeur, région de stockage, fournisseur CDN ni périmètre mobile hors binaire natif n'est arrêté, et aucun code n'est écrit.
