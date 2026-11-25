@@ -72,6 +72,20 @@ class TestMermaid(unittest.TestCase):
         self.assertFalse(check_docs.mermaid_open("```mermaid\ngraph TD\n```\n"))
 
 
+class TestGeneratedFiles(unittest.TestCase):
+    def test_ignores_dependencies_and_lockfile(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_clean_fixture(root)
+            (root / "README.md").write_text("[guide](docs/README.md)\n", encoding="utf-8")
+            dependency = root / "node_modules" / "paquet" / "note.md"
+            dependency.parent.mkdir(parents=True)
+            dependency.write_text("texte " + chr(0x2014), encoding="utf-8")
+            (root / "package-lock.json").write_text("TO" + "DO", encoding="utf-8")
+            report = check_docs.run_checks(root, expected_doc_count=1)
+            self.assertEqual(report.failures, [])
+
+
 class TestRunChecks(unittest.TestCase):
     def test_accepts_clean_fixture(self):
         with tempfile.TemporaryDirectory() as tmp:

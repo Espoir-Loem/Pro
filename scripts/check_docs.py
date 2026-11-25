@@ -5,6 +5,8 @@ import sys
 
 TEXT_SUFFIXES = {".md", ".txt", ".json", ".yml", ".yaml", ".py"}
 TEXT_NAMES = {".gitignore", ".gitattributes", ".editorconfig"}
+IGNORED_PARTS = {".git", "node_modules", "dist", "build", "coverage"}
+IGNORED_NAMES = {"package-lock.json", "pnpm-lock.yaml", "yarn.lock", "Cargo.lock"}
 SKIPPED_PREFIXES = ("http://", "https://", "mailto:", "#", "data:", "file:")
 MARKERS = ("TO" + "DO", "FI" + "XME", "T" + "BD", "X" + "X" + "X")
 CJK_RANGES = ((0x3400, 0x9FFF), (0x3040, 0x30FF), (0xAC00, 0xD7AF))
@@ -78,7 +80,9 @@ def mermaid_open(text):
 
 def text_files(root):
     for path in root.rglob("*"):
-        if not path.is_file() or ".git" in path.parts:
+        if not path.is_file() or any(part in IGNORED_PARTS for part in path.parts):
+            continue
+        if path.name in IGNORED_NAMES:
             continue
         if path.suffix.lower() in TEXT_SUFFIXES or path.name in TEXT_NAMES:
             yield path
