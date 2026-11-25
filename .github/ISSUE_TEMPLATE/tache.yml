@@ -1,0 +1,34 @@
+name: Tâche de projet
+description: Préparer une tâche de cadrage, de documentation ou de contrôle.
+title: "[Tâche] "
+labels: ["type/task"]
+body:
+  - type: textarea
+    id: objectif
+    attributes:
+      label: Objectif
+      description: Résultat attendu, sans ambiguïté.
+    validations:
+      required: true
+  - type: textarea
+    id: sous-taches
+    attributes:
+      label: Sous-tâches
+      description: Une case par étape vérifiable.
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: input
+    id: kpi
+    attributes:
+      label: KPI associé
+      description: Identifiant de docs/Product/kpi.md, ou aucun.
+  - type: textarea
+    id: definition
+    attributes:
+      label: Définition de terminé
+      description: Conditions de clôture et preuve attendue.
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Cadrage produit
+    url: https://github.com/Espoir-Loem/Pro/blob/main/docs/README.md
+    about: Consulter l'index documentaire avant d'ouvrir une issue de périmètre.

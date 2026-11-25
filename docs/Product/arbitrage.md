@@ -68,6 +68,6 @@ Ces champs sont des titulaires à désigner, pas des options à départager. Ils
 
 ## 5. Après un arbitrage
 
-Une ligne arbitrée change de statut. Elle quitte cette grille pour entrer dans la table des décisions retenues de `decisions.md`. La ligne d'origine reçoit une mention du type « arbitrée le date, voir D-025 ». Le numéro de décision est attribué dans l'ordre, sans saut.
+Une ligne arbitrée change de statut. Elle quitte cette grille pour entrer dans la table des décisions retenues de `decisions.md`. La ligne d'origine reçoit une mention du type « arbitrée le date, voir le numéro attribué dans `decisions.md` ». Le numéro de décision est attribué dans l'ordre, sans saut.
 
 Aucun arbitrage ne modifie en silence une décision déjà retenue. Si un choix contredit une décision retenue (D-001 à D-009, D-012 à D-021, D-023 et D-024), la procédure de réouverture de `decisions.md` s'applique avec la nouvelle preuve, la date, la décision remplacée et la liste des documents touchés. Une question ouverte suit la grille, puis l'inscription au registre, sans passer par la réouverture. Le point A-13 est une précision de portée de D-024, pas une réouverture.
