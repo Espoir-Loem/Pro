@@ -96,6 +96,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import json
+          import os
           from datetime import datetime, timezone
           stamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
           document = {
@@ -105,7 +106,7 @@ jobs:
               "metadata": {
                   "timestamp": stamp,
                   "authors": [{"name": "Espoir LOEMBA", "email": "hopcy.forcy@gmail.com"}],
-                  "component": {"type": "application", "name": "Pro", "version": "${GITHUB_REF_NAME}"},
+                  "component": {"type": "application", "name": "Pro", "version": os.environ["GITHUB_REF_NAME"]},
               },
               "vulnerabilities": [],
           }
@@ -122,5 +123,5 @@ jobs:
           if gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1; then
             gh release upload "${GITHUB_REF_NAME}" $assets --clobber
           else
-            gh release create "${GITHUB_REF_NAME}" $assets --generate-notes --verify-tag
+            gh release create "${GITHUB_REF_NAME}" $assets --generate-notes
           fi
