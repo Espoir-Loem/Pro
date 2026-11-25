@@ -1,10 +1,10 @@
 # Pro : grille d'arbitrage
 
 **Statut** : version 3, 25 novembre 2026  
-**Règle** : ce document prépare les choix, il ne les prend pas. Aucune option ci-dessous n'est retenue. Un arbitrage devient opposable seulement après inscription dans [decisions.md](./decisions.md) avec date, motif, propriétaire, source liée, portée et historique.  
+**Règle** : ce document prépare les choix, il ne les prend pas. Une option arbitrée porte sa date et son numéro de décision, sinon aucune option ci-dessous n'est retenue. Un arbitrage devient opposable seulement après inscription dans [decisions.md](./decisions.md) avec date, motif, propriétaire, source liée, portée et historique.  
 **Documents liés** : [Registre des décisions](./decisions.md), [ADR stack](../Technique/adr-001-stack.md), [Performance](../Technique/performance.md), [Mesure](./mesure.md), [Roadmap](./roadmap.md), [Contestation](../Operations/contestation.md), [Lanceurs de métiers](../Growth/lanceurs-metiers.md), [Périmètre juridique](../Conformite/perimetre-juridique.md), [Responsabilités](../Technique/responsabilites.md).
 
-Les décisions retenues D-001 à D-009, D-012 à D-021, D-023 et D-024 sont opposables. Les questions ouvertes D-010, D-011 et D-022 restent hors sprint jusqu'à leur inscription au registre. Le point A-01 est arbitré et renvoie à D-009. Le point A-13 précise la portée mobile de D-024 sans rouvrir cette décision. Toute réouverture suit la procédure écrite à la fin de `decisions.md`.
+Les décisions retenues D-001 à D-021 et D-023 à D-024 sont opposables, y compris D-010 et D-011 inscrites le 26 novembre 2026. La question ouverte D-022 reste hors sprint jusqu'à son inscription au registre. Les points A-01, A-06, A-07 et A-11 sont arbitrés et renvoient aux décisions ou aux fiches techniques concernées. Le point A-13 précise la portée mobile de D-024 sans rouvrir cette décision. Toute réouverture suit la procédure écrite à la fin de `decisions.md`.
 
 ## Mode d'emploi
 
@@ -40,8 +40,8 @@ flowchart LR
 
 | Réf. | À arbitrer | Options ouvertes | Ce qu'il faut écrire | Documents touchés | Responsable | Échéance |
 |---|---|---|---|---|---|---|
-| A-06 | D-010 : règle N2 pour les candidatures | Décision intérimaire du porteur, 25 novembre 2026 : option 2, vérification seulement à la demande de l'employeur. | Preuve acceptée, réversibilité du badge et événement dédié restent à écrire. | `prd.md` section 14, `verification-identite.md`, `userstories.md` US-16, `mesure.md` | Espoir LOEMBA, intérimaire | avant l'ouverture des offres |
-| A-07 | D-011 : nom et privilèges du niveau organisations payant | Décision intérimaire du porteur, 25 novembre 2026 : option 1, nom neutre avec statistiques avancées. | Nom exact et liste fermée des privilèges restent à confirmer. D-019 interdit tout classement payant dans la recherche. | `roadmap.md` phase 5, `manifeste.md`, `prd.md` section 14.5, `decisions.md` | Espoir LOEMBA, intérimaire | avant la conception de la phase 5 |
+| A-06 | D-010 : règle N2 pour les candidatures | Arbitrée le 26 novembre 2026 : vérification seulement à la demande de l'employeur, voir D-010. | Règle, preuve acceptée, réversibilité du badge et événement dédié sont inscrits en D-010. | `prd.md` section 14, `verification-identite.md`, `userstories.md` US-16, `mesure.md` | Espoir LOEMBA, intérimaire | Atteinte le 26 novembre 2026 |
+| A-07 | D-011 : nom et privilèges du niveau organisations payant | Arbitrée le 26 novembre 2026 : `Organisation Avancée`, avec statistiques avancées, voir D-011. | Nom, liste fermée des privilèges et phase d'entrée sont inscrits en D-011. D-019 interdit tout classement payant dans la recherche. | `roadmap.md` phase 5, `manifeste.md`, `prd.md` section 14.5, `decisions.md` | Espoir LOEMBA, intérimaire | Atteinte le 26 novembre 2026 |
 | A-08 | Langues après le français | Décision intérimaire du porteur, 25 novembre 2026 : option 1, aucune autre langue avant la Phase 3. | Toute nouvelle langue est inscrite au registre selon D-008. | `vision.md`, `prd.md`, `manifeste.md`, `decisions.md`, `ux-research.md` | Espoir LOEMBA, intérimaire | avant l'extension hors des deux Congo |
 
 ## 3. Arbitrage avant ouverture publique
@@ -50,7 +50,7 @@ flowchart LR
 |---|---|---|---|---|---|---|
 | A-09 | Modèle de modération | Décision intérimaire du porteur, 25 novembre 2026 : option 3 retenue dans son principe, modèle mixte. | Noyau, renfort bénévole et couverture horaire restent à nommer. Lien avec D-022 à écrire. | `Operations/README.md`, `astreinte.md`, `montee-en-charge.md`, `decisions.md` | Espoir LOEMBA, intérimaire | avant tout lien public |
 | A-10 | Seuil de fil non vide | Décision intérimaire du porteur, 25 novembre 2026 : option 3, aucun seuil et repli immédiat vers le fil général. | Aucun seuil n'est transposé d'une ville à l'autre. Règle de repli à confirmer par ville. | `lanceurs-metiers.md`, `mesure.md`, `acquisition-brazzaville.md`, `acquisition-kinshasa.md` | Espoir LOEMBA, intérimaire | avant ouverture |
-| A-11 | Niveau OWASP ASVS visé | En attente. Le niveau reste à nommer par décision écrite. | Niveau retenu, portée d'application et propriétaire de la revue restent à écrire. | `securite.md`, `responsabilites.md`, définition de terminé | Espoir LOEMBA, intérimaire | avant la revue de sortie MVP |
+| A-11 | Niveau OWASP ASVS visé | Arbitrée le 26 novembre 2026 : niveau 2, sur le backend et les trois clients livrés ensemble. | Niveau, portée et propriétaire de la revue sont inscrits dans `securite.md` et `responsabilites.md`. | `securite.md`, `responsabilites.md`, définition de terminé | Espoir LOEMBA, intérimaire | Atteinte le 26 novembre 2026 |
 | A-12 | Qualification juridique et périmètre RGPD | En attente d'avis externe. Aucune obligation n'est tranchée dans ce document. | Avis du conseil local, pays concernés et date restent à nommer. | `perimetre-juridique.md`, `union-europeenne.md`, `confidentialite-visiteur.md`, `adr-001-stack.md` | conseil local, à nommer | avant le choix de l'hébergeur, la région de stockage et la première migration |
 
 ## 4. À nommer sans arbitrage de principe
