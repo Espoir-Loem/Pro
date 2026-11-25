@@ -1,0 +1,49 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        name: "Pro[Info]: trailing whitespace"
+      - id: end-of-file-fixer
+        name: "Pro[Info]: end of file"
+      - id: check-yaml
+        name: "Pro[Info]: check yaml"
+      - id: check-json
+        name: "Pro[Info]: check json"
+      - id: check-added-large-files
+        name: "Pro[Info]: large files"
+      - id: check-merge-conflict
+        name: "Pro[Info]: merge conflict"
+      - id: detect-private-key
+        name: "Pro[Info]: private key"
+      - id: mixed-line-ending
+        name: "Pro[Info]: line ending"
+        args: [--fix=lf]
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.6
+    hooks:
+      - id: ruff
+        name: "Pro[Info]: python lint"
+        args: [--fix]
+      - id: ruff-format
+        name: "Pro[Info]: python format"
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v4.5.0
+    hooks:
+      - id: conventional-pre-commit
+        name: "Pro[Info]: conventional commit"
+        stages: [commit-msg]
+  - repo: local
+    hooks:
+      - id: documentation-check
+        name: "Pro[Info]: documentation check"
+        entry: python3 scripts/check_docs.py
+        language: system
+        pass_filenames: false
+        always_run: true
+      - id: code-style-check
+        name: "Pro[Info]: code style check"
+        entry: python3 scripts/check_code_style.py
+        language: system
+        pass_filenames: false
+        always_run: true
