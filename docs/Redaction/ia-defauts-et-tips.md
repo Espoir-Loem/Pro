@@ -93,4 +93,3 @@ Ces contrôles portent sur tous les fichiers du dossier, pas seulement sur la vi
 | Liens relatifs | Chaque chemin local pointe vers un fichier existant |
 | Numérotation | FS-01 à FS-11 dans le PRD, D-001 à D-012 dans le registre, US-01 à US-17 dans les histoires, sans saut |
 | Sources | Chaque chiffre porte une source datée ; l'étude de 2024 reste datée de 2024, la source du classificateur OpenAI est l'annonce officielle et le pulse LinkedIn renvoie à son URL publique |
-
