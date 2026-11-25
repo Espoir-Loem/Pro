@@ -37,24 +37,36 @@ Aucune protection de branche n'est posée, car aucun dépôt distant n'existe. L
 |---|---|---|
 | `9bf19a1` | `chore: initialize repository hygiene` | Trois fichiers de configuration du dépôt |
 | `382f6ab` | `docs: add product framing and agent guidance` | Cadrage produit, documentation, mémoires, rapports et notes de recherche, soit soixante-seize fichiers |
-| Commit courant | `docs: record git repository preparation` | Présent avenant et pointeur dans `docs/README.md` |
+| `eb78d94` | `docs: record git repository preparation` | Présent avenant et pointeur dans `docs/README.md` |
+| `45ee8ee` | `docs: remove phantom decision identifier` | Exemple `D-025` remplacé dans `docs/Product/arbitrage.md` par un renvoi au numéro attribué |
+| Commit courant | `docs: record final repository verification` | Résultats détaillés des contrôles dans le présent avenant |
 
 Chaque commit porte un changement logique. Aucun contenu de modèle n'est co-signé.
 
 ## Contrôles
 
-| Contrôle | Attendu | Résultat |
-|---|---|---|
-| Initialisation | Dépôt Git présent | Conforme |
-| Branches | `main`, `staging` et `develop` présentes | Conforme |
-| Branche active | `develop` | Conforme |
-| Identité locale | Espoir LOEMBA, hopcy.forcy@gmail.com | Conforme |
-| Co-auteur de modèle | Aucun trailer de modèle | Conforme |
-| Typographie interdite | Aucune occurrence | Vide, conforme |
-| Caractères chinois, japonais ou coréens | Aucune occurrence | Vide, conforme |
-| Marqueurs de correction en attente | Aucune occurrence | Vide, conforme |
-| Liens relatifs | Zéro lien cassé | Conforme |
-| Code applicatif | Aucun fichier de code créé | Conforme |
+| Contrôle | Périmètre | Attendu | Résultat |
+|---|---|---|---|
+| Initialisation | Dépôt local | Git présent | Conforme |
+| Branches | Dépôt local | `main`, `staging` et `develop` présentes | Conforme |
+| Branche active | Dépôt local | `develop` | Conforme |
+| Origine distante | Dépôt local | Aucune origine | Conforme |
+| Identité locale | Dépôt local | Espoir LOEMBA, hopcy.forcy@gmail.com | Conforme |
+| Co-auteur de modèle | Messages des commits | Aucun trailer | Conforme |
+| Typographie interdite | Quatre-vingts fichiers textuels | Aucune occurrence | Zéro occurrence, conforme |
+| Caractères chinois, japonais ou coréens | Quatre-vingts fichiers textuels | Aucune occurrence | Zéro occurrence, conforme |
+| Marqueurs de correction en attente | Quatre-vingts fichiers textuels | Aucune occurrence | Zéro occurrence, conforme |
+| Liens relatifs | Soixante-neuf fichiers Markdown canoniques | Zéro lien cassé | 486 liens résolus, zéro cassé |
+| Numérotation FS | Documentation canonique | FS-01 à FS-11 sans saut | 11 identifiants, conforme |
+| Numérotation US | Documentation canonique | US-01 à US-17 sans saut | 17 identifiants, conforme |
+| Numérotation D | Documentation canonique | D-001 à D-024 sans saut | 24 identifiants, conforme |
+| Numérotation A | Documentation canonique | A-01 à A-13 sans saut | 13 identifiants, conforme |
+| Blocs Mermaid | Fichiers Markdown canoniques | Aucun bloc ouvert | Zéro bloc ouvert, conforme |
+| Fichiers de `docs/` | Dossier canonique | 59 fichiers | 59, conforme |
+| Code applicatif | Arborescence | Aucun fichier de code | Conforme |
+| Arbre de travail | Dépôt local | Propre après le dernier commit | Conforme |
+
+Le contrôle des liens porte sur la racine, `docs/` et `reports/`, hors blocs de code et hors code en ligne. Les notes de recherche historiques sont exclues : elles contiennent des liens absolus de type `file:` vers la machine d'origine et un renvoi vers un fichier de compétence local, sans incidence sur la documentation livrée.
 
 ## Portes conservées
 
