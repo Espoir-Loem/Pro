@@ -35,7 +35,7 @@ Une ligne sans critère de sortie vérifié et sans preuve archivée ne déclenc
 
 ## 3. Ce que la décision ne déclenche pas par elle-même
 
-Nommer une date ne ferme aucune porte. La Phase 0 reste close par décision écrite et fusionnée, avec H1 à H8 validés, preuves archivées et opportunité O écrite. A-12 reste levée seulement après les deux avis écrits et leur confrontation. Les prestataires `desktop` restent à nommer avant le premier commit de code de stack. Aucun hébergeur, aucune région de stockage et aucune migration ne sont autorisés par la date. Aucun lien public n'est ouvert avant l'exercice à blanc de l'astreinte.
+Nommer une date ne ferme aucune porte. La Phase 0 reste close par décision écrite et fusionnée, avec H1 à H8 validés, preuves archivées et opportunité O écrite. A-12 reste levée seulement après les deux avis écrits et leur confrontation. Les prestataires `desktop` restent à nommer avant le premier commit de code de stack. Aucun hébergeur, aucune région de stockage et aucune migration ne sont autorisés par la date. Aucun lien public n'est ouvert avant l'exercice à blanc de l'astreinte. La [trame de décision d'ouverture publique](./decision-ouverture-publique.md) prépare cette étape séparément, sans date ni lien préremplis.
 
 ## 4. Ce que ce modèle ne fait pas
 
