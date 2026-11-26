@@ -26,7 +26,7 @@ Toutes les valeurs sont à renseigner au moment de la vérification. Aucune n'es
 | Modalités de facturation annoncées par écrit avant acceptation | À demander | À demander | À vérifier |
 | Limite de portée confirmée : aucune règle modifiée par téléchargement de code exécutable sur `mobile` selon A-13 et D-024 | À confirmer | À confirmer | À vérifier |
 
-Aucune piste publique, aucun nom et aucun résultat de vérification ne sont inscrits dans ce tableau. Le titulaire intérimaire du projet est Espoir LOEMBA depuis le 25 novembre 2026 au titre de A-04, et aucun autre titulaire n'est ajouté ici.
+Aucune piste publique, aucun nom et aucun résultat de vérification ne sont inscrits dans ce tableau. Une [shortlist documentée](./shortlist-prestataires-desktop.md) classe des pistes publiques datées par système, sans désignation ni contact, pour préparer ce travail. Le titulaire intérimaire du projet est Espoir LOEMBA depuis le 25 novembre 2026 au titre de A-04, et aucun autre titulaire n'est ajouté ici.
 
 ## 2. écriture de la nomination
 

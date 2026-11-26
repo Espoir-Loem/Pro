@@ -24,6 +24,6 @@
 
 Huit entretiens principaux, quatre par ville. Quatre réserves servent à J8 et aux cinq créateurs nécessaires à H6 et H7. Les situations chercheur d'emploi, professionnel en poste, créateur et recruteur sont réparties selon la matrice de la recherche UX. Les secteurs retenus sont la logistique et la santé, deux par ville.
 
-Les cinq créateurs sont choisis parmi les douze selon les situations enregistrées à J2. Les douze personnes sont recrutées avant l'attribution des identifiants. Le questionnaire de sélection est celui de la recherche UX, section 8. Un refus d'enregistrement n'exclut personne.
+Les cinq créateurs sont choisis parmi les douze selon les situations enregistrées à J2. Les douze personnes sont recrutées avant l'attribution des identifiants. Le questionnaire de sélection est celui de la recherche UX, section 8. Le [plan de recrutement](../plan-recrutement.md) prépare les cibles par ville, les modèles de message et le calendrier J1 à J3, sans contacter personne. Un refus d'enregistrement n'exclut personne.
 
 Un dossier `participants/P.../` est créé seulement après consentement. Il contient le consentement, une fiche par session, l'ordre des stimuli, les citations relues et l'audio uniquement si l'accord a été donné. Aucun dossier n'est créé à la date de préparation de ce kit.
