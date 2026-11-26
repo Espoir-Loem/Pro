@@ -1,6 +1,6 @@
 # Données : tables et transitions
 
-**Propriétaire.** à nommer. **Statut.** proposée. **Date.** 25 novembre 2026.
+**Propriétaire.** Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04. **Statut.** proposée. **Date.** 25 novembre 2026.
 **Règle de conflit.** `../Conformite/conservation.md` est la source unique de la politique de conservation. Ce document en est la traduction technique. En cas de divergence, la fiche Conformité prévaut et cette traduction est corrigée.
 
 ## Tables héritées du PRD

@@ -1,6 +1,6 @@
 # Observation : événements et tableau de bord
 
-**Propriétaire.** à nommer. **Statut.** proposée. **Date.** 25 novembre 2026.
+**Propriétaire.** Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04. **Statut.** proposée. **Date.** 25 novembre 2026.
 **Déclencheur.** Avant l'implémentation de FS-11. Le schéma précède le code, pas le tableau de bord.
 **Source des formules.** `../Product/mesure.md` est la source unique des définitions de mesures. Cette fiche fixe le schéma des événements, pas les formules.
 
