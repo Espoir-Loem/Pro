@@ -44,4 +44,4 @@ Les pistes les plus documentées publiquement sur le numérique se trouvent à K
 
 ## 4. Ce que cette note ne fait pas
 
-Elle ne désigne aucun conseil, n'envoie aucune lettre, ne formule aucun avis juridique, ne tranche aucune divergence, ne recommande aucun hébergeur ni région de stockage, ne lève pas A-12 et ne contient aucun code applicatif. Le choix d'un conseil reste une décision écrite du porteur avec date et motif.
+Elle ne désigne aucun conseil, n'envoie aucune lettre, ne formule aucun avis juridique, ne tranche aucune divergence, ne recommande aucun hébergeur ni région de stockage, ne lève pas A-12 et ne contient aucun code applicatif. Le choix d'un conseil reste une décision écrite du porteur avec date et motif. Un [modèle de nomination](./nomination-conseils-locaux.md) prépare cette écriture pour les deux pays, sans nom ni contact prérempli.
