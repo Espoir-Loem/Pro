@@ -1,6 +1,6 @@
 # Architecture : conteneurs, chemins et cache
 
-**Propriétaire.** à nommer. **Statut.** proposée. **Date.** 25 novembre 2026.
+**Propriétaire.** Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04. **Statut.** proposée. **Date.** 25 novembre 2026.
 **Dépendances.** `adr-001-stack.md` avec D-009 retenue, `performance.md`, `menaces.md`.
 
 ## Diagramme C4, niveau conteneur
