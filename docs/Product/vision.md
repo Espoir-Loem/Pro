@@ -56,14 +56,14 @@ Le cadre européen est direct. Le Comité européen de la protection des donnée
 |---|---|---|---|
 | **N0 : Visiteur** | Aucun compte | Fil public, vidéos, profils publics, recherche | Session à courte durée, aucun identifiant permanent, agrégats uniquement |
 | **N1 : Membre** | Email vérifié en phase 1. Téléphone et connexion sociale en phase 2, non spécifiés | Publication, like, commentaire, suivi, sauvegarde, chat 1:1 | Identifiant de compte, nom affiché, métier, ville, email vérifié |
-| **N2 : Profil vérifié, phase 2, hors MVP** | Vérification d'identité ou d'employeur, selon D-010 à trancher | **Phase 2 :** contact par les recruteurs, candidature avec dossier, badge « vérifié », visibilité accrue dans la recherche | Données de vérification minimales, avec date et méthode |
+| **N2 : Profil vérifié, phase 2, hors MVP** | Vérification à la demande de l'employeur, selon D-010 retenue le 26 novembre 2026 | **Phase 2 :** contact par les recruteurs, candidature avec dossier, badge « vérifié », visibilité accrue dans la recherche | Données de vérification minimales, avec date et méthode |
 | **N3 : Organisation, phase 2** | Vérification de l'entreprise | Page entreprise, publication d'offres, messagerie recruteur, statistiques | Identité légale, domaine, documents de vérification |
 
 Le mur n'est pas à l'entrée. Il est placé au premier geste qui crée une trace sociale ou juridique.
 
-**Phase 2, hors MVP.** Le badge « vérifié », la candidature avec dossier et le message lié à N2 ne sont pas livrés dans la première version. Leur méthode, leur réversibilité et leur événement de mesure sont écrits après arbitrage de D-010.
+**Phase 2, hors MVP.** Le badge « vérifié », la candidature avec dossier et le message lié à N2 ne sont pas livrés dans la première version. Leur méthode, leur réversibilité et leur événement de mesure sont écrits dans D-010, retenue le 26 novembre 2026.
 
-**Gratuité par phase.** Les phases 1 à 4 sont gratuites, conformément à D-005. La Phase 5 introduit un niveau organisations payant dont le nom et les privilèges ne sont pas définis (D-011). Aucun classement payant dans la recherche. Les offres signalées éventuelles restent hors recherche et relèvent de la Phase 5.
+**Gratuité par phase.** Les phases 1 à 4 sont gratuites, conformément à D-005. La Phase 5 introduit un niveau organisations payant dont le nom et les privilèges sont définis par D-011, retenue le 26 novembre 2026. Aucun classement payant dans la recherche. Les offres signalées éventuelles restent hors recherche et relèvent de la Phase 5.
 
 **Ancrage géographique.** Pro commence par les deux Congo : la République du Congo (Brazzaville) et la RDC (Kinshasa) forment le premier marché. Le reste de l'Afrique vient ensuite, puis le monde. Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.
 
@@ -147,7 +147,7 @@ Le visiteur non connecté consomme de la bande passante sans générer de compte
 
 Un fil public est aussi un fil gratuit pour les robots de collecte. Les limites de débit et les règles pour les crawlers doivent être calibrées avant la croissance, pas après.
 
-Le mot « vérifié » engage la plateforme. Un badge décerné trop vite sur un profil professionnel cause plus de tort qu'un profil non vérifié. La méthode de vérification N2 reste à trancher avec D-010 et doit être documentée et réversible.
+Le mot « vérifié » engage la plateforme. Un badge décerné trop vite sur un profil professionnel cause plus de tort qu'un profil non vérifié. La méthode de vérification N2 est décrite dans D-010, retenue le 26 novembre 2026, et doit être documentée et réversible.
 
 Le risque de fond reste le même que pour tout réseau : sans créateurs pour alimenter le fil au départ, l'algorithme n'a rien à recommander. L'ouverture au grand public ne remplace pas une animation ciblée des premiers métiers, décrite dans `../Growth/README.md`.
 
