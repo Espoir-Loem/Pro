@@ -17,7 +17,7 @@ Les champs entre crochets sont à remplir au moment de l envoi. Aucune valeur n 
 | Coordonnées | Adresse, téléphone et courriel confirmés sur une source récente | À vérifier |
 | Facturation | Modalités et montant annoncés par écrit avant acceptation | À demander |
 
-Aucune piste publique relevée dans la synthèse n est présentée ici comme retenue. Une [shortlist documentée](./shortlist-cabinets.md) classe ces présences publiques par ville, sans désignation ni contact. Le choix du conseil reste une décision à écrire avec sa date et son motif.
+Aucune piste publique relevée dans la synthèse n est présentée ici comme retenue. Une [shortlist documentée](./shortlist-cabinets.md) classe ces présences publiques par ville, sans désignation ni contact. Le choix du conseil reste une décision à écrire avec sa date et son motif. Un [modèle de nomination](./nomination-conseils-locaux.md) prépare cette écriture séparément pour chaque pays, sans nom ni contact prérempli.
 
 ## Lettre pour un conseil de Brazzaville
 

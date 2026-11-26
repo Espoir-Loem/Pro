@@ -38,4 +38,4 @@ Le préchargement s'arrête à dix vidéos. Le mode faible consommation désacti
 
 ## Déclencheur
 
-Cette fiche précède FS-02. Elle ne choisit ni fournisseur ni format de manifeste : `adr-001-stack.md` retient le stockage objet compatible S3 et le CDN derrière une interface. Le fournisseur reste à choisir dans le cadre de D-022, qui fixe le coût maximal. Aucune valeur n'est présentée comme mesurée.
+Cette fiche précède FS-02. Elle ne choisit ni fournisseur ni format de manifeste : `adr-001-stack.md` retient le stockage objet compatible S3 et le CDN derrière une interface. Le fournisseur reste à choisir dans le cadre de D-022, qui fixe le coût maximal. Une [trame de décision du fournisseur vidéo et du CDN](../../research_notes/Sprint-1/decision-fournisseur-video-CDN.md) prépare ce choix sans recommandation ni tarif prérempli. Aucune valeur n'est présentée comme mesurée.
