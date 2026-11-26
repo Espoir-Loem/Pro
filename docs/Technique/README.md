@@ -30,16 +30,16 @@ La mise à jour automatique est une contrainte transversale de D-024, décrite d
 
 | Fiche | Question traitée | Déclencheur | Dépendances | Propriétaire | Statut |
 |---|---|---|---|---|---|
-| [adr-001-stack.md](adr-001-stack.md) | Stack retenue `mobile`, `web`, `desktop` et backend, D-009 | Arbitrage A-01 atteint le 25 novembre 2026 | Décision D-009, note `../../memoires/2026-11-25-stack-typescript.md` | Équipe produit et technique, titulaire à nommer | retenue |
+| [adr-001-stack.md](adr-001-stack.md) | Stack retenue `mobile`, `web`, `desktop` et backend, D-009 | Arbitrage A-01 atteint le 25 novembre 2026 | Décision D-009, note `../../memoires/2026-11-25-stack-typescript.md` | Espoir LOEMBA, intérimaire | retenue |
 | [performance.md](performance.md) | Budgets de latence, bande passante, profil R1 proposé et profil R2 desktop arbitré | Avant `architecture.md` et `video.md` | PRD section 10, A-03 | Espoir LOEMBA, intérimaire | R2 arbitré le 26 novembre 2026, R1 proposé |
-| [adr-002-identite-session.md](adr-002-identite-session.md) | Jeton visiteur court, clé par finalité, rotation, liaison à `signup_verified` | Avant FS-01 et la première migration | `performance.md`, `../Product/mesure.md` | à nommer | retenue sur les principes |
-| [menaces.md](menaces.md) | Quatre questions OWASP et six menaces priorisées | Avant `securite.md` et `architecture.md` | `adr-002-identite-session.md` | à nommer | proposée |
-| [architecture.md](architecture.md) | C4 conteneur, lecture séparée de l'écriture, invalidation de cache | Après `adr-001`, avant `video.md` et `api.md` | `menaces.md`, `performance.md` | à nommer | proposée |
+| [adr-002-identite-session.md](adr-002-identite-session.md) | Jeton visiteur court, clé par finalité, rotation, liaison à `signup_verified` | Avant FS-01 et la première migration | `performance.md`, `../Product/mesure.md` | Espoir LOEMBA, intérimaire | retenue sur les principes |
+| [menaces.md](menaces.md) | Quatre questions OWASP et six menaces priorisées | Avant `securite.md` et `architecture.md` | `adr-002-identite-session.md` | Espoir LOEMBA, intérimaire | proposée |
+| [architecture.md](architecture.md) | C4 conteneur, lecture séparée de l'écriture, invalidation de cache | Après `adr-001`, avant `video.md` et `api.md` | `menaces.md`, `performance.md` | Espoir LOEMBA, intérimaire | proposée |
 | [video.md](video.md) | Octets, bitrates, coût pour 1 000 vues, EXIF | Avant FS-02 | `architecture.md`, D-022 retenue | Espoir LOEMBA, intérimaire | proposée, budget inscrit |
-| [api.md](api.md) | Endpoints, réponses sans données privées, limites | Avant FS-04 et FS-08 | `architecture.md`, `adr-002-identite-session.md` | à nommer | proposée |
-| [donnees.md](donnees.md) | Tables, états, transitions et traduction de la conservation | Avant la première migration | `../Conformite/conservation.md`, `adr-002-identite-session.md` | à nommer | proposée |
+| [api.md](api.md) | Endpoints, réponses sans données privées, limites | Avant FS-04 et FS-08 | `architecture.md`, `adr-002-identite-session.md` | Espoir LOEMBA, intérimaire | proposée |
+| [donnees.md](donnees.md) | Tables, états, transitions et traduction de la conservation | Avant la première migration | `../Conformite/conservation.md`, `adr-002-identite-session.md` | Espoir LOEMBA, intérimaire | proposée |
 | [securite.md](securite.md) | Socle de contrôles, jetons, journal d'audit, outils épinglés et ASVS 2 | Avant FS-01 et FS-02, revue avant FS-07 et FS-09 | `menaces.md`, `adr-002-identite-session.md` | Espoir LOEMBA, intérimaire | opposée le 26 novembre 2026 |
-| [observation.md](observation.md) | Événements canoniques, schéma, tableau de bord et alertes | Avant l'implémentation de FS-11 | `../Product/mesure.md`, `adr-002-identite-session.md` | à nommer | proposée |
+| [observation.md](observation.md) | Événements canoniques, schéma, tableau de bord et alertes | Avant l'implémentation de FS-11 | `../Product/mesure.md`, `adr-002-identite-session.md` | Espoir LOEMBA, intérimaire | proposée |
 | [responsabilites.md](responsabilites.md) | RACI des ADR, confidentialité, escalade, signature et budget | Avant la revue de sortie MVP | Toutes les fiches ci-dessus, A-03 et A-13 | Espoir LOEMBA, intérimaire | proposée, titulaires A-03 et A-13 nommés le 26 novembre 2026 |
 
 ## Liens de cadrage

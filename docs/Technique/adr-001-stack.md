@@ -52,7 +52,7 @@ Historique : proposée le 25 novembre 2026, retenue le 25 novembre 2026 ; porté
 
 ## Propriétaire
 
-Équipe produit et technique, titulaire à nommer.
+Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04.
 
 ## Date
 
