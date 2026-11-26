@@ -44,4 +44,4 @@ Le budget CDN est fixé par [D-022](../Product/decisions.md) : 1 000 USD par moi
 
 ## Capacité de modération
 
-Avant ouverture, chaque ville dispose de 1 modérateur de garde et de 1 relecteur joignable, à nommer. Le seuil S2 ajoute 1 modérateur dans la seule ville concernée. Le modèle bénévole ou salarié reste une décision ouverte, à trancher avant ouverture, sans changer les chiffres de capacité ci-dessus.
+Avant ouverture, chaque ville dispose de 1 modérateur de garde et de 1 relecteur joignable, à nommer. Le seuil S2 ajoute 1 modérateur dans la seule ville concernée. La couverture est de 08:00 à 20:00 en heure locale, avec astreinte P1 hors plage, selon A-09 et [astreinte.md](./astreinte.md). Le renfort est bénévole, coopté par le référent ville et encadré selon A-09, sans changer les chiffres de capacité ci-dessus.

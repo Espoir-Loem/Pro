@@ -4,7 +4,7 @@
 **Déclencheur.** File de modération armée avant tout lien public, astreinte nominée avant la première mise en ligne.  
 **Dépendances.** [PRD](../Product/prd.md), [Dictionnaire de mesures](../Product/mesure.md), [Décisions produit](../Product/decisions.md), [Recherche UX](../UX/ux-research.md), [Technique](../Technique/README.md), [Conformité](../Conformite/README.md).  
 **Propriétaire.** Coordinateur des opérations, à nommer. Un référent par ville, à nommer.  
-**Statut.** Procédures écrites, titulaires et numéro d’urgence à nommer, exercice à blanc à passer. Modèle bénévole ou salarié à trancher. Budget CDN inscrit en D-022, capacité de modération à confirmer.
+**Statut.** Procédures écrites, titulaires et numéro d’urgence à nommer, exercice à blanc à passer. Renfort bénévole coopté et encadré retenu en A-09. Budget CDN inscrit en D-022, capacité de modération à confirmer.
 
 **Règle.** La file de modération existe dès le MVP. Brazzaville et Kinshasa sont deux villes distinctes : volumes, garde, incidents et mesures ne sont pas fusionnés. Aucune valeur de l’une n’est extrapolée vers l’autre. La dimension `plateforme` s’ajoute à la ville comme dimension de lecture : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l’application exécutable Windows et macOS, rapide, sans lenteur. Linux est différé. Une coupure peut toucher le client desktop seul. L’exercice à blanc et la montée en charge couvrent les trois clients. Aucun titulaire n’est inventé : les propriétaires restent « à nommer ».
 
@@ -24,7 +24,7 @@ Les fiches [incidents.md](./incidents.md) et [support.md](./support.md) lisent c
 
 ## Décisions à trancher avant ouverture
 
-- Modèle bénévole ou salarié de la modération, point A-09, sans le présenter comme déjà choisi.
+- Renfort bénévole de la modération, coopté par le référent ville et encadré, selon A-09.
 - Ajout des avertissements arnaque à FS-07, dans [veille-arnaque.md](./veille-arnaque.md).
 
 ## Décisions déjà écrites

@@ -505,7 +505,7 @@ La condition 6 est détaillée dans `../Operations/README.md`. La condition 7 es
 
 ## 13. Suivi des décisions et points restants
 
-Aucune question ouverte ne reste au registre au 26 novembre 2026. Les décisions retenues et les arbitrages inscrits sont opposables dans [decisions.md](./decisions.md). Les points restant à lever sont suivis dans [arbitrage.md](./arbitrage.md) selon leur échéance. Les points A-01 à A-08, A-10, A-11 et A-13 sont arbitrés et inscrits ce jour. A-04, A-05, A-08 et A-10 sont inscrits sans numéro D supplémentaire. A-09 et A-12 restent à lever.
+Aucune question ouverte ne reste au registre au 26 novembre 2026. Les décisions retenues et les arbitrages inscrits sont opposables dans [decisions.md](./decisions.md). Les points restant à lever sont suivis dans [arbitrage.md](./arbitrage.md) selon leur échéance. Les points A-01 à A-11 et A-13 sont arbitrés et inscrits ce jour. A-04, A-05, A-08, A-09 et A-10 sont inscrits sans numéro D supplémentaire. A-09 retient la couverture de 08:00 à 20:00 en heure locale avec astreinte P1 hors plage, et le renfort bénévole coopté et encadré. A-12 reste à lever.
 
 | Sujet | Identifiant | Phase | Traitement |
 |---|---|---|---|
@@ -518,7 +518,7 @@ Aucune question ouverte ne reste au registre au 26 novembre 2026. Les décisions
 | Seuil de fil non vide | A-10 arbitrée le 26 novembre 2026 | Ouverture publique | Aucun seuil ; repli immédiat vers le fil général de la ville concernée, sans transposition |
 | Langues à valider avec chaque marché, avec date et responsable inscrits au registre | D-008 | Phases 3 et 4 | À chaque ouverture de marché |
 | Date de lancement | A-05 arbitrée le 26 novembre 2026 | Phase 1 | Aucune date inventée ; date à nommer avant le planning |
-| Modèle bénévole ou salarié de modération | A-09 à lever | Avant ouverture | Décision opérationnelle dans `../Operations/README.md` |
+| Modèle de modération, couverture et renfort | A-09 arbitrée le 26 novembre 2026 | Avant ouverture | Couverture de 08:00 à 20:00 en heure locale, astreinte P1 hors plage et renfort bénévole coopté avec engagement écrit et relecture obligatoire, écrits dans `../Operations/README.md` et `../Operations/astreinte.md` |
 | Seuil et phase d'un éventuel plafond de lecture | à nommer | À trancher | Sans valeur avancée dans ce cadrage ; ce plafond n'est pas le seuil de fil non vide tranché en A-10 |
 | Part du `mobile` modifiable hors binaire natif | A-13 arbitrée le 26 novembre 2026 | Phase 1 | Six catégories fermées servies sans binaire natif, preuves des stores datées dans `./arbitrage.md` |
 
