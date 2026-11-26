@@ -34,4 +34,5 @@ Toute note contient, dans cet ordre :
 - [2026-11-25-titulaire-projet.md](./2026-11-25-titulaire-projet.md), identité du chef de projet et auteur par défaut des publications GitHub.
 - [2026-11-25-outillage-depot.md](./2026-11-25-outillage-depot.md), versions vérifiées de l'outillage du dépôt.
 - [2026-11-26-outils-securite.md](./2026-11-26-outils-securite.md), versions vérifiées des contrôles SCA, SAST, secrets, licences, SBOM et VEX.
+- [2026-11-26-sources-hypotheses-cycle1.md](./2026-11-26-sources-hypotheses-cycle1.md), sources datées derrière H1 à H8 et règle de passage au niveau Élevée.
 - [modele-de-note.md](./modele-de-note.md), modèle à recopier pour une nouvelle note.
