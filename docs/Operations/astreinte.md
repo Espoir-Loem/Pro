@@ -19,6 +19,8 @@ Le canal `astreinte-pro` est le seul canal qui fait foi. Les discussions parall�
 
 Le coordinateur de garde décide et ouvre l’incident. La communication prépare les textes neutres. Les opérations appliquent l’atténuation et tiennent le journal de travail. Aucun nom n’est supposé : chaque titulaire reste « à nommer » tant qu’il n’est pas fourni.
 
+La couverture retenue en A-09 est de 08:00 à 20:00 en heure locale des deux villes. Le modérateur de garde et le relecteur forment le noyau joignable dans cette plage. Une P1 hors de la plage déclenche l'astreinte. Le renfort est bénévole, coopté par le référent ville et encadré, avec engagement écrit et relecture obligatoire. Aucun nom ni numéro n'est inventé.
+
 ## Rotation hebdomadaire
 
 | Période | Ville | Coordinateur | Communication | Opérations |

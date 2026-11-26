@@ -37,9 +37,9 @@ Ordre de prévalence en cas de divergence : `docs/Product/decisions.md`, puis `d
 
 ## 3. Décisions opposables et questions ouvertes
 
-Décisions retenues : D-001 à D-024. Arbitrages inscrits au registre sans numéro D : A-04, A-05, A-08 et A-10.
+Décisions retenues : D-001 à D-024. Arbitrages inscrits au registre sans numéro D : A-04, A-05, A-08, A-09 et A-10.
 
-Questions ouvertes au registre : aucune au 26 novembre 2026. Points A-09 et A-12 à lever selon `docs/Product/arbitrage.md` ; A-01 à A-08, A-10, A-11 et A-13 sont arbitrés. A-04, A-05, A-08 et A-10 sont inscrits dans la section des arbitrages du registre, sans numéro D supplémentaire. Le point A-13 précise la portée mobile de D-024 sans rouvrir D-024.
+Questions ouvertes au registre : aucune au 26 novembre 2026. Point A-12 à lever selon `docs/Product/arbitrage.md` ; A-01 à A-11 et A-13 sont arbitrés. A-04, A-05, A-08, A-09 et A-10 sont inscrits dans la section des arbitrages du registre, sans numéro D supplémentaire. A-09 retient une couverture de 08:00 à 20:00 en heure locale avec astreinte P1 hors plage, et un renfort bénévole coopté par le référent ville avec engagement écrit et relecture obligatoire. Le point A-13 précise la portée mobile de D-024 sans rouvrir D-024.
 
 Aucune question ouverte n'entre dans un sprint avant son inscription au registre avec date, motif, propriétaire, source liée, portée et historique.
 
@@ -59,7 +59,7 @@ Toute demande qui contredit une décision retenue impose une réouverture écrit
 6. D-022 inscrite le 26 novembre 2026 : 1 000 USD par mois, 500 USD par ville, mois civil, seuil de 0,001 USD par vue.
 7. A-13 arbitrée le 26 novembre 2026 : six catégories servies sans binaire natif sur `mobile`, à savoir règles, contenus, textes et traductions, taxonomies, indicateurs de fonctionnalité et valeurs de configuration. Aucun code exécutable téléchargé, retour au binaire natif et au circuit du store si une règle change, preuves Apple et Google consultées le 26 novembre 2026 et propriétaire intérimaire Espoir LOEMBA.
 
-Avant toute ouverture publique, les points A-06, A-07, A-08, A-10 et A-11 sont arbitrés depuis le 26 novembre 2026, le point A-09 doit être arbitré, la file de modération est armée, l'astreinte est nominée et le test à blanc du signalement visiteur jusqu'à la notification d'auteur est réussi. La condition 7 de la définition de terminé exige la preuve de signature, de retour arrière et de non interruption de session sur les trois clients.
+Avant toute ouverture publique, les points A-06 à A-11 sont arbitrés depuis le 26 novembre 2026, la file de modération est armée, l'astreinte est nominée et le test à blanc du signalement visiteur jusqu'à la notification d'auteur est réussi. La condition 7 de la définition de terminé exige la preuve de signature, de retour arrière et de non interruption de session sur les trois clients.
 
 ## 5. Stack retenue, D-009
 
