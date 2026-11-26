@@ -21,7 +21,7 @@ La ligne 1 est satisfaite le 26 novembre 2026 : les sept fiches portent Espoir L
 
 ## Blocages qui ne relèvent pas de l'ordre des fiches
 
-A-12 bloque l'hébergeur, la région de stockage et la première migration. Le conseil local externe n'est pas désigné et aucun hébergeur n'est arrêté. Les prestataires du client `desktop` sont à nommer avant le premier commit de code de stack, selon A-04. La Phase 0 doit écrire l'opportunité retenue avant qu'une histoire entre dans le sprint. Le dénominateur de H1 reste à trancher par décision écrite avant J7.
+A-12 bloque l'hébergeur, la région de stockage et la première migration. Le conseil local externe n'est pas désigné et aucun hébergeur n'est arrêté. Les prestataires du client `desktop` sont à nommer avant le premier commit de code de stack, selon A-04, et la [grille de vérification](../prestataires-desktop.md) prépare cette nomination sans désigner personne. La Phase 0 doit écrire l'opportunité retenue avant qu'une histoire entre dans le sprint. Le dénominateur de H1 reste à trancher par décision écrite avant J7.
 
 ## Ce qui n'est pas une tâche d'architecture
 
