@@ -5,7 +5,7 @@
 
 ## Portée
 
-La vérification d'identité N2 n'est pas dans le MVP. En phase 1, seule l'adresse email est vérifiée, avec l'événement `signup_verified`. La méthode N2 dépend de la décision D-010, ouverte dans le registre produit. Ce document ne choisit pas la méthode.
+La vérification d'identité N2 n'est pas dans le MVP. En phase 1, seule l'adresse email est vérifiée, avec l'événement `signup_verified`. La méthode N2 est décrite par la décision D-010, retenue le 26 novembre 2026 dans le registre produit : vérification à la demande de l'employeur, avec l'email vérifié comme seule preuve. Ce document n'ajoute pas de méthode.
 
 ## Ce que le badge peut et ne peut pas dire
 
@@ -23,4 +23,4 @@ Les données de vérification sont minimales: méthode, date, résultat et réf�
 
 ## Déclencheur et vérification
 
-Cette fiche est relue avant la phase emploi et après l'arbitrage D-010. Un test vérifie qu'aucun badge N2 n'est affiché dans le MVP et que `signup_verified` ne produit pas de badge.
+Cette fiche est relue avant la phase emploi et tient compte de D-010, inscrite au registre le 26 novembre 2026. Un test vérifie qu'aucun badge N2 n'est affiché dans le MVP et que `signup_verified` ne produit pas de badge.
