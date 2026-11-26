@@ -19,6 +19,7 @@ Ce dossier rassemble les modèles et les protocoles prêts à être utilisés pe
 | Journal des désaccords | [desaccords.md](./codage/desaccords.md) | Ouvert, aucun désaccord enregistré |
 | Registre H1 à H8 | [registre-H1-H8.md](./hypotheses/registre-H1-H8.md) | Seuils et validateur repris de la recherche UX, validation en attente |
 | Registre des participants | [README.md](./participants/README.md) | Douze emplacements P1 à P12, aucun attribué |
+| Plan de recrutement | [plan-recrutement.md](./plan-recrutement.md) | Cibles par ville, questionnaire et modèles de message, aucun contact effectué |
 | Modèle de consentement | [consentement-modele.md](./consentements/consentement-modele.md) | À remplir avant toute prise de notes |
 | Modèles de citation | [citation-modele.md](./citations/citation-modele.md), [retrait-modele.md](./citations/retrait-modele.md) | Aucune citation publiée sans relecture |
 | Stimuli RQ1, RQ3 et J8 | [stimuli/](./stimuli/changelog.md) | Ordres et scénarios prêts, adresse de test à fournir |
