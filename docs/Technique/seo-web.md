@@ -3,7 +3,7 @@
 **Version.** 1.
 **Date.** 25 novembre 2026.
 **Statut.** Règles de cadrage, sans code applicatif. Les cibles, les sources et les fréquences sont arrêtées le 26 novembre 2026 à titre intérimaire.
-**Périmètre.** Client web uniquement. Le mobile et le desktop suivent leurs propres règles de découverte.
+**Périmètre.** Client web uniquement. Le mobile et le desktop suivent leurs propres règles de découverte. Le [protocole de contrôle](../../research_notes/Sprint-1/controle-seo.md) prépare le passage de cette checklist sur un rendu réel, sans contrôle exécuté ni résultat avancé.
 
 ## 1. Principes
 
