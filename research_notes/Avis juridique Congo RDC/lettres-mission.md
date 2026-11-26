@@ -98,4 +98,4 @@ Espoir LOEMBA, titulaire intérimaire du projet
 
 ## Réception des deux avis
 
-Les deux mémoires sont archivés séparément avec la date de réception et le nom du conseil. A-12 n est levée qu après confrontation écrite des deux qualifications avec les faits propres à Pro et avec les divergences conservées dans la synthèse. Aucun hébergeur, aucune région de stockage et aucune première migration ne sont décidés avant cette confrontation.
+Les deux mémoires sont archivés séparément avec la date de réception et le nom du conseil. A-12 n est levée qu après confrontation écrite des deux qualifications avec les faits propres à Pro et avec les divergences conservées dans la synthèse. La [grille de confrontation](./confrontation-avis.md) prépare cette lecture sans avancer de réponse. Aucun hébergeur, aucune région de stockage et aucune première migration ne sont décidés avant cette confrontation.
