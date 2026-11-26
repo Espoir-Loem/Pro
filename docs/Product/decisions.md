@@ -1,6 +1,6 @@
 # Pro : registre des décisions produit
 
-**Statut** : version 6, 26 novembre 2026  
+**Statut** : version 7, 26 novembre 2026  
 **Règle** : une décision n'est pas une préférence. Elle a une date, un motif, un propriétaire, une source liée et une portée. Toute révision est tracée dans la colonne Historique.  
 **Langues** : Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.  
 **Documents liés** : [Vision](./vision.md), [PRD](./prd.md), [Roadmap](./roadmap.md), [Mesure](./mesure.md), [Modèle ADR](../Technique/README.md)
@@ -40,6 +40,7 @@ Les décisions retenues sont opposables. Les questions ouvertes figurent dans un
 | D-019 | Aucun classement payant dans la recherche ; offres signalées éventuelles hors recherche et en phase 5 | retenue | 25 novembre 2026 | La position dans une recherche ne doit pas s'acheter, même lorsqu'un niveau payant existera | Équipe produit | [Manifeste, point 8](./manifeste.md), [Roadmap, phase 5](./roadmap.md) | Toutes les phases | Inscrite le 25 novembre 2026 |
 | D-020 | La mesure à sept jours porte sur les comptes ayant un email vérifié. Aucune cohorte visiteur à sept jours n'est calculée, puisqu'aucun identifiant permanent visiteur n'est conservé. | retenue | 25 novembre 2026 | Aucun identifiant permanent visiteur n'est conservé, donc un retour visiteur à J7 est impossible sans créer un suivi interdit par D-012 | Équipe produit | [Vision, section 8](./vision.md), [Mesure](./mesure.md) | Phase 1 et suivantes | Inscrite le 25 novembre 2026 |
 | D-021 | Les vidéos avec son du MVP disposent de sous-titres générés automatiquement et corrigés par l'auteur avant publication. Si la correction n'est pas faite, la vidéo reste en brouillon et n'est pas publiée. | retenue | 25 novembre 2026 | WCAG 2.2 SC 1.2.2, niveau A | Équipe produit et design, titulaire à nommer | [PRD, FS-02 et FS-05](./prd.md), [W3C WCAG 2.2 SC 1.2.2](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html) | Phase 1 et suivantes | Inscrite le 25 novembre 2026 |
+| D-022 | Enveloppe mensuelle de 1 000 USD pour le CDN et la modération, répartie en 500 USD pour Brazzaville et 500 USD pour Kinshasa. La devise est USD, la fenêtre est le mois civil et le seuil est de 0,001 USD par vue, lu séparément par ville. La décision est révisée après 30 jours d'exploitation. Le fournisseur CDN n'est pas choisi par cette décision. | retenue | 26 novembre 2026 | Le budget doit cadrer le coût vidéo et la capacité de modération sans présenter une valeur mesurée comme acquise | Espoir LOEMBA, intérimaire | Décision du porteur du 26 novembre 2026, [Arbitrage A-02](./arbitrage.md), [Technique/video.md](../Technique/video.md), [Opérations/montee-en-charge.md](../Operations/montee-en-charge.md) | Phase 1, avant FS-02 | Question ouverte le 25 novembre 2026, arbitrée et inscrite le 26 novembre 2026, version 1 |
 | D-023 | Client desktop exécutable Windows et macOS, léger et rapide, sans attente perceptible | retenue | 25 novembre 2026 | Référence de rapidité de type Telegram donnée par le porteur du produit, sans recopier de chiffre non vérifié | Équipe produit et technique, titulaire à nommer | Demande du 25 novembre 2026, [PRD, section 9](./prd.md) | Phase 1 | Inscrite le 25 novembre 2026 |
 | D-024 | Mise à jour automatique des clients, sans dépendance à un cycle de validation de store pour ce qui peut être servi hors binaire natif | retenue | 25 novembre 2026 | Le porteur demande des applications qui restent à jour sans attendre un passage par le store ; la réactivité sans attente perceptible comprend la correction rapide des défauts | Équipe produit et technique, titulaire à nommer | Demande du 25 novembre 2026, [PRD, section 10.1](./prd.md) | Phase 1 et suivantes, sur `mobile`, `web` et `desktop` | Inscrite le 25 novembre 2026 |
 
@@ -47,15 +48,11 @@ Conséquences de D-023 : Linux différé, taille installateur, démarrage à fro
 
 Conséquences de D-024 : le web est mis à jour côté serveur, le client desktop applique un paquet signé vérifié avec retour à la version précédente, et la part du mobile modifiable hors binaire natif est listée par écrit avant le sprint 1 au point A-13 de [arbitrage.md](./arbitrage.md). Aucune règle de store n'est affirmée dans ce registre sans validation. Aucune mise à jour ne coupe une session en cours, ne contourne la modération et ne crée d'identifiant permanent pour le visiteur.
 
-Conséquences de D-009 : Node 26 LTS est la base de compilation, Node 27 alpha est interdit, Expo SDK 58 et React Native 0.88 sont retenus avec un minimum Node 22.13.x. Aucune dépendance en `latest`, `canary`, `beta`, `rc` ou alpha n'est acceptée. Les contrats entre clients et backend sont typés et partagés. Le stockage objet compatible S3 et le CDN restent derrière une interface, avec fournisseur après D-022. Le périmètre mobile modifiable hors binaire natif reste précisé en A-13. La coque Rust du desktop ne porte que la signature, l'installateur et la mise à jour.
+Conséquences de D-009 : Node 26 LTS est la base de compilation, Node 27 alpha est interdit, Expo SDK 58 et React Native 0.88 sont retenus avec un minimum Node 22.13.x. Aucune dépendance en `latest`, `canary`, `beta`, `rc` ou alpha n'est acceptée. Les contrats entre clients et backend sont typés et partagés. Le stockage objet compatible S3 et le CDN restent derrière une interface, avec fournisseur dans le cadre du budget D-022. Le périmètre mobile modifiable hors binaire natif reste précisé en A-13. La coque Rust du desktop ne porte que la signature, l'installateur et la mise à jour.
 
 ## Questions ouvertes
 
-Cette ligne n'est pas une décision. Elle reste hors sprint jusqu'à son arbitrage et son inscription dans la table des décisions retenues. Le porteur a retenu un principe intérimaire le 25 novembre 2026, consigné dans [arbitrage.md](./arbitrage.md). Ce principe ne ferme pas la question : les montants exacts restent à écrire avant l'entrée en phase.
-
-| Identifiant | Question ouverte | Responsable | Phase | Déclencheur | Date cible |
-|---|---|---|---|---|---|
-| D-022 | Budget CDN et modération, avec seuil de coût par vue à fixer | Espoir LOEMBA, intérimaire | Phase 1, avant FS-02 | Avant `video.md` dans `../Technique/README.md` et la montée en charge dans `../Operations/README.md` | à nommer, avant le gel de `video.md` et la montée en charge |
+Aucune question ouverte au registre au 26 novembre 2026. Les points A-03, A-04, A-05, A-08, A-09, A-10, A-12 et A-13 restent à lever dans [arbitrage.md](./arbitrage.md) selon leur échéance, sans rouvrir une décision retenue.
 
 ## Comment rouvrir une décision
 

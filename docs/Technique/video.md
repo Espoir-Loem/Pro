@@ -13,7 +13,7 @@
 | 480p | 1,0 Mbit/s | environ 7,5 Mo | défaut web proposé et défaut desktop proposé |
 | 720p | 1,8 Mbit/s | environ 13,5 Mo | réseau rapide, compte ou visiteur selon budget |
 
-Le défaut desktop proposé est 480p, soit 1,0 Mbit/s et environ 7,5 Mo pour 60 secondes. Il reste cohérent avec les bitrates ci-dessus et avec le budget du fil de `performance.md`. Sur profil R1 ou sur réseau limité, le client desktop ne force pas la haute qualité : la qualité s'adapte vers 360p ou 240p selon la règle de qualité automatique. Le rendu 720p n'est servi que lorsque le réseau et le budget le permettent, sans choix entre compte et visiteur hors arbitrage D-022.
+Le défaut desktop proposé est 480p, soit 1,0 Mbit/s et environ 7,5 Mo pour 60 secondes. Il reste cohérent avec les bitrates ci-dessus et avec le budget du fil de `performance.md`. Sur profil R1 ou sur réseau limité, le client desktop ne force pas la haute qualité : la qualité s'adapte vers 360p ou 240p selon la règle de qualité automatique. Le rendu 720p n'est servi que lorsque le réseau et le budget le permettent, dans le cadre de D-022, sans choix entre compte et visiteur.
 
 Le transcodage se fait dans la file asynchrone. Le téléversement ne dépose que l'objet source. Le retrait des métadonnées EXIF, y compris GPS, est appliqué avant le stockage de toute version consultable. Test : un fichier source contenant une coordonnée GPS produit un objet sans cette coordonnée.
 
@@ -23,12 +23,12 @@ Formule à remplir avec le tarif retenu :
 
 `cout pour 1 000 vues = (octets factures par vue x 1 000 / 1 000 000 000) x tarif convenu par Go + part du transcodage + part du stockage`
 
-Le tarif, le fournisseur, la région et la période de facturation ne sont pas connus. Le budget CDN reste une décision ouverte inscrite au registre produit sous [D-022](../Product/decisions.md). Aucun ordre de grandeur externe n'est présenté comme un coût de Pro.
+Le tarif, le fournisseur et la région ne sont pas connus. La devise est USD, la fenêtre est le mois civil et l'enveloppe est de 1 000 USD par mois, répartie en 500 USD pour Brazzaville et 500 USD pour Kinshasa, selon [D-022](../Product/decisions.md). Le seuil est de 0,001 USD par vue, soit 1 USD pour 1 000 vues, lu séparément par ville. Aucun ordre de grandeur externe n'est présenté comme un coût mesuré de Pro.
 
 | Mesure | Cible proposée | Statut |
 |---|---|---|
 | Octets facturés par 1 000 vues | à mesurer sur le profil R1 | à confirmer |
-| Coût pour 1 000 vues | à calculer après D-022 | à trancher |
+| Coût pour 1 000 vues | au plus 1 USD, seuil D-022 | décision retenue le 26 novembre 2026 |
 | Taux de hit cache | au moins 85 % | à confirmer |
 | Part des vues en qualité réduite | au plus 20 % sur le profil R1 | à confirmer |
 
@@ -38,4 +38,4 @@ Le préchargement s'arrête à dix vidéos. Le mode faible consommation désacti
 
 ## Déclencheur
 
-Cette fiche précède FS-02. Elle ne choisit ni fournisseur ni format de manifeste : `adr-001-stack.md` retient le stockage objet compatible S3 et le CDN derrière une interface, tandis que le fournisseur et le coût dépendent de D-022. Aucune valeur n'est présentée comme mesurée.
+Cette fiche précède FS-02. Elle ne choisit ni fournisseur ni format de manifeste : `adr-001-stack.md` retient le stockage objet compatible S3 et le CDN derrière une interface. Le fournisseur reste à choisir dans le cadre de D-022, qui fixe le coût maximal. Aucune valeur n'est présentée comme mesurée.

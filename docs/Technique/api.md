@@ -16,7 +16,7 @@
 | Messages | `GET /messages`, `POST /messages` | Compte requis, contrôle de `block` avant envoi |
 | Inscription vérifiée | `POST /signup/verify` | Émet `signup_verified`, aucun rattachement rétroactif |
 
-Les noms de chemins sont des propositions. Le framework est retenu en D-009 : NestJS et TypeScript, avec validation des contrats partagés dans `packages/domain`. Le format de sérialisation est fixé par ces contrats. L'hébergeur dépend de A-12 et du budget D-022, sans choix dans cette fiche.
+Les noms de chemins sont des propositions. Le framework est retenu en D-009 : NestJS et TypeScript, avec validation des contrats partagés dans `packages/domain`. Le format de sérialisation est fixé par ces contrats. L'hébergeur dépend de A-12 et le fournisseur CDN reste dans le cadre du budget D-022, sans choix dans cette fiche.
 
 ## Données absentes des réponses
 

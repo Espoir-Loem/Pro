@@ -47,7 +47,7 @@ La stack est retenue en D-009. Les autres lignes n'ont pas le statut « retenu �
 |---|---|---|---|---|
 | Équipe | 2 à 3 développeurs, 1 designer, 1 personne produit à temps partiel | Confirmation par le planning | Effectif à confirmer par écrit | Avant le planning |
 | Durée du MVP | 8 à 12 semaines | Confirmation par le planning | Durée à confirmer par écrit | Avant le planning |
-| Budget CDN et modération | Non communiqué | Décision D-022 au registre | Seuil de coût par vue à fixer après décision budgétaire inscrite au registre | Avant `video.md` dans `../Technique/README.md` |
+| Budget CDN et modération | 1 000 USD par mois, 500 USD par ville | D-022 retenue le 26 novembre 2026 | 0,001 USD par vue, lu séparément par ville, fenêtre de mois civil | Inscrite avant `video.md` dans `../Technique/README.md` |
 | Stack `mobile`, `web` et `desktop` | Retenue en D-009 | ADR unique décrit dans `../Technique/adr-001-stack.md` | Tout TypeScript, versions LTS, zéro CVE connue non traitée au merge et à la release | Avant le premier sprint |
 | H1 à H8 | Registre d'hypothèses de la recherche UX | Phase 0, seuils chiffrés et validateurs nommés dans `./roadmap.md` | Confirmation ou infirmation selon les seuils | Sortie de la Phase 0 |
 | Opportunité du premier sprint | Une seule opportunité O1 à O5 | Arbre d'opportunités, compte rendu de J10 | Identifiant O écrit | Sortie de la Phase 0 |
@@ -87,7 +87,7 @@ Les vidéos avec son ne sont pas exclues du MVP : elles suivent la règle de sou
 
 ### 3.3 Dépendances externes
 
-Le MVP a besoin de quatre services extérieurs : stockage d'objets, CDN avec transcoding adaptatif, service de notifications push et service d'envoi d'emails de vérification. Le choix entre services gérés et auto-hébergés sera fait dans l'ADR décrit dans `../Technique/README.md`. Le budget qui conditionne ces choix est une question ouverte D-022, tranchée avant `video.md`.
+Le MVP a besoin de quatre services extérieurs : stockage d'objets, CDN avec transcoding adaptatif, service de notifications push et service d'envoi d'emails de vérification. Le choix entre services gérés et auto-hébergés sera fait dans l'ADR décrit dans `../Technique/README.md`. Le budget qui conditionne ces choix est inscrit en D-022 : 1 000 USD par mois et un seuil de 0,001 USD par vue, lu séparément par ville.
 
 ## 4. Rôles et tâches à accomplir
 
@@ -496,22 +496,22 @@ La condition 6 est détaillée dans `../Operations/README.md`. La condition 7 es
 | Risque | Effet | Mesure |
 |---|---|---|
 | Fil vide au lancement | Les visiteurs repartent avant de s'inscrire | Recruter des créateurs sur quelques métiers avant l'ouverture publique, selon `../Growth/README.md` |
-| Coût de la vidéo | La facture CDN dépasse le budget choisi | Transcoding adaptatif, plafond de préchargement, seuil de coût par vue à fixer après décision budgétaire inscrite au registre (D-022) |
+| Coût de la vidéo | La facture CDN dépasse l'enveloppe inscrite en D-022 | Transcoding adaptatif, plafond de préchargement, seuil de 0,001 USD par vue inscrit en D-022 et lu par ville |
 | Comptes fictifs | La confiance s'effondre dans le chat | Vérification d'email, limites de vitesse, signalement dès le MVP |
 | Inscription trop tôt | La portée du réseau reste faible | Tester le parcours visiteur contre un mur de connexion au lancement, selon `./experimentation.md` |
 | File de modération saturée | Les vidéos restent en attente | Prioriser par motif, alerte avec destinataire nommé et montée en charge décrite dans `../Operations/README.md` |
 | Stack retenue mal appliquée | Le chantier diverge du cadre validé | Respecter D-009 et `../Technique/adr-001-stack.md`, revue en CI et contrôle des versions LTS |
 | Cycle de validation des stores | Une correction mobile attend un guichet externe | Règles, contenus et éléments autorisés servis côté serveur ; portée exacte validée en A-13 ; binaire natif soumis au circuit du store |
 
-## 13. Questions ouvertes
+## 13. Suivi des décisions et points restants
 
-Ces points sont enregistrés dans le [registre des décisions](./decisions.md), table « Questions ouvertes ». Ceux de la Phase 1 sont tranchés avant le premier sprint ; les autres restent hors MVP jusqu'à leur phase.
+Aucune question ouverte ne reste au registre au 26 novembre 2026. Les décisions retenues sont opposables dans [decisions.md](./decisions.md) et les points restant à lever sont suivis dans [arbitrage.md](./arbitrage.md) selon leur échéance.
 
-| Question ouverte | Identifiant | Phase | Traitement |
+| Sujet | Identifiant | Phase | Traitement |
 |---|---|---|---|
 | Règle N2 pour les candidatures, vérification à la demande de l'employeur | D-010 retenue le 26 novembre 2026 | Phase 2, hors MVP | Avant l'ouverture des offres |
 | Niveau organisations payant `Organisation Avancée`, privilèges définis | D-011 retenue le 26 novembre 2026 | Phase 5 | Avant la conception du niveau payant |
-| Budget CDN et modération, avec seuil de coût par vue à fixer | D-022 | Phase 1, avant FS-02 | Avant `video.md` et la montée en charge |
+| Budget CDN et modération, 1 000 USD par mois et 0,001 USD par vue | D-022 retenue le 26 novembre 2026 | Phase 1, avant FS-02 | Inscrite avant `video.md` et la montée en charge |
 | Langues à valider avec chaque marché, avec date et responsable inscrits au registre | D-008 | Phases 3 et 4 | À chaque ouverture de marché |
 | Date de lancement | à nommer | Phase 1 | Avant le planning |
 | Modèle bénévole ou salarié de modération | à nommer | Avant ouverture | Décision opérationnelle dans `../Operations/README.md` |

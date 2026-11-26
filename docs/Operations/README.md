@@ -4,7 +4,7 @@
 **Déclencheur.** File de modération armée avant tout lien public, astreinte nominée avant la première mise en ligne.  
 **Dépendances.** [PRD](../Product/prd.md), [Dictionnaire de mesures](../Product/mesure.md), [Décisions produit](../Product/decisions.md), [Recherche UX](../UX/ux-research.md), [Technique](../Technique/README.md), [Conformité](../Conformite/README.md).  
 **Propriétaire.** Coordinateur des opérations, à nommer. Un référent par ville, à nommer.  
-**Statut.** Procédures écrites, titulaires et numéro d’urgence à nommer, exercice à blanc à passer. Modèle bénévole ou salarié à trancher. Budget CDN à fixer après D-022.
+**Statut.** Procédures écrites, titulaires et numéro d’urgence à nommer, exercice à blanc à passer. Modèle bénévole ou salarié à trancher. Budget CDN inscrit en D-022, capacité de modération à confirmer.
 
 **Règle.** La file de modération existe dès le MVP. Brazzaville et Kinshasa sont deux villes distinctes : volumes, garde, incidents et mesures ne sont pas fusionnés. Aucune valeur de l’une n’est extrapolée vers l’autre. La dimension `plateforme` s’ajoute à la ville comme dimension de lecture : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l’application exécutable Windows et macOS, rapide, sans lenteur. Linux est différé. Une coupure peut toucher le client desktop seul. L’exercice à blanc et la montée en charge couvrent les trois clients. Aucun titulaire n’est inventé : les propriétaires restent « à nommer ».
 
@@ -25,11 +25,12 @@ Les fiches [incidents.md](./incidents.md) et [support.md](./support.md) lisent c
 ## Décisions à trancher avant ouverture
 
 - Modèle bénévole ou salarié de la modération, sans le présenter comme déjà choisi.
-- Budget CDN et coût maximal pour 1 000 vidéos vues, après arbitrage D-022 dans [decisions.md](../Product/decisions.md).
 - Seuil de fil non vide, dans [lanceurs-metiers.md](../Growth/lanceurs-metiers.md).
 - Ajout des avertissements arnaque à FS-07, dans [veille-arnaque.md](./veille-arnaque.md).
 
-## Décision déjà écrite
+## Décisions déjà écrites
+
+Le budget CDN et modération est inscrit dans [decisions.md](../Product/decisions.md) au point D-022 : 1 000 USD par mois, répartis en 500 USD pour Brazzaville et 500 USD pour Kinshasa, sur le mois civil. Le seuil est de 0,001 USD par vue, lu séparément par ville, soit 1 USD pour 1 000 vues. La décision est révisée après 30 jours d’exploitation et ne choisit pas le fournisseur CDN.
 
 Le recours du signalant visiteur est une **absence de recours écrite**, écrite dans [contestation.md](./contestation.md). Aucun recours anonyme n’est ouvert en parallèle.
 
