@@ -52,7 +52,7 @@ Toute mesure peut être ventilée par une à quatre de ces dimensions. La dimens
 
 ## Règles d'alerte
 
-Les seuils chiffrés sont ceux de [kpi.md](./kpi.md), arrêtés le 26 novembre 2026 à titre intérimaire. Le seuil de coût vidéo reste lié à la décision budgétaire D-022 et n'est pas inventé ici. Une alerte n'est actionnable que si les cinq champs ci-dessous sont renseignés.
+Les seuils chiffrés sont ceux de [kpi.md](./kpi.md), arrêtés le 26 novembre 2026 à titre intérimaire. Le seuil de coût vidéo est de 0,001 USD par vue, inscrit en D-022 et lu séparément par ville. Une alerte n'est actionnable que si les cinq champs ci-dessous sont renseignés.
 
 | Alerte | Condition de déclenchement | Destination | Action | Délai |
 |---|---|---|---|---|
@@ -62,7 +62,7 @@ Les seuils chiffrés sont ceux de [kpi.md](./kpi.md), arrêtés le 26 novembre 2
 | Retour des comptes en baisse | Retour à sept jours des comptes vérifiés sous 20 % | Espoir LOEMBA, intérimaire, responsable produit | Contrôler que la cohorte ne contient aucun visiteur et que `signup_verified` est bien l'email vérifié | 2 jours ouvrés |
 | File de modération sous tension | Délai de première décision supérieur à 4 heures, ou `queue_depth` supérieur à 50, ou `report_age` supérieur à 24 heures | Espoir LOEMBA, intérimaire, astreinte | Appliquer la matrice de priorité et escalader selon la journée type | 4 heures |
 | Contestations en hausse | Taux de contestation supérieur à 5 % ou taux de renversement supérieur à 10 % | Espoir LOEMBA, intérimaire, relecteur | Relire les motifs de décision et la table `appeal` ; prévoir un second relecteur | 1 jour ouvré |
-| Coût vidéo hors cadre | Coût par vue supérieur au seuil fixé par D-022, par marché | Espoir LOEMBA, intérimaire, responsable technique | Appliquer la montée en charge décrite dans `../Operations/README.md` et le profil vidéo de `../Technique/README.md` | 1 jour ouvré |
+| Coût vidéo hors cadre | Coût par vue supérieur à 0,001 USD, seuil D-022 lu par ville puis par marché | Espoir LOEMBA, intérimaire, responsable technique | Appliquer la montée en charge décrite dans `../Operations/README.md` et le profil vidéo de `../Technique/README.md` | 1 jour ouvré |
 
 Une alerte franchie pendant un test déclenche la règle d'arrêt de `./experimentation.md` avant toute lecture de la métrique primaire. Une alerte sans propriétaire nommé n'est pas considérée comme traitée.
 
