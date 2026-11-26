@@ -45,7 +45,7 @@ Mode d'inscription : email vérifié en phase 1. Téléphone et connexion social
 Nous fixons des objectifs que nous n'atteignons pas encore. Un fil qui fonctionne aujourd'hui doit être meilleur demain. Nous testons, nous mesurons, nous corrigeons, et nous acceptons d'avoir tort. Les hypothèses infirmées sont écrites au registre, pas effacées.
 
 **13. Une correction n'attend pas un guichet.**  
-Nous livrons ce qui peut être servi sans passer par une validation de store, sur `mobile`, `web` et `desktop`. Le binaire natif suit les règles applicables, à valider par écrit avant le premier sprint. Une mise à jour ne coupe pas une session, ne contourne pas la modération et ne crée pas d'identifiant d'appareil. Décision D-024, portée mobile précisée au point A-13 de la [grille d'arbitrage](./arbitrage.md).
+Nous livrons ce qui peut être servi sans passer par une validation de store, sur `mobile`, `web` et `desktop`. Sur mobile, six catégories sont servies sans binaire natif : règles, contenus, textes et traductions, taxonomies, indicateurs de fonctionnalité et valeurs de configuration. Aucun code exécutable n'est téléchargé. Le binaire natif suit le circuit du store et nous y revenons si une règle change. Une mise à jour ne coupe pas une session, ne contourne pas la modération et ne crée pas d'identifiant d'appareil. Décision D-024, portée arbitrée le 26 novembre 2026 au point A-13 de la [grille d'arbitrage](./arbitrage.md).
 
 Les trois clients sont livrés ensemble : `mobile`, `web` et `desktop`. La dimension `plateforme` prend les valeurs `mobile`, `web` et `desktop`, définies ainsi :
 
@@ -53,7 +53,7 @@ Les trois clients sont livrés ensemble : `mobile`, `web` et `desktop`. La dimen
 - `web` : site responsive dans un navigateur, utilisé sur ordinateur et tablette.
 - `desktop` : application exécutable installée sur Windows et macOS. Linux est différé et non spécifié en phase 1.
 
-Nous voulons la même réactivité sur ces trois clients, sans attendre que le réseau ou l'appareil décide à notre place. La référence de rapidité donnée par le porteur du produit est écrite au registre sans chiffre recopié (D-023).
+Nous voulons la même réactivité sur ces trois clients, sans attendre que le réseau ou l'appareil décide à notre place. La référence de rapidité donnée par le porteur du produit est écrite au registre sans chiffre recopié (D-023). Les cinq cibles de revue du desktop sont arrêtées le 26 novembre 2026 par A-03, sur machine modeste Windows 11 et macOS supportés à 2 cœurs et 4 Go de RAM avec SSD, avec revue prévue le 26 décembre 2026. Aucune valeur n'est présentée comme mesurée.
 
 ## Ce que nous refusons
 

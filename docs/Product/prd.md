@@ -1,6 +1,6 @@
 # Pro : cahier des charges produit, MVP
 
-**Statut** : version 4, 25 novembre 2026  
+**Statut** : version 5, 26 novembre 2026  
 **Périmètre** : phase 1, MVP  
 **Documents liés** : [Vision](./vision.md), [Manifeste](./manifeste.md), [Décisions](./decisions.md), [Mesure](./mesure.md), [Expérimentation](./experimentation.md), [Tableau de bord](./tableau-de-bord.md), [Grille de relecture](../Redaction/ia-defauts-et-tips.md), [Parcours](../UX/userflow.md), [Histoires](../UX/userstories.md)
 
@@ -30,7 +30,7 @@ Ces lignes ne sont pas des hypothèses. Leur statut est celui du [registre des d
 |---|---|---|---|
 | Périmètre fil, profils, publication, chat, recherche, modération de base | D-003 | Phase 1 | FS-01 à FS-11 |
 | Les clients `mobile`, `web` et `desktop` livrés ensemble | D-004 | Phase 1 | Chaque FS est validée sur les trois plateformes |
-| Client desktop exécutable Windows et macOS, léger et rapide, sans attente perceptible | D-023 | Phase 1 | Cibles de revue à confirmer avant le sprint 1, section 9 |
+| Client desktop exécutable Windows et macOS, léger et rapide, sans attente perceptible | D-023 | Phase 1 | Cinq cibles de revue arbitrées le 26 novembre 2026 par A-03, section 9.1 |
 | Gratuité des phases 1 à 4, niveau payant en phase 5 | D-005 | Phases 1 à 4 | Aucun privilège payant dans le MVP |
 | Premier marché, deux Congo | D-007 | Phase 0 à 4 | Taxonomie initiale calibrée sur les deux villes |
 | Langues validées marché par marché, aucune autre langue datée | D-008 | Toutes les phases | Français dans le MVP |
@@ -422,17 +422,17 @@ Une vidéo `removed` reste dans le stockage le temps du délai de contestation, 
 
 ### 9.1 Client desktop
 
-Le client desktop est livré dans le MVP avec `mobile` et `web`, selon D-004 et D-023. Les cibles ci-dessous sont proposées et marquées à confirmer avant le sprint 1. Aucune n'est présentée comme mesurée.
+Le client desktop est livré dans le MVP avec `mobile` et `web`, selon D-004 et D-023. A-03 est arbitrée le 26 novembre 2026 : les cinq cibles ci-dessous sont des cibles de revue, aucune n'est présentée comme mesurée.
 
-| Cible proposée | Valeur proposée | Statut |
+| Cible de revue | Valeur | Condition |
 |---|---|---|
-| Démarrage à froid jusqu'au fil interactif | Moins de 2 secondes sur machine de référence à définir | À confirmer avant le sprint 1 |
-| Changement de vue locale | Moins de 100 ms | À confirmer avant le sprint 1 |
-| Première image vidéo | Moins de 300 ms sur profil R1 | À confirmer avant le sprint 1 |
-| Consommation mémoire au repos | Sous 150 Mo | À confirmer avant le sprint 1 |
-| Taille de l'installateur | Sous 80 Mo | À confirmer avant le sprint 1 |
+| Démarrage à froid jusqu'au fil interactif | Moins de 2 secondes | Machine R2, Windows 11 et macOS supportés séparés, p75 sur 30 lancements |
+| Changement de vue locale | Moins de 100 ms | Machine R2, Windows et macOS séparés |
+| Première image vidéo | Moins de 300 ms | Profil R1, cache froid et cache chaud séparés |
+| Consommation mémoire au repos | Sous 150 Mo | Machine R2, Windows et macOS séparés |
+| Taille de l'installateur | Sous 80 Mo | Windows et macOS séparés |
 
-Ces cibles de revue découlent de la référence de rapidité donnée par le porteur du produit, sans chiffre recopié ni résultat revendiqué. La machine de référence et le profil R1 sont précisés dans `../Technique/README.md` avant confirmation. Linux reste différé et non spécifié en phase 1.
+La machine R2 retenue est volontairement modeste : Windows 11 et macOS en version supportée, 2 cœurs, 4 Go de RAM et SSD. La méthode porte sur 30 lancements à froid par système, le p75 et des traces jointes. La revue est prévue le 26 décembre 2026. Ces cibles découlent de la référence de rapidité donnée par le porteur du produit, sans chiffre recopié ni résultat revendiqué. Le profil R1 reste une proposition décrite dans `../Technique/performance.md`. Linux reste différé et non spécifié en phase 1.
 
 ## 10. Exigences non fonctionnelles
 
@@ -461,13 +461,13 @@ Ces cibles de revue découlent de la référence de rapidité donnée par le por
 
 ### 10.1 Mise à jour automatique des clients
 
-La règle D-024 s'applique aux trois clients. Elle vise à livrer une correction sans attendre un cycle de validation de store quand le changement peut être servi autrement. Aucune règle de store n'est supposée connue : la part modifiable hors binaire natif sur `mobile` est écrite au point A-13 de `./arbitrage.md` avant le sprint 1.
+La règle D-024 s'applique aux trois clients. Elle vise à livrer une correction sans attendre un cycle de validation de store quand le changement peut être servi autrement. A-13 est arbitrée le 26 novembre 2026 : la part modifiable hors binaire natif sur `mobile` est une liste fermée de six catégories, avec les deux preuves de store datées dans `./arbitrage.md`.
 
 | Client | Chemin de mise à jour | Limite écrite |
 |---|---|---|
 | `web` | Déploiement côté serveur, visible à la navigation suivante | La session en cours continue sur la version chargée, sans perte de sauvegarde ni de message en cours |
 | `desktop` | Paquet signé téléchargé en arrière-plan, appliqué au redémarrage ou au lancement suivant | Signature et intégrité vérifiées avant installation ; retour à la version précédente si la vérification échoue ; démarrage et mémoire restent dans les cibles de la section 9.1 |
-| `mobile` | Règles, contenus et éléments d'interface autorisés servis côté serveur | Tout changement de binaire natif suit le circuit du store selon les règles validées en A-13 ; aucune mise à jour n'est présentée comme possible hors de ces règles |
+| `mobile` | Six catégories servies côté serveur : règles, contenus, textes et traductions, taxonomies, indicateurs de fonctionnalité et valeurs de configuration | Aucun code exécutable téléchargé ; tout changement de binaire natif suit le circuit du store ; retour au binaire natif si une règle de store change, selon A-13 |
 
 Règles communes :
 
@@ -501,11 +501,11 @@ La condition 6 est détaillée dans `../Operations/README.md`. La condition 7 es
 | Inscription trop tôt | La portée du réseau reste faible | Tester le parcours visiteur contre un mur de connexion au lancement, selon `./experimentation.md` |
 | File de modération saturée | Les vidéos restent en attente | Prioriser par motif, alerte avec destinataire nommé et montée en charge décrite dans `../Operations/README.md` |
 | Stack retenue mal appliquée | Le chantier diverge du cadre validé | Respecter D-009 et `../Technique/adr-001-stack.md`, revue en CI et contrôle des versions LTS |
-| Cycle de validation des stores | Une correction mobile attend un guichet externe | Règles, contenus et éléments autorisés servis côté serveur ; portée exacte validée en A-13 ; binaire natif soumis au circuit du store |
+| Cycle de validation des stores | Une correction mobile attend un guichet externe | Six catégories servies côté serveur selon A-13, arbitrée le 26 novembre 2026 ; binaire natif soumis au circuit du store |
 
 ## 13. Suivi des décisions et points restants
 
-Aucune question ouverte ne reste au registre au 26 novembre 2026. Les décisions retenues sont opposables dans [decisions.md](./decisions.md) et les points restant à lever sont suivis dans [arbitrage.md](./arbitrage.md) selon leur échéance.
+Aucune question ouverte ne reste au registre au 26 novembre 2026. Les décisions retenues sont opposables dans [decisions.md](./decisions.md) et les points restant à lever sont suivis dans [arbitrage.md](./arbitrage.md) selon leur échéance. Les points A-03 et A-13 sont arbitrés ce jour et inscrits au registre.
 
 | Sujet | Identifiant | Phase | Traitement |
 |---|---|---|---|
@@ -516,7 +516,7 @@ Aucune question ouverte ne reste au registre au 26 novembre 2026. Les décisions
 | Date de lancement | à nommer | Phase 1 | Avant le planning |
 | Modèle bénévole ou salarié de modération | à nommer | Avant ouverture | Décision opérationnelle dans `../Operations/README.md` |
 | Seuil et phase d'un éventuel plafond de lecture | à nommer | À trancher | Sans valeur avancée dans ce cadrage |
-| Part du `mobile` modifiable hors binaire natif | A-13 | Phase 1 | Liste fermée et règles des stores validées avant le sprint 1, dans `./arbitrage.md` |
+| Part du `mobile` modifiable hors binaire natif | A-13 arbitrée le 26 novembre 2026 | Phase 1 | Six catégories fermées servies sans binaire natif, preuves des stores datées dans `./arbitrage.md` |
 
 La question de l'ordre de lecture des fichiers est tranchée dans `docs/README.md` : les sections sont numérotées et aucun préfixe numérique n'est ajouté aux noms de fichiers.
 
