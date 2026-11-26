@@ -64,7 +64,7 @@ Les points A-04, A-05, A-08, A-09 et A-10 sont opposables depuis le 26 novembre 
 
 Conséquences de A-04 : aucun outil IA ne signe de commit, de tag, de release ou de message publié ; aucun trailer de co-auteur n'est accepté ; l'identité Espoir LOEMBA reste l'auteur de tout artefact publié. Aucune phase n'est raccourcie ni allongée par l'effectif du PRD. Les prestataires du client `desktop` sont nommés par écrit avant le premier commit de code de stack. L'avis juridique local reste externe et à nommer.
 
-Conséquences de A-05 : aucun document courant n'affiche de date de lancement. La revue de performance du 26 décembre 2026 et la révision de D-022 après 30 jours d'exploitation ne sont pas des dates de lancement. Le recrutement des créateurs et l'armement de l'astreinte suivent les critères de sortie, notamment l'exercice à blanc avant tout lien public.
+Conséquences de A-05 : aucun document courant n'affiche de date de lancement. La revue de performance du 26 décembre 2026 et la révision de D-022 après 30 jours d'exploitation ne sont pas des dates de lancement. Le recrutement des créateurs et l'armement de l'astreinte suivent les critères de sortie, notamment l'exercice à blanc avant tout lien public. Un [modèle de décision](../../research_notes/Planning/decision-date-lancement.md) prépare la date à nommer avant le planning, sans date préremplie.
 
 Conséquences de A-08 : les phases 0, 1 et 2, le terrain du cycle 1 et les trois clients restent en français. Une langue ajoutée à partir de la Phase 3 n'entre dans aucun contenu avant son inscription au registre avec date, responsable et marché. Aucune langue n'est datée dans ce cadrage.
 
