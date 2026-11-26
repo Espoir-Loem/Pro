@@ -5,7 +5,7 @@
 
 Un parcours décrit un chemin et ses embranchements. Les critères d'acceptation détaillés restent dans le [PRD](../Product/prd.md). Ce fichier sert à placer les décisions, les états et les moments d'identification. Aucune règle nouvelle n'est créée ici : une règle absente du PRD est marquée comme hypothèse avec un identifiant H.
 
-**Langues.** Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.
+**Langues.** Français d'abord. Le français est la seule langue des phases 0, 1 et 2 selon A-08, arbitrée le 26 novembre 2026. Toute langue ajoutée à partir de la Phase 3 est inscrite au registre avec date, responsable et marché avant le premier contenu dans cette langue. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.
 
 **Plateformes.** La dimension `plateforme` prend les valeurs `mobile`, `web` et `desktop` définies dans la [recherche UX](./ux-research.md). Les quatre parcours sont décrits pour application mobile, site web ou application desktop.
 
