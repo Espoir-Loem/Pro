@@ -27,7 +27,7 @@ Un réseau professionnel meurt le jour où l'on y rencontre des faux profils et 
 Une vidéo qui met trop de temps à démarrer n'est pas regardée. Un message qui met trop de temps à arriver n'est pas une conversation. Nous mesurons le temps comme les autres mesurent le nombre d'utilisateurs. Sur un téléphone avec une connexion faible, la vitesse est une question de dignité.
 
 **7. Le téléphone d'abord, le monde ensuite.**  
-Pro est pensé pour être tenu dans une main, puis retrouvé sur un ordinateur. Les clients `mobile`, `web` et `desktop` livrés ensemble partagent la même promesse. Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage. Nous ne supposons pas que tout le monde dispose d'un forfait illimité.
+Pro est pensé pour être tenu dans une main, puis retrouvé sur un ordinateur. Les clients `mobile`, `web` et `desktop` livrés ensemble partagent la même promesse. Français d'abord. Le français est la seule langue des phases 0, 1 et 2 selon A-08, arbitrée le 26 novembre 2026. Toute langue ajoutée à partir de la Phase 3 est inscrite au registre avec date, responsable et marché avant le premier contenu dans cette langue. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage. Nous ne supposons pas que tout le monde dispose d'un forfait illimité.
 
 **8. Une publicité n'est pas un contenu.**  
 Nous ne cacherons jamais une promotion dans le fil pour la faire passer pour un conseil. Aucun classement payant dans la recherche. Les offres signalées éventuelles restent hors recherche et relèvent de la Phase 5. La confiance est plus chère qu'un clic.
