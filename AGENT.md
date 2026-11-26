@@ -39,7 +39,7 @@ Ordre de prévalence en cas de divergence : `docs/Product/decisions.md`, puis `d
 
 Décisions retenues : D-001 à D-024.
 
-Questions ouvertes au registre : aucune au 26 novembre 2026. Points A-03, A-04, A-05, A-08, A-09, A-10, A-12 et A-13 à lever selon `docs/Product/arbitrage.md` ; A-01, A-02, A-06, A-07 et A-11 sont arbitrés. Le point A-13 précise la portée mobile de D-024 sans rouvrir D-024.
+Questions ouvertes au registre : aucune au 26 novembre 2026. Points A-04, A-05, A-08, A-09, A-10 et A-12 à lever selon `docs/Product/arbitrage.md` ; A-01, A-02, A-03, A-06, A-07, A-11 et A-13 sont arbitrés. Le point A-13 précise la portée mobile de D-024 sans rouvrir D-024.
 
 Aucune question ouverte n'entre dans un sprint avant son inscription au registre avec date, motif, propriétaire, source liée, portée et historique.
 
@@ -53,11 +53,11 @@ Toute demande qui contredit une décision retenue impose une réouverture écrit
 
 1. Phase 0 terminée : dix jours ouvrés, huit entretiens, quatre réserves, Brazzaville et Kinshasa distincts, H1 à H8 validés avec seuils chiffrés, validateur nommé, preuves archivées et opportunité O écrite.
 2. D-009 inscrite et ADR 001 à jour, avec propriétaire technique nommé.
-3. A-03 : cibles numériques du client `desktop` confirmées sur machine de référence. Aucune valeur n'est présentée comme mesurée sans mesure.
+3. A-03 arbitrée le 26 novembre 2026 : cinq cibles de revue, machine modeste Windows 11 et macOS supportés à 2 cœurs et 4 Go de RAM avec SSD, 30 lancements à froid par système, p75 et traces jointes, revue le 26 décembre 2026. Aucune valeur n'est présentée comme mesurée sans mesure.
 4. A-04 et A-05 : équipe et calendrier écrits.
 5. A-12 : qualification juridique écrite par un conseil local. L'hébergeur et la région de stockage ne sont arrêtés qu'après.
 6. D-022 inscrite le 26 novembre 2026 : 1 000 USD par mois, 500 USD par ville, mois civil, seuil de 0,001 USD par vue.
-7. A-13 : liste fermée de ce qui est modifiable hors binaire natif sur `mobile`, avec une règle par store prouvée par écrit et un propriétaire nommé.
+7. A-13 arbitrée le 26 novembre 2026 : six catégories servies sans binaire natif sur `mobile`, à savoir règles, contenus, textes et traductions, taxonomies, indicateurs de fonctionnalité et valeurs de configuration. Aucun code exécutable téléchargé, retour au binaire natif et au circuit du store si une règle change, preuves Apple et Google consultées le 26 novembre 2026 et propriétaire intérimaire Espoir LOEMBA.
 
 Avant toute ouverture publique, les points A-06 à A-10 sont arbitrés, A-11 est arbitré depuis le 26 novembre 2026, la file de modération est armée, l'astreinte est nominée et le test à blanc du signalement visiteur jusqu'à la notification d'auteur est réussi. La condition 7 de la définition de terminé exige la preuve de signature, de retour arrière et de non interruption de session sur les trois clients.
 
@@ -67,7 +67,7 @@ Avant toute ouverture publique, les points A-06 à A-10 sont arbitrés, A-11 est
 |---|---|---|
 | Base de compilation | Node 26 LTS, minimum Node 22.13.x | Node 27 est alpha et interdit. Aucune version `latest`, `canary`, `beta`, `rc` ou alpha |
 | `web` | React et TypeScript, rendu DOM | Accessibilité WCAG 2.2 AA, déploiement côté serveur selon D-024 |
-| `mobile` | React Native via Expo managé, SDK 58 et React Native 0.88 | Périmètre hors binaire natif limité à A-13 |
+| `mobile` | React Native via Expo managé, SDK 58 et React Native 0.88 | Périmètre hors binaire natif limité aux six catégories de A-13 |
 | `desktop` | React et TypeScript dans Tauri, coque Rust minimale | Windows et macOS, paquet signé, vérification avant installation, retour arrière, Linux différé |
 | `api` | NestJS, TypeScript, Postgres et Prisma | Lecture et écriture séparées, file asynchrone durable |
 | Règles partagées | `packages/domain` | Contrats typés, règles de visibilité, noms d'événements, constantes de décision |
@@ -85,7 +85,7 @@ Rust est la seule exception à tout TypeScript, et uniquement pour la coque desk
 - D-020 : la mesure à sept jours porte seulement sur les comptes avec email vérifié. Aucune cohorte visiteur à sept jours.
 - D-019 : aucun classement payant dans la recherche.
 - D-021 : une vidéo avec son reste en brouillon si la correction des sous-titres n'est pas faite par l'auteur.
-- D-024 : `web` mis à jour côté serveur avec session préservée, `desktop` par paquet signé avec retour arrière, `mobile` selon A-13. Aucune mise à jour ne coupe une session, ne contourne la modération, ne change une décision sans trace dans le journal avec acteur `system` et identifiant de règle.
+- D-024 : `web` mis à jour côté serveur avec session préservée, `desktop` par paquet signé avec retour arrière, `mobile` par les six catégories de A-13 servi sans binaire natif. Aucune mise à jour ne coupe une session, ne contourne la modération, ne change une décision sans trace dans le journal avec acteur `system` et identifiant de règle.
 - D-014 : modération en deux temps, texte vérifiable avant publication, vidéo en `pending_review`, signalement ouvert aux visiteurs. Journal d'audit en ajout seul.
 - Acteurs réservés : `system`, `moderateur`, `auteur`. Aucune réponse publique ne contient email, téléphone, jeton push, jeton de session brut ou donnée de vérification. Les messages d'erreur restent neutres.
 - Zéro CVE connue et non traitée au merge et à la release.
@@ -154,7 +154,7 @@ Le dossier canonique du client mobile est `apps/mobile`. Chaque application gard
 - Le test de non régression T1 est rejoué sur les trois clients.
 - Le contrôle D-024 de signature, retour arrière et non interruption de session est exécuté avant FS-01 et rejoué en revue de sortie MVP.
 - Accessibilité WCAG 2.2 AA : cibles de 24 sur 24 pixels CSS au minimum, objectif 44 pixels, contraste 4,5:1 pour le texte courant et 3:1 pour les grands textes et composants.
-- Performance desktop : taille installateur, démarrage à froid, mémoire au repos et latence de navigation selon A-03. Aucune valeur inventée.
+- Performance desktop : taille installateur, démarrage à froid, changement de vue, mémoire au repos et latence de navigation selon A-03, mesurés sur la machine de référence modeste. Aucune valeur inventée.
 - La CI bloque le merge sur toute erreur de typecheck, lint, test, accessibilité, scan de sécurité ou CVE connue non traitée. Les trois clients sont compilés et testés sur chaque pull request.
 - Le contrôle `scripts/check_pr_issue.py` vérifie qu'une pull request référence une issue ouverte et rejette toute référence divergente.
 - Le contrôle `scripts/check_kpi.py` vérifie les sections et les dix identifiants de `docs/Product/kpi.md` avant chaque fusion.

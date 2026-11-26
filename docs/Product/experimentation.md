@@ -1,6 +1,6 @@
 # Pro : fiche d'expérimentation
 
-**Statut** : version 1, 25 novembre 2026  
+**Statut** : version 2, 26 novembre 2026  
 **Rôle** : définir comment un test produit est décidé avant son lancement. Aucun résultat n'est déclaré sans cette fiche écrite et datée.  
 **Documents liés** : [Mesure](./mesure.md), [Vision, section 8](./vision.md), [Décisions](./decisions.md), [Tableau de bord](./tableau-de-bord.md)
 
@@ -40,7 +40,8 @@
 
 | Sujet | Phase | État |
 |---|---|---|
-| Cibles de revue du client desktop, décision D-023 et PRD section 9 | Phase 1 | À confirmer avant le sprint 1, aucune cible présentée comme mesurée |
+| Cibles de revue du client desktop, arbitrage A-03 et PRD section 9.1 | Phase 1 | Arbitrées le 26 novembre 2026, cinq cibles sur machine modeste, revue prévue le 26 décembre 2026, aucune valeur présentée comme mesurée |
+| Portée mobile modifiable hors binaire natif, arbitrage A-13 | Phase 1 | Arbitrée le 26 novembre 2026, six catégories servies sans binaire natif, contrôle de non interruption de session à cadrer avant FS-01 selon la section 10.1 du PRD |
 | Sous-titres corrigés des vidéos avec son, règle D-021 | Phase 1 | Règle retenue, fiche de test à nommer avant la première publication |
 | Règle N2 pour les candidatures, décision D-010 | Phase 2, hors MVP | Décision retenue le 26 novembre 2026, aucun test lancé avant la phase 2 |
 | Niveau organisations payant, décision D-011 | Phase 5 | Nom et privilèges définis le 26 novembre 2026, aucun test lancé |

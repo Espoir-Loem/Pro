@@ -1,6 +1,6 @@
 # Pro : principes de design
 
-**Statut** : version 2, 25 novembre 2026  
+**Statut** : version 3, 26 novembre 2026  
 **Usage** : ces principes sont opposables en revue d'interface. Toute déviation est écrite avec son motif, sa date et son propriétaire dans le registre de décisions.  
 **Documents liés** : [Décisions](../Product/decisions.md), [Recherche UX](./ux-research.md), [Parcours](./userflow.md), [Grille de relecture](../Redaction/ia-defauts-et-tips.md)
 
@@ -72,15 +72,15 @@ La page Apple *Design principles* donne huit principes généraux. Six servent i
 
 ## 9. Réactivité sans attente perceptible
 
-**Énoncé.** Sur application mobile, site web ou application desktop, aucun geste n'entraîne d'attente perceptible avant un retour visible. Chaque geste reçoit un feedback immédiat, y compris quand le résultat arrive plus tard. Aucun chargement spéculatif inutile n'est déclenché pour devancer un geste que la personne n'a pas fait. L'application desktop s'ouvre sur le fil sans écran d'attente, comme l'exige US-17 dans les [histoires utilisateur](./userstories.md).
+**Énoncé.** Sur application mobile, site web ou application desktop, aucun geste n'entraîne d'attente perceptible avant un retour visible. Chaque geste reçoit un feedback immédiat, y compris quand le résultat arrive plus tard. Aucun chargement spéculatif inutile n'est déclenché pour devancer un geste que la personne n'a pas fait. L'application desktop s'ouvre sur le fil sans écran d'attente, comme l'exige US-17 dans les [histoires utilisateur](./userstories.md). Les cinq cibles de revue du desktop sont arrêtées le 26 novembre 2026 par A-03, sur machine modeste, avec revue prévue le 26 décembre 2026 ; aucune valeur n'est présentée comme mesurée.
 
 **Contre-exemple.** Un bouton qui reste sans réponse après un appui, un écran de démarrage desktop avant le fil, ou un préchargement large lancé au lancement sans lien avec le geste suivant.
 
-**Lien.** FS-01 et FS-11 du [PRD](../Product/prd.md), [O2](./ux-research.md), [US-17](./userstories.md), [parcours A](./userflow.md).
+**Lien.** FS-01 et FS-11 du [PRD](../Product/prd.md), [O2](./ux-research.md), [US-17](./userstories.md), [parcours A](./userflow.md), A-03 de l'[arbitrage](../Product/arbitrage.md), [performance](../Technique/performance.md).
 
 ## 10. Une correction n'attend pas le store
 
-**Énoncé.** Sur application mobile, site web ou application desktop, une correction peut être livrée sans dépendre d'un cycle de validation de store quand le changement est servi hors binaire natif. Le web change à la navigation suivante, le desktop applique un paquet signé au redémarrage ou au lancement suivant, et le mobile suit la liste validée au point A-13 de la [grille d'arbitrage](../Product/arbitrage.md). Aucune mise à jour ne coupe une session en cours, ne crée d'identifiant d'appareil et ne modifie une décision de modération sans trace.
+**Énoncé.** Sur application mobile, site web ou application desktop, une correction peut être livrée sans dépendre d'un cycle de validation de store quand le changement est servi hors binaire natif. Le web change à la navigation suivante, le desktop applique un paquet signé au redémarrage ou au lancement suivant, et le mobile suit les six catégories fermées arbitrées le 26 novembre 2026 au point A-13 de la [grille d'arbitrage](../Product/arbitrage.md) : règles, contenus, textes et traductions, taxonomies, indicateurs de fonctionnalité et valeurs de configuration. Aucun code exécutable n'est téléchargé. Aucune mise à jour ne coupe une session en cours, ne crée d'identifiant d'appareil et ne modifie une décision de modération sans trace.
 
 **Contre-exemple.** Un utilisateur qui attend une validation externe pour voir une correction de règles, une mise à jour desktop installée sans vérification de signature, ou une session interrompue au milieu d'un message.
 
