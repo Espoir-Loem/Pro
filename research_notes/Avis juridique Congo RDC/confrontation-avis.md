@@ -47,7 +47,7 @@ Ces points viennent de la recherche préparatoire. Ils sont posés comme des que
 
 ## 4. Écriture de la levée de A-12
 
-A-12 n'est levée qu'une fois les deux avis reçus, confrontés et conservés avec leurs références. La levée est alors écrite au registre des décisions avec date, motif, propriétaire, source liée, portée et historique. Les deux conseils sont nommés à cette occasion. Ce n'est qu'après cette écriture qu'un hébergeur, une région de stockage et une première migration peuvent être choisis. Aucun de ces choix n'est préparé ici.
+A-12 n'est levée qu'une fois les deux avis reçus, confrontés et conservés avec leurs références. La levée est alors écrite au registre des décisions avec date, motif, propriétaire, source liée, portée et historique. Les deux conseils sont nommés à cette occasion. Ce n'est qu'après cette écriture qu'un hébergeur, une région de stockage et une première migration peuvent être choisis. Une [trame de décision d'hébergeur](./trame-decision-hebergeur.md) prépare cette écriture sans choix prérempli. Aucun de ces choix n'est préparé ici.
 
 ## 5. Ce que cette grille ne fait pas
 
