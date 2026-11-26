@@ -1,6 +1,6 @@
 # Astreinte
 
-**Déclencheur.** Avant la première mise en ligne, pour donner un destinataire aux alertes du [PRD](../Product/prd.md).  
+**Déclencheur.** Avant la première mise en ligne, pour donner un destinataire aux alertes du [PRD](../Product/prd.md). La [trame de décision d'ouverture publique](../../research_notes/Planning/decision-ouverture-publique.md) prépare cette étape sans date ni lien public préremplis.  
 **Dépendances.** [journée type](./journee-type-moderation.md), [incidents](./incidents.md), [Technique](../Technique/README.md), [Conformité](../Conformite/README.md).  
 **Propriétaire.** Coordinateur des opérations, à nommer.  
 **Statut.** Rôles et règles écrits, titulaires à nommer, numéro d’urgence à nommer, exercice à blanc à passer. L’astreinte est armée quand les critères de sortie sont vrais, selon A-05, sans date de lancement fixée.
@@ -47,4 +47,4 @@ La passation a lieu chaque vendredi à 17:00 dans le canal unique. Le titulaire 
 
 ## Exercice à blanc
 
-Avant ouverture, puis chaque mois, un scénario est joué pour Brazzaville et pour Kinshasa, sur `mobile`, `web` et `desktop` : signalement visiteur, ticket pseudonymé, priorité P1, relecture par une deuxième personne, email canonique, push neutre, bandeau pour membre connecté, puis `report_resolved`. Le délai cible de prise en charge est 15 minutes et le délai cible de décision est 1 heure. Un scénario complémentaire simule une coupure touchant le seul client `desktop` et vérifie l'ouverture d'un incident avec `plateforme=desktop`, sans inventer de titulaire. L’écart constaté est inscrit comme action datée dans [incidents.md](./incidents.md).
+Avant ouverture, puis chaque mois, un scénario est joué pour Brazzaville et pour Kinshasa, sur `mobile`, `web` et `desktop` : signalement visiteur, ticket pseudonymé, priorité P1, relecture par une deuxième personne, email canonique, push neutre, bandeau pour membre connecté, puis `report_resolved`. Le délai cible de prise en charge est 15 minutes et le délai cible de décision est 1 heure. Un scénario complémentaire simule une coupure touchant le seul client `desktop` et vérifie l'ouverture d'un incident avec `plateforme=desktop`, sans inventer de titulaire. L’écart constaté est inscrit comme action datée dans [incidents.md](./incidents.md). Une [fiche de contrôle](../../research_notes/Sprint-1/exercice-blanc-astreinte.md) prépare cet exercice sans l'exécuter ni avancer de délai mesuré.
