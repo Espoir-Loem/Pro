@@ -14,8 +14,8 @@ R : réalise. A : approuve. C : consulté. I : informé. Aucun nom n'est invent�
 | Revue de mise à jour automatique, condition 7 de la définition de terminé | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Opérations, Conformité, support | équipe produit | à nommer |
 | Escalade de modération et destinataire d'alerte | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Opérations, Conformité | personne concernée | à nommer |
 | Signature locale des fiches juridiques des deux Congo | conseil local, à nommer | conseil local, à nommer | Espoir LOEMBA, intérimaire | équipe produit | en attente d'avis externe |
-| Budget CDN, décision D-022 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique, Croissance | équipe produit | à trancher |
-| Budget de modération et capacité par ville | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Opérations | équipe produit | à trancher |
+| Budget CDN, décision D-022 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique, Croissance | équipe produit | retenue le 26 novembre 2026 |
+| Budget de modération et capacité par ville | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Opérations | équipe produit | budget inscrit en D-022, capacité à confirmer |
 | Profil réseau de référence R1 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique, Croissance | équipe produit | à confirmer |
 | Profil R2 du client desktop, machine de référence et cibles à confirmer | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique, Opérations | équipe produit | à confirmer |
 | Revue de performance du client desktop | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique | équipe produit | à confirmer |
