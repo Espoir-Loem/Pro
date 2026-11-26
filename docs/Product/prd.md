@@ -1,6 +1,6 @@
 # Pro : cahier des charges produit, MVP
 
-**Statut** : version 5, 26 novembre 2026  
+**Statut** : version 6, 26 novembre 2026  
 **Périmètre** : phase 1, MVP  
 **Documents liés** : [Vision](./vision.md), [Manifeste](./manifeste.md), [Décisions](./decisions.md), [Mesure](./mesure.md), [Expérimentation](./experimentation.md), [Tableau de bord](./tableau-de-bord.md), [Grille de relecture](../Redaction/ia-defauts-et-tips.md), [Parcours](../UX/userflow.md), [Histoires](../UX/userstories.md)
 
@@ -12,7 +12,7 @@ Il ne contient aucun choix d'architecture définitive. La stack sera arrêtée d
 
 ## 2. Décisions héritées et hypothèses à valider
 
-**Langues** : Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.
+**Langues** : Français d'abord. Le français est la seule langue des phases 0, 1 et 2 selon A-08, arbitrée le 26 novembre 2026. Toute langue ajoutée à partir de la Phase 3 est inscrite au registre avec date, responsable et marché avant le premier contenu dans cette langue. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.
 
 **Plateformes.** La dimension `plateforme` prend les valeurs `mobile`, `web` et `desktop`, définies ainsi :
 
@@ -45,8 +45,8 @@ La stack est retenue en D-009. Les autres lignes n'ont pas le statut « retenu �
 
 | Hypothèse | Valeur ou question | Méthode | Seuil ou condition | Échéance |
 |---|---|---|---|---|
-| Équipe | 2 à 3 développeurs, 1 designer, 1 personne produit à temps partiel | Confirmation par le planning | Effectif à confirmer par écrit | Avant le planning |
-| Durée du MVP | 8 à 12 semaines | Confirmation par le planning | Durée à confirmer par écrit | Avant le planning |
+| Équipe | 2 à 3 développeurs, 1 designer, 1 personne produit à temps partiel | Porteur unique intérimaire appuyé par les outils IA, jamais auteurs, selon A-04 | Référence de planification, pas un engagement ; prestataires du client `desktop` à nommer avant le premier commit de code de stack | Arbitrée le 26 novembre 2026 |
+| Durée du MVP | 8 à 12 semaines | Jalons par critères de sortie, selon A-05 | Référence de planification, pas un engagement ; aucune date de lancement inventée ; date à nommer avant le planning | Arbitrée le 26 novembre 2026 |
 | Budget CDN et modération | 1 000 USD par mois, 500 USD par ville | D-022 retenue le 26 novembre 2026 | 0,001 USD par vue, lu séparément par ville, fenêtre de mois civil | Inscrite avant `video.md` dans `../Technique/README.md` |
 | Stack `mobile`, `web` et `desktop` | Retenue en D-009 | ADR unique décrit dans `../Technique/adr-001-stack.md` | Tout TypeScript, versions LTS, zéro CVE connue non traitée au merge et à la release | Avant le premier sprint |
 | H1 à H8 | Registre d'hypothèses de la recherche UX | Phase 0, seuils chiffrés et validateurs nommés dans `./roadmap.md` | Confirmation ou infirmation selon les seuils | Sortie de la Phase 0 |
@@ -495,7 +495,7 @@ La condition 6 est détaillée dans `../Operations/README.md`. La condition 7 es
 
 | Risque | Effet | Mesure |
 |---|---|---|
-| Fil vide au lancement | Les visiteurs repartent avant de s'inscrire | Recruter des créateurs sur quelques métiers avant l'ouverture publique, selon `../Growth/README.md` |
+| Fil vide au lancement | Les visiteurs repartent avant de s'inscrire | Recruter des créateurs avant l'ouverture publique, selon `../Growth/README.md`, puis appliquer le repli immédiat vers le fil général de la ville concernée selon A-10, sans seuil chiffré |
 | Coût de la vidéo | La facture CDN dépasse l'enveloppe inscrite en D-022 | Transcoding adaptatif, plafond de préchargement, seuil de 0,001 USD par vue inscrit en D-022 et lu par ville |
 | Comptes fictifs | La confiance s'effondre dans le chat | Vérification d'email, limites de vitesse, signalement dès le MVP |
 | Inscription trop tôt | La portée du réseau reste faible | Tester le parcours visiteur contre un mur de connexion au lancement, selon `./experimentation.md` |
@@ -505,17 +505,21 @@ La condition 6 est détaillée dans `../Operations/README.md`. La condition 7 es
 
 ## 13. Suivi des décisions et points restants
 
-Aucune question ouverte ne reste au registre au 26 novembre 2026. Les décisions retenues sont opposables dans [decisions.md](./decisions.md) et les points restant à lever sont suivis dans [arbitrage.md](./arbitrage.md) selon leur échéance. Les points A-03 et A-13 sont arbitrés ce jour et inscrits au registre.
+Aucune question ouverte ne reste au registre au 26 novembre 2026. Les décisions retenues et les arbitrages inscrits sont opposables dans [decisions.md](./decisions.md). Les points restant à lever sont suivis dans [arbitrage.md](./arbitrage.md) selon leur échéance. Les points A-01 à A-08, A-10, A-11 et A-13 sont arbitrés et inscrits ce jour. A-04, A-05, A-08 et A-10 sont inscrits sans numéro D supplémentaire. A-09 et A-12 restent à lever.
 
 | Sujet | Identifiant | Phase | Traitement |
 |---|---|---|---|
 | Règle N2 pour les candidatures, vérification à la demande de l'employeur | D-010 retenue le 26 novembre 2026 | Phase 2, hors MVP | Avant l'ouverture des offres |
 | Niveau organisations payant `Organisation Avancée`, privilèges définis | D-011 retenue le 26 novembre 2026 | Phase 5 | Avant la conception du niveau payant |
 | Budget CDN et modération, 1 000 USD par mois et 0,001 USD par vue | D-022 retenue le 26 novembre 2026 | Phase 1, avant FS-02 | Inscrite avant `video.md` et la montée en charge |
+| Équipe intérimaire et outils IA, jamais auteurs, prestataires `desktop` à nommer | A-04 arbitrée le 26 novembre 2026 | Avant le premier commit de code de stack | Porteur unique et intérimaire ; effectif du PRD comme référence de planification, pas comme engagement |
+| Jalons par critères de sortie, sans date de lancement fixée | A-05 arbitrée le 26 novembre 2026 | Toutes les phases | Date de lancement à nommer avant le planning ; recrutement et astreinte déclenchés par les critères |
+| Français seul jusqu'à la Phase 3, langues suivantes inscrites au registre | A-08 arbitrée le 26 novembre 2026, D-008 | Phases 0 à 5 | Date, responsable et marché inscrits avant le premier contenu dans une nouvelle langue |
+| Seuil de fil non vide | A-10 arbitrée le 26 novembre 2026 | Ouverture publique | Aucun seuil ; repli immédiat vers le fil général de la ville concernée, sans transposition |
 | Langues à valider avec chaque marché, avec date et responsable inscrits au registre | D-008 | Phases 3 et 4 | À chaque ouverture de marché |
-| Date de lancement | à nommer | Phase 1 | Avant le planning |
-| Modèle bénévole ou salarié de modération | à nommer | Avant ouverture | Décision opérationnelle dans `../Operations/README.md` |
-| Seuil et phase d'un éventuel plafond de lecture | à nommer | À trancher | Sans valeur avancée dans ce cadrage |
+| Date de lancement | A-05 arbitrée le 26 novembre 2026 | Phase 1 | Aucune date inventée ; date à nommer avant le planning |
+| Modèle bénévole ou salarié de modération | A-09 à lever | Avant ouverture | Décision opérationnelle dans `../Operations/README.md` |
+| Seuil et phase d'un éventuel plafond de lecture | à nommer | À trancher | Sans valeur avancée dans ce cadrage ; ce plafond n'est pas le seuil de fil non vide tranché en A-10 |
 | Part du `mobile` modifiable hors binaire natif | A-13 arbitrée le 26 novembre 2026 | Phase 1 | Six catégories fermées servies sans binaire natif, preuves des stores datées dans `./arbitrage.md` |
 
 La question de l'ordre de lecture des fichiers est tranchée dans `docs/README.md` : les sections sont numérotées et aucun préfixe numérique n'est ajouté aux noms de fichiers.
