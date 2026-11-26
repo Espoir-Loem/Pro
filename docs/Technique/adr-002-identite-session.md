@@ -51,7 +51,7 @@ Le statut « à confirmer » porte sur les valeurs paramétrées. Il ne remet pa
 
 ## Propriétaire
 
-à nommer
+Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04.
 
 ## Date
 
