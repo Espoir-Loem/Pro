@@ -18,7 +18,7 @@ Aucun compte n'est demandé pour ouvrir l'application, parcourir le fil, consult
 Nous ne demandons pas à quelqu'un de nous faire confiance avant de lui avoir montré ce que nous avons. Le contenu vient d'abord. L'inscription vient après, quand elle a un sens pour la personne.
 
 **4. Une vérification n'est pas un décor.**  
-Un badge sur un profil professionnel est une promesse faite aux autres. Nous ne le décernons pas pour faire joli. Nous le donnons quand l'identité ou l'entreprise a été réellement vérifiée, et nous le retirons quand la vérification ne tient plus. Le badge N2 est une fonction de phase 2, hors MVP, sous réserve de D-010.
+Un badge sur un profil professionnel est une promesse faite aux autres. Nous ne le décernons pas pour faire joli. Nous le donnons quand l'identité ou l'entreprise a été réellement vérifiée, et nous le retirons quand la vérification ne tient plus. Le badge N2 est une fonction de phase 2, hors MVP, selon D-010 retenue le 26 novembre 2026.
 
 **5. La confiance passe avant la croissance.**  
 Un réseau professionnel meurt le jour où l'on y rencontre des faux profils et des offres fictives. Nous préférons une communauté plus lente à une communauté qui se vide. La modération n'est pas un service après-vente : elle fait partie du produit.

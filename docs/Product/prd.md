@@ -78,7 +78,7 @@ Les trois clients, `mobile`, `web` et `desktop`, sont livrés ensemble en Phase 
 - Lives.
 - Pages entreprise, organisations et offres d'emploi. Le modèle de pages et de rôles est spécifié en section 14, mais aucune de ces fonctions n'est livrée dans le MVP. Elles seront gratuites dans leur première version.
 - Candidatures, messagerie recruteur, badge N2 et comportement propre aux niveaux N2 et N3.
-- Monétisation et publicité. Le niveau organisations payant relève de la Phase 5, avec un nom et des privilèges non définis (D-011).
+- Monétisation et publicité. Le niveau organisations payant relève de la Phase 5, avec le nom et les privilèges définis par D-011, retenue le 26 novembre 2026.
 - Recommandations personnalisées à partir d'un historique conservé.
 - Vérification d'identité au-delà de la vérification d'email. Téléphone et connexion sociale en phase 2, non spécifiés.
 - Offres signalées dans la recherche. Aucun classement payant dans la recherche, y compris en Phase 5.
@@ -509,8 +509,8 @@ Ces points sont enregistrés dans le [registre des décisions](./decisions.md), 
 
 | Question ouverte | Identifiant | Phase | Traitement |
 |---|---|---|---|
-| Règle N2 pour les candidatures, vérification obligatoire ou à la demande de l'employeur | D-010 | Phase 2, hors MVP | Avant l'ouverture des offres |
-| Nom et privilèges du niveau organisations payant, non définis | D-011 | Phase 5 | Avant la conception du niveau payant |
+| Règle N2 pour les candidatures, vérification à la demande de l'employeur | D-010 retenue le 26 novembre 2026 | Phase 2, hors MVP | Avant l'ouverture des offres |
+| Niveau organisations payant `Organisation Avancée`, privilèges définis | D-011 retenue le 26 novembre 2026 | Phase 5 | Avant la conception du niveau payant |
 | Budget CDN et modération, avec seuil de coût par vue à fixer | D-022 | Phase 1, avant FS-02 | Avant `video.md` et la montée en charge |
 | Langues à valider avec chaque marché, avec date et responsable inscrits au registre | D-008 | Phases 3 et 4 | À chaque ouverture de marché |
 | Date de lancement | à nommer | Phase 1 | Avant le planning |
@@ -556,7 +556,7 @@ Les permissions sont propres à chaque page. Un même compte peut être éditeur
 5. Le propriétaire crée les pages rattachées et nomme les rôles.
 6. Chaque invitation est acceptée par la personne concernée après vérification de son email.
 
-Une organisation peut être refusée ou suspendue. Dans ce cas, ses pages cessent d'être publiques et un motif est envoyé au propriétaire avec une voie de contestation. La vérification N3 par domaine ou document légal ne doit pas être confondue avec la vérification de profil N2, qui dépend de D-010.
+Une organisation peut être refusée ou suspendue. Dans ce cas, ses pages cessent d'être publiques et un motif est envoyé au propriétaire avec une voie de contestation. La vérification N3 par domaine ou document légal ne doit pas être confondue avec la vérification de profil N2, qui suit D-010, retenue le 26 novembre 2026.
 
 ### 14.4 Ce que cela change pour le MVP
 
@@ -566,7 +566,7 @@ Rien dans la phase 1. Cette section sert de spécification pour la phase 2 et é
 
 Les pages et les rôles décrits ici sont gratuits. Aucun rôle, aucun rattachement et aucune fonction de page n'est réservé à un abonnement dans la première version des pages. Le réseau est gratuit à 100 % pendant les phases 1 à 4, avec pour objectif d'attirer les personnes en recherche d'emploi.
 
-La Phase 5 introduit un niveau payant pour les organisations. Son nom et ses privilèges ne sont pas définis (D-011). Il pourra ajouter des statistiques avancées, une page personnalisée ou davantage d'administrateurs, sous réserve d'arbitrage. Aucun classement payant dans la recherche, y compris en Phase 5. Les offres signalées éventuelles restent hors recherche et relèvent de la Phase 5. Le futur niveau portera un nom distinct de celui du réseau Pro, à arrêter avant sa conception.
+La Phase 5 introduit `Organisation Avancée`, niveau payant défini par D-011, retenue le 26 novembre 2026. Ses privilèges se limitent aux statistiques agrégées avancées des pages de l'organisation, à l'export mensuel et aux alertes de suivi définies par l'organisation. Aucun classement payant dans la recherche, y compris en Phase 5. Les offres signalées éventuelles restent hors recherche et relèvent de la Phase 5. Le nom retenu est distinct de celui du réseau Pro.
 
 ## 15. Liens
 

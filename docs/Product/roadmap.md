@@ -52,9 +52,9 @@ Le dénominateur de H4 est celui du registre UX, soit 10, alors que le plan de t
 
 **Périmètre.** Section 14 du PRD. Une organisation vérifiée possède une page principale et autant de pages rattachées que nécessaire. Les rôles sont propres à chaque page.
 
-**Critères de sortie.** N3 organisation vérifiable par domaine ou document légal, avec propriétaire de la vérification et révocation documentée. Pour le profil N2, la méthode et la réversibilité du badge sont écrites seulement après arbitrage de D-010, question ouverte hors MVP. Invitations acceptées, journal d'audit complet, offres visibles sur toutes les pages, aucune fonction réservée à un abonnement.
+**Critères de sortie.** N3 organisation vérifiable par domaine ou document légal, avec propriétaire de la vérification et révocation documentée. Pour le profil N2, la méthode et la réversibilité du badge sont écrites dans D-010, retenue le 26 novembre 2026, hors MVP. Invitations acceptées, journal d'audit complet, offres visibles sur toutes les pages, aucune fonction réservée à un abonnement.
 
-**Dépendances.** D-010 tranchée pour N2, capacité de vérification organisationnelle, modération des offres, procédure de contestation dans `../Operations/README.md`.
+**Dépendances.** D-010 retenue pour N2, capacité de vérification organisationnelle, modération des offres, procédure de contestation dans `../Operations/README.md`.
 
 ## Phase 3 : extension au reste de l'Afrique
 
@@ -74,17 +74,17 @@ Le dénominateur de H4 est celui du registre UX, soit 10, alors que le plan de t
 
 **Critères de sortie.** Gratuité de l'accès public conservée, aucun identifiant permanent ajouté pour le visiteur, aucun classement payant dans la recherche, langues ajoutées uniquement avec date et responsable inscrits au registre conformément à D-008.
 
-**Dépendances.** Questions de marché propres à la Phase 4 tranchées et datées, D-010 si N2 n'a pas été arbitré en Phase 2, conformité des nouveaux marchés décrite dans `../Conformite/README.md`.
+**Dépendances.** Questions de marché propres à la Phase 4 tranchées et datées, D-010 si sa règle N2 n'a pas été appliquée en Phase 2, conformité des nouveaux marchés décrite dans `../Conformite/README.md`.
 
 ## Phase 5 : monétisation organisations
 
 **Objectif.** Introduire un niveau organisations payant distinct du réseau Pro.
 
-**Périmètre.** Le nom et les privilèges de ce niveau ne sont pas définis (D-011). Aucun classement payant dans la recherche, y compris dans cette phase. Les offres signalées éventuelles restent hors recherche.
+**Périmètre.** Le nom et les privilèges de ce niveau sont définis par D-011, retenue le 26 novembre 2026 : `Organisation Avancée`, statistiques agrégées, export mensuel et alertes définies par l'organisation. Aucun classement payant dans la recherche, y compris dans cette phase. Les offres signalées éventuelles restent hors recherche.
 
-**Critères de sortie.** Décision D-011 passée en décision retenue avec date, motif, propriétaire, nom et privilèges écrits dans un document dédié ; gratuité de l'accès public inchangée ; aucun identifiant permanent visiteur ajouté.
+**Critères de sortie.** Décision D-011 retenue depuis le 26 novembre 2026 avec date, motif, propriétaire, nom et privilèges écrits au registre ; gratuité de l'accès public inchangée ; aucun identifiant permanent visiteur ajouté.
 
-**Dépendances.** D-011 tranchée, modèle économique documenté, mesure du coût par vue issue de la Phase 3, validation du cadre applicable par marché dans `../Conformite/README.md`.
+**Dépendances.** D-011 retenue, modèle économique documenté, mesure du coût par vue issue de la Phase 3, validation du cadre applicable par marché dans `../Conformite/README.md`.
 
 ## Séquence de remédiation avant ouverture
 
