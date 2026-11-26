@@ -22,7 +22,7 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 2. Dénominateur de H1 tranché par décision écrite avant J7. La méthode est confirmée, le choix n'est pas encore écrit.
 3. A-12 levée par un avis local écrit d'un conseil externe avant hébergeur, région de stockage et première migration.
 4. Prestataires `desktop` Windows et macOS nommés avant le premier commit de code de stack, selon A-04.
-5. Titulaires nommés pour les fiches techniques marquées « à nommer » : identité de session, menaces, architecture, API, données, observation et responsabilités.
+5. Titulaires des fiches techniques : Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04, inscrit le 26 novembre 2026 dans les sept fiches, identité de session, menaces, architecture, API, données, observation et responsabilités. Cette porte est levée. Une nomination définitive reste à écrire sans créer de nouvelle porte.
 6. Preuve de signature, de retour arrière et de non interruption de session attendue au premier rendu signé des trois clients.
 7. Contrôle SEO de l'issue #11 à passer sur un rendu web réel, donc après l'existence d'un rendu.
 
