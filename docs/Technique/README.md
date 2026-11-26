@@ -2,7 +2,7 @@
 
 **Métier.** Ingénierie `mobile`, `web`, `desktop`, backend et données.
 **Statut.** Socle rédigé le 25 novembre 2026, à valider. La stack est retenue en D-009 et détaillée dans `adr-001-stack.md`.
-**Règle.** Le PRD ne choisit pas la stack. `adr-001-stack.md` couvre les trois clients livrés ensemble, `mobile`, `web` et `desktop`, et le backend. L'hébergeur, la région de stockage et le fournisseur vidéo restent liés à A-12 et D-022.
+**Règle.** Le PRD ne choisit pas la stack. `adr-001-stack.md` couvre les trois clients livrés ensemble, `mobile`, `web` et `desktop`, et le backend. L'hébergeur et la région de stockage restent liés à A-12. Le fournisseur vidéo reste lié au budget D-022, inscrit le 26 novembre 2026.
 **Modèle ADR unique.** Titre, Statut, Contexte, Options, Décision, Conséquences, Propriétaire, Date. Statuts admis : retenue, proposée, à trancher.
 **Accessibilité.** WCAG 2.2 niveau AA visé. Cibles de 24 sur 24 pixels CSS au minimum AA, objectif de 44 pixels au-delà du minimum. Contraste AA vérifié : 4,5:1 pour le texte courant, 3:1 pour les grands textes et les composants. Sources : [SC 1.4.3](https://www.w3.org/TR/WCAG22/#contrast-minimum) et [SC 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html).
 
@@ -35,7 +35,7 @@ La mise à jour automatique est une contrainte transversale de D-024, décrite d
 | [adr-002-identite-session.md](adr-002-identite-session.md) | Jeton visiteur court, clé par finalité, rotation, liaison à `signup_verified` | Avant FS-01 et la première migration | `performance.md`, `../Product/mesure.md` | à nommer | retenue sur les principes |
 | [menaces.md](menaces.md) | Quatre questions OWASP et six menaces priorisées | Avant `securite.md` et `architecture.md` | `adr-002-identite-session.md` | à nommer | proposée |
 | [architecture.md](architecture.md) | C4 conteneur, lecture séparée de l'écriture, invalidation de cache | Après `adr-001`, avant `video.md` et `api.md` | `menaces.md`, `performance.md` | à nommer | proposée |
-| [video.md](video.md) | Octets, bitrates, coût pour 1 000 vues, EXIF | Avant FS-02 | `architecture.md`, arbitrage D-022 | à nommer | proposée, budget ouvert |
+| [video.md](video.md) | Octets, bitrates, coût pour 1 000 vues, EXIF | Avant FS-02 | `architecture.md`, D-022 retenue | Espoir LOEMBA, intérimaire | proposée, budget inscrit |
 | [api.md](api.md) | Endpoints, réponses sans données privées, limites | Avant FS-04 et FS-08 | `architecture.md`, `adr-002-identite-session.md` | à nommer | proposée |
 | [donnees.md](donnees.md) | Tables, états, transitions et traduction de la conservation | Avant la première migration | `../Conformite/conservation.md`, `adr-002-identite-session.md` | à nommer | proposée |
 | [securite.md](securite.md) | Socle de contrôles, jetons, journal d'audit, outils épinglés et ASVS 2 | Avant FS-01 et FS-02, revue avant FS-07 et FS-09 | `menaces.md`, `adr-002-identite-session.md` | Espoir LOEMBA, intérimaire | opposée le 26 novembre 2026 |
@@ -48,4 +48,4 @@ La mise à jour automatique est une contrainte transversale de D-024, décrite d
 
 ## Première action
 
-Le propriétaire de `adr-001-stack.md` est Espoir LOEMBA, intérimaire. Il reste à obtenir la validation juridique A-12 et le budget D-022. Les familles de technologie sont retenues en D-009. Tant qu'A-12, D-022 et A-13 ne sont pas écrits, aucun hébergeur, région de stockage, fournisseur CDN ni périmètre mobile hors binaire natif n'est arrêté, et aucun code n'est écrit.
+Le propriétaire de `adr-001-stack.md` est Espoir LOEMBA, intérimaire. Il reste à obtenir la validation juridique A-12. Le budget D-022 est inscrit depuis le 26 novembre 2026. Les familles de technologie sont retenues en D-009. Tant qu'A-12 et A-13 ne sont pas écrits, aucun hébergeur, région de stockage ni périmètre mobile hors binaire natif n'est arrêté, et aucun code n'est écrit. Le fournisseur CDN reste à choisir dans le cadre de D-022.
