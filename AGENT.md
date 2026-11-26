@@ -37,9 +37,9 @@ Ordre de prévalence en cas de divergence : `docs/Product/decisions.md`, puis `d
 
 ## 3. Décisions opposables et questions ouvertes
 
-Décisions retenues : D-001 à D-009, D-012 à D-021, D-023 et D-024.
+Décisions retenues : D-001 à D-024.
 
-Questions ouvertes : D-010, D-011 et D-022. Points A-02 à A-13 ouverts ; A-01 est clôturé par D-009. Le point A-13 précise la portée mobile de D-024 sans rouvrir D-024.
+Questions ouvertes au registre : aucune au 26 novembre 2026. Points A-03, A-04, A-05, A-08, A-09, A-10, A-12 et A-13 à lever selon `docs/Product/arbitrage.md` ; A-01, A-02, A-06, A-07 et A-11 sont arbitrés. Le point A-13 précise la portée mobile de D-024 sans rouvrir D-024.
 
 Aucune question ouverte n'entre dans un sprint avant son inscription au registre avec date, motif, propriétaire, source liée, portée et historique.
 
@@ -56,10 +56,10 @@ Toute demande qui contredit une décision retenue impose une réouverture écrit
 3. A-03 : cibles numériques du client `desktop` confirmées sur machine de référence. Aucune valeur n'est présentée comme mesurée sans mesure.
 4. A-04 et A-05 : équipe et calendrier écrits.
 5. A-12 : qualification juridique écrite par un conseil local. L'hébergeur et la région de stockage ne sont arrêtés qu'après.
-6. D-022 : budget CDN et modération inscrit, avec seuil de coût par vue.
+6. D-022 inscrite le 26 novembre 2026 : 1 000 USD par mois, 500 USD par ville, mois civil, seuil de 0,001 USD par vue.
 7. A-13 : liste fermée de ce qui est modifiable hors binaire natif sur `mobile`, avec une règle par store prouvée par écrit et un propriétaire nommé.
 
-Avant toute ouverture publique, les points A-06 à A-11 sont arbitrés, la file de modération est armée, l'astreinte est nominée et le test à blanc du signalement visiteur jusqu'à la notification d'auteur est réussi. La condition 7 de la définition de terminé exige la preuve de signature, de retour arrière et de non interruption de session sur les trois clients.
+Avant toute ouverture publique, les points A-06 à A-10 sont arbitrés, A-11 est arbitré depuis le 26 novembre 2026, la file de modération est armée, l'astreinte est nominée et le test à blanc du signalement visiteur jusqu'à la notification d'auteur est réussi. La condition 7 de la définition de terminé exige la preuve de signature, de retour arrière et de non interruption de session sur les trois clients.
 
 ## 5. Stack retenue, D-009
 
@@ -71,7 +71,7 @@ Avant toute ouverture publique, les points A-06 à A-11 sont arbitrés, la file 
 | `desktop` | React et TypeScript dans Tauri, coque Rust minimale | Windows et macOS, paquet signé, vérification avant installation, retour arrière, Linux différé |
 | `api` | NestJS, TypeScript, Postgres et Prisma | Lecture et écriture séparées, file asynchrone durable |
 | Règles partagées | `packages/domain` | Contrats typés, règles de visibilité, noms d'événements, constantes de décision |
-| Médias | Stockage objet compatible S3 et CDN derrière une interface | Fournisseur après D-022, retrait EXIF avant stockage |
+| Médias | Stockage objet compatible S3 et CDN derrière une interface | Fournisseur dans le cadre du budget D-022, retrait EXIF avant stockage |
 | Sous-titres | Service de transcription derrière une interface | Générés puis corrigés par l'auteur avant publication selon D-021 |
 
 Rust est la seule exception à tout TypeScript, et uniquement pour la coque desktop signée. L'interface, le backend et les règles partagées restent en TypeScript. Les lockfiles sont commités. Les mises à jour de dépendances passent par un outil automatisé et une CI complète.
