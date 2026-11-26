@@ -42,5 +42,5 @@
 |---|---|---|
 | Cibles de revue du client desktop, décision D-023 et PRD section 9 | Phase 1 | À confirmer avant le sprint 1, aucune cible présentée comme mesurée |
 | Sous-titres corrigés des vidéos avec son, règle D-021 | Phase 1 | Règle retenue, fiche de test à nommer avant la première publication |
-| Règle N2 pour les candidatures, question D-010 | Phase 2, hors MVP | Question ouverte, aucun test lancé avant arbitrage |
-| Niveau organisations payant, question D-011 | Phase 5 | Nom et privilèges non définis, aucun test lancé |
+| Règle N2 pour les candidatures, décision D-010 | Phase 2, hors MVP | Décision retenue le 26 novembre 2026, aucun test lancé avant la phase 2 |
+| Niveau organisations payant, décision D-011 | Phase 5 | Nom et privilèges définis le 26 novembre 2026, aucun test lancé |
