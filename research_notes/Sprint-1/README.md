@@ -19,6 +19,8 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Shortlist documentée `desktop` | [shortlist-prestataires-desktop.md](./shortlist-prestataires-desktop.md) | Pistes publiques datées pour Windows et macOS, aucune désignation ni contact |
 | Protocole des mises à jour | [controle-mises-a-jour.md](./controle-mises-a-jour.md) | Scénarios et preuves à rejouer avant FS-01, aucun contrôle exécuté |
 | Protocole de contrôle SEO | [controle-seo.md](./controle-seo.md) | Checklist et extractions à rejouer sur un rendu web réel, sans résultat |
+| Fiche de test D-021 | [test-sous-titres-D021.md](./test-sous-titres-D021.md) | Sous-titres corrigés avant la première publication, aucun test exécuté |
+| Modèle de nomination définitive | [nominations-definitives.md](./nominations-definitives.md) | Champs à remplir pour remplacer l'intérimariat, aucun nom proposé, aucune porte créée |
 
 ## Portes avant le premier commit de code
 
