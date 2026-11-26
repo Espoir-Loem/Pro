@@ -1,6 +1,6 @@
 # Responsabilités : matrice RACI
 
-**Propriétaire.** Espoir LOEMBA (`@Espoir-Loem`), chef de projet, pour la direction générale. **Statut.** proposée, points A-03 et A-13 arbitrés. **Date.** 26 novembre 2026.
+**Propriétaire.** Espoir LOEMBA (`@Espoir-Loem`), chef de projet, pour la direction générale. **Statut.** proposée, points A-01 à A-08, A-10, A-11 et A-13 arbitrés ; A-04, A-05, A-08 et A-10 inscrits au registre sans numéro D. **Date.** 26 novembre 2026.
 
 R : réalise. A : approuve. C : consulté. I : informé. Aucun nom n'est inventé. Les titulaires intérimaires sont Espoir LOEMBA depuis le 25 novembre 2026, sauf l'avis juridique local qui reste externe et à nommer avant le jalon indiqué.
 
@@ -23,7 +23,12 @@ R : réalise. A : approuve. C : consulté. I : informé. Aucun nom n'est invent�
 | Portée mobile modifiable hors binaire natif, six catégories fermées, point A-13 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Produit, Conformité, Opérations | équipe technique | arbitré le 26 novembre 2026 |
 | Niveau OWASP ASVS 2, arbitrage A-11 du 26 novembre 2026 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique | équipe produit | arbitré le 26 novembre 2026 |
 | Première migration de données | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Conformité conservation | équipe technique | à nommer |
+| Gouvernance intérimaire du porteur unique et outils IA jamais auteurs, A-04 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique, Conformité | équipe produit | arbitrée le 26 novembre 2026 |
+| Prestataires du client `desktop` à nommer avant le premier commit de code de stack, A-04 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique | équipe produit | à nommer avant le premier commit de code de stack |
+| Calendrier par critères de sortie sans date de lancement, A-05 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Croissance, Opérations | équipe produit | arbitrée le 26 novembre 2026 |
+| Extension de langue par marché, date, responsable et marché inscrits au registre, A-08 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Produit, Conformité | équipe produit | arbitrée le 26 novembre 2026 |
+| Repli du fil vers le fil général de la ville concernée, sans seuil, A-10 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Croissance, Opérations | auteurs | arbitrée le 26 novembre 2026 |
 
 ## Règle d'usage
 
-Une ligne sans approbateur nommé n'autorise ni code de stack, ni migration, ni ouverture publique. Les questions ouvertes du registre produit restent dans [decisions.md](../Product/decisions.md) et ne sont pas transformées en décision ici. La liste A-13 s'appuie sur les textes officiels d'Apple et de Google Play consultés le 26 novembre 2026 et cités dans [arbitrage.md](../Product/arbitrage.md) ; elle est réécrite par le titulaire ci-dessus si une règle de store change.
+Une ligne sans approbateur nommé n'autorise ni code de stack, ni migration, ni ouverture publique. Les questions ouvertes du registre produit restent dans [decisions.md](../Product/decisions.md) et ne sont pas transformées en décision ici. Les arbitrages A-04, A-05, A-08 et A-10 sont inscrits dans la section des arbitrages du registre, sans numéro D supplémentaire. La liste A-13 s'appuie sur les textes officiels d'Apple et de Google Play consultés le 26 novembre 2026 et cités dans [arbitrage.md](../Product/arbitrage.md) ; elle est réécrite par le titulaire ci-dessus si une règle de store change.
