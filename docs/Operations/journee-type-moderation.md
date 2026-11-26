@@ -3,7 +3,7 @@
 **Déclencheur.** Avant tout lien public, comme condition 6 de la section 11 du [PRD](../Product/prd.md).  
 **Dépendances.** [astreinte](./astreinte.md), [manuel de modération](./moderation-manuel.md), [Dictionnaire de mesures](../Product/mesure.md), [Conformité](../Conformite/README.md).  
 **Propriétaire.** Coordinateur des opérations, à nommer. Modérateur de garde par ville, à nommer.  
-**Statut.** Hypothèses de dimensionnement écrites avant ouverture, à confirmer après sept jours de mesure. Modèle bénévole ou salarié à trancher.
+**Statut.** Hypothèses de dimensionnement écrites avant ouverture, à confirmer après sept jours de mesure. Modèle de renfort coopté et encadré retenu en A-09.
 
 **Unité de volume.** Signalements attendus pour 1 000 sessions de fil, par ville et par motif. Ce sont des hypothèses de capacité, pas des résultats de terrain et pas une extrapolation d’une ville vers l’autre.
 
@@ -22,7 +22,7 @@
 | P2 | Contenu trompeur ou spam à partir de deux signalements | 2 heures | Décision en 8 heures ouvrées | Obligatoire avant retrait |
 | P3 | Autre, signalement isolé sans urgence | 1 jour ouvré | Décision en 2 jours ouvrés | Relecture hebdomadaire par échantillon |
 
-Effectif minimal par ville avant ouverture : 1 modérateur de garde et 1 relecteur joignable, tous deux à nommer. Le modèle bénévole ou salarié reste à trancher.
+Effectif minimal par ville avant ouverture : 1 modérateur de garde et 1 relecteur joignable, tous deux à nommer. Le renfort est bénévole, coopté par le référent ville et encadré selon A-09.
 
 ## Deux signaux actionnables
 
