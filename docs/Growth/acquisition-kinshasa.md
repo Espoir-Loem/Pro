@@ -5,7 +5,7 @@
 **Propriétaire.** Référent ville Kinshasa, à nommer.  
 **Statut.** Cible et catégories de partenaires écrites, noms à nommer, validation écrite à obtenir.
 
-**Périmètre.** RDC, ville de Kinshasa. Aucune prévision n’est reprise de Brazzaville. Gratuité totale pendant l’acquisition.
+**Périmètre.** RDC, ville de Kinshasa. Aucune prévision n’est reprise de Brazzaville. Gratuité totale pendant l’acquisition. Le recrutement est déclenché par les critères de sortie selon A-05, sans date de lancement fixée ni date de campagne inventée dans cette fiche.
 
 ## Cible propre à Kinshasa
 
@@ -13,7 +13,7 @@
 |---|---|---|---|
 | Kinshasa | Logistique, enseignement, tech | 4 créateurs actifs, 12 vidéos publiées et modérées | `video_published` avec `city=Kinshasa` |
 
-La phrase d’invitation retenue est choisie dans [phrases-invitation.md](./phrases-invitation.md) puis validée par écrit pour Kinshasa. Aucune promesse d’emploi, de salaire, de vérification N2 au MVP, de classement payant ou d’offre d’emploi au MVP n’est autorisée. Les messages et les liens couvrent les trois clients de la dimension `plateforme` : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l'application exécutable Windows et macOS, rapide, sans lenteur, et restent sans promesse d'emploi. Linux est différé. La cible propre à Kinshasa ne change pas.
+La phrase d’invitation retenue est choisie dans [phrases-invitation.md](./phrases-invitation.md) puis validée par écrit pour Kinshasa. Aucune promesse d’emploi, de salaire, de vérification N2 au MVP, de classement payant ou d’offre d’emploi au MVP n’est autorisée. Les messages et les liens couvrent les trois clients de la dimension `plateforme` : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l'application exécutable Windows et macOS, rapide, sans lenteur, et restent sans promesse d'emploi. Linux est différé. La cible propre à Kinshasa ne change pas. Si un métier pilote n’a pas de vidéo modérée à Kinshasa, le fil général de Kinshasa est servi immédiatement selon A-10, sans seuil chiffré. La décision de repli est écrite avec la ville, la date et le propriétaire, sans transposition vers Brazzaville.
 
 ## Partenaires à nommer
 
