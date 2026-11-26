@@ -75,7 +75,7 @@ flowchart LR
   S5 -. "creux" .-> O5
 ```
 
-O5 est liée à H6 et H7, testées auprès des cinq créateurs réservés au plan de terrain. Si H6 est confirmée, la règle de visibilité employeur est écrite dans FS-05 et tranchée avec une date au registre. Tant que D-010 est ouverte, aucune fonction liée au recrutement n'est ajoutée à cette carte.
+O5 est liée à H6 et H7, testées auprès des cinq créateurs réservés au plan de terrain. Si H6 est confirmée, la règle de visibilité employeur est écrite dans FS-05 et tranchée avec une date au registre. D-010 étant retenue pour la phase 2, aucune fonction liée au recrutement n'est ajoutée à cette carte.
 
 ## Limites de la carte
 

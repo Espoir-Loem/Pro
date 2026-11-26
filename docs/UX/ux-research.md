@@ -28,7 +28,7 @@ La forme s'inspire de pratiques documentées. Google décrit des immersions de c
 | Aucun identifiant permanent pour le visiteur | D-012, [Décisions](../Product/decisions.md) | Aucune solution proposée ne réintroduit de suivi permanent |
 | deux Congo d'abord | D-007, PRD section 2 | Aucune extrapolation au continent sans second cycle |
 
-Les définitions de mesure et les dénominateurs canoniques relèvent de [mesure.md](../Product/mesure.md). D-009 est retenue et décrite dans `../Technique/adr-001-stack.md`. Les niveaux D-010 et D-011 restent des questions ouvertes du registre et n'orientent pas le cycle 1.
+Les définitions de mesure et les dénominateurs canoniques relèvent de [mesure.md](../Product/mesure.md). D-009 est retenue et décrite dans `../Technique/adr-001-stack.md`. Les décisions D-010 et D-011 sont retenues depuis le 26 novembre 2026 et restent hors du cycle 1.
 
 **Plateformes.** La dimension `plateforme` prend trois valeurs : `mobile` pour les applications natives iOS et Android sur téléphone, `web` pour le site responsive dans un navigateur, `desktop` pour l'application exécutable Windows et macOS. Linux est différé. Les trois plateformes sont livrées ensemble. Le cycle 1 couvre les trois plateformes déclarées, `mobile`, `web` et `desktop`, sans présumer que les usages desktop soient identiques au mobile.
 
@@ -271,8 +271,8 @@ Base légale : consentement de la personne participante, à confirmer par la per
 - Faut-il une option explicite pour ne pas apparaître devant les collègues ou l'employeur actuel ?
 - Faut-il avertir automatiquement sur les demandes d'argent ou d'identifiants dans le chat ?
 - La règle de blocage après réception (H9) devient-elle une règle FS-07 ?
-- La vérification N2 reste reportée : D-010 est ouverte et relève de la phase 2.
-- Le nom et les privilèges du futur niveau payant relèvent de D-011, ouverte et hors MVP.
+- La vérification N2 reste reportée : D-010 est retenue et relève de la phase 2.
+- Le nom et les privilèges du futur niveau payant sont définis par D-011, retenue et hors MVP.
 
 ## 16. Limites de ce document
 
