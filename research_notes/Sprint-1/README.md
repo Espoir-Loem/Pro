@@ -18,6 +18,7 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Grille des prestataires `desktop` | [prestataires-desktop.md](./prestataires-desktop.md) | Points à vérifier avant de nommer les prestataires Windows et macOS, aucun nom avancé |
 | Shortlist documentée `desktop` | [shortlist-prestataires-desktop.md](./shortlist-prestataires-desktop.md) | Pistes publiques datées pour Windows et macOS, aucune désignation ni contact |
 | Protocole des mises à jour | [controle-mises-a-jour.md](./controle-mises-a-jour.md) | Scénarios et preuves à rejouer avant FS-01, aucun contrôle exécuté |
+| Protocole de contrôle SEO | [controle-seo.md](./controle-seo.md) | Checklist et extractions à rejouer sur un rendu web réel, sans résultat |
 
 ## Portes avant le premier commit de code
 
@@ -27,7 +28,7 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 4. Prestataires `desktop` Windows et macOS nommés avant le premier commit de code de stack, selon A-04. La [grille de vérification](./prestataires-desktop.md) prépare cette nomination sans désigner personne, et la [shortlist documentée](./shortlist-prestataires-desktop.md) classe des pistes publiques datées sans retenir d'acteur.
 5. Titulaires des fiches techniques : Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04, inscrit le 26 novembre 2026 dans les sept fiches, identité de session, menaces, architecture, API, données, observation et responsabilités. Cette porte est levée. Une nomination définitive reste à écrire sans créer de nouvelle porte.
 6. Preuve de signature, de retour arrière et de non interruption de session attendue au premier rendu signé des trois clients. Le [protocole de contrôle](./controle-mises-a-jour.md) prépare les scénarios à rejouer avant FS-01, sans exécuter ni déclarer de contrôle.
-7. Contrôle SEO de l'issue #11 à passer sur un rendu web réel, donc après l'existence d'un rendu.
+7. Contrôle SEO de l'issue #11 à passer sur un rendu web réel, donc après l'existence d'un rendu. Le [protocole de contrôle](./controle-seo.md) prépare les vérifications et les extractions datées, sans exécuter ni déclarer de contrôle.
 
 ## Ce que ce dossier ne fait pas
 
