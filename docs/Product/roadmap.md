@@ -26,7 +26,7 @@ Une phase se termine quand ses critères de sortie sont vrais et que les preuves
 
 Le dénominateur de H4 est celui du registre UX, soit 10, alors que le plan de terrain prévoit 6 participants à J8. Le validateur nomme le dénominateur retenu avant J8 et écrit ce choix dans le registre des décisions. Les conditions d'infirmation qualitatives de H2, H3 et H8 sont appliquées telles quelles et leur conversion en seuil numérique est tranchée par le validateur avant le test concerné.
 
-**Critères de sortie.** Chaque hypothèse H1 à H8 est confirmée ou infirmée selon les seuils ci-dessus. Les hypothèses infirmées sont nommées avec leur preuve. Une seule opportunité O1 à O5 est retenue par écrit, avec son identifiant, dans le compte rendu de J10. Aucune hypothèse n'est reportée au-delà du premier sprint sans décision écrite au registre, avec responsable et date. Aucune histoire FS-01 à FS-11 n'entre dans ce sprint sans identifiant O ou H.
+**Critères de sortie.** Chaque hypothèse H1 à H8 est confirmée ou infirmée selon les seuils ci-dessus. Les hypothèses infirmées sont nommées avec leur preuve. Une seule opportunité O1 à O5 est retenue par écrit, avec son identifiant, dans le compte rendu de J10. Aucune hypothèse n'est reportée au-delà du premier sprint sans décision écrite au registre, avec responsable et date. Aucune histoire FS-01 à FS-11 n'entre dans ce sprint sans identifiant O ou H. La [check-list de clôture](../../research_notes/Cycle-1/checklist-cloture-phase0.md) prépare la vérification de ces critères, sans case cochée à l'avance.
 
 **Dépendance.** Recrutement possible dans les deux villes, déclenché par les critères de sortie et non par une date de lancement, selon A-05. Le terrain du cycle 1 se déroule en français, selon A-08.
 
