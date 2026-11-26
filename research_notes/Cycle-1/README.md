@@ -25,6 +25,9 @@ Ce dossier rassemble les modèles et les protocoles prêts à être utilisés pe
 | Stimuli RQ1, RQ3 et J8 | [stimuli/](./stimuli/changelog.md) | Ordres et scénarios prêts, adresse de test à fournir |
 | Test interne J3 | [J3-interne.md](./sessionnels/J3-interne.md) | Aucun identifiant de participant |
 | Décisions J10 | [J10-decisions.md](./decisions/J10-decisions.md) | Aucune décision de clôture écrite |
+| Trame de l'opportunité O | [trame-opportunite-O.md](./trame-opportunite-O.md) | Cinq opportunités canoniques et champs à remplir après J10, aucun choix |
+| Modèle de décision H1 | [decision-denominateur-H1.md](./hypotheses/decision-denominateur-H1.md) | Décision à écrire avant J7, aucun nombre prérempli |
+| Check-list de clôture | [checklist-cloture-phase0.md](./checklist-cloture-phase0.md) | Critères de sortie de la Phase 0, aucune case cochée |
 
 ## Ce qui reste à faire
 
