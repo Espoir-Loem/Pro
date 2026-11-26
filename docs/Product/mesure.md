@@ -22,6 +22,7 @@ Aucune cible chiffrée n'est inventée dans ce cadrage. Chaque cible est nommée
 - D-020 : La mesure à sept jours porte sur les comptes ayant un email vérifié. Aucune cohorte visiteur à sept jours n'est calculée, puisqu'aucun identifiant permanent visiteur n'est conservé.
 - Les dénominateurs ne sont pas fusionnés : une mesure par session de fil reste distincte d'une mesure par compte vérifié.
 - Le nom canonique d'acquisition est inscriptions avec email vérifié pour 1 000 sessions de fil, calculé par `signup_verified / feed_session_start * 1000`.
+- A-10 : aucun seuil de fil non vide n'est défini. Quand un `trade` n'a pas de vidéo modérée dans une ville, le fil général de cette ville est servi immédiatement, sans transposition vers l'autre ville. Le repli est écrit avec la ville, la date et le propriétaire. Aucun événement ni dénominateur supplémentaire n'est créé ; les cibles de semis restent des hypothèses de planification.
 
 ## Chemin objectif, signal, mesure
 

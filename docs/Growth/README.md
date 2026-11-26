@@ -4,7 +4,7 @@
 **Déclencheur.** Campagnes préparées avant ouverture, mesure disponible avant le premier lien.  
 **Dépendances.** [PRD](../Product/prd.md), [Dictionnaire de mesures](../Product/mesure.md), [Décisions produit](../Product/decisions.md), [Recherche UX](../UX/ux-research.md), [Technique](../Technique/README.md), [Conformité](../Conformite/README.md).  
 **Propriétaire.** Référent croissance, à nommer. Un référent par ville, à nommer.  
-**Statut.** Fiches écrites, cibles chiffrées posées comme hypothèses de planification, partenaires et validateurs à nommer. Seuil de fil non vide à trancher.
+**Statut.** Fiches écrites, cibles chiffrées posées comme hypothèses de planification, partenaires et validateurs à nommer. Seuil de fil non vide tranché par A-10 : aucun seuil, repli immédiat vers le fil général de la ville concernée. Recrutement déclenché par les critères de sortie selon A-05, sans date de lancement inventée.
 
 **Règle.** Gratuité totale pendant l’acquisition : Pro est gratuit à 100 %. Aucune promesse d’emploi, de salaire, de vérification N2 au MVP, de classement payant ou d’offre d’emploi au MVP. Brazzaville et Kinshasa ont des cibles, des partenaires et des mesures distincts. Aucune extrapolation d’une ville vers l’autre ni vers le continent. La dimension `plateforme` est lue avec la ville : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l’application exécutable Windows et macOS, rapide, sans lenteur. Linux est différé. Les messages et les liens couvrent les trois clients et restent sans promesse d’emploi. Aucune décision de gratuité n’est modifiée.
 

@@ -3,7 +3,7 @@
 **Déclencheur.** Avant la première mise en ligne, pour donner un destinataire aux alertes du [PRD](../Product/prd.md).  
 **Dépendances.** [journée type](./journee-type-moderation.md), [incidents](./incidents.md), [Technique](../Technique/README.md), [Conformité](../Conformite/README.md).  
 **Propriétaire.** Coordinateur des opérations, à nommer.  
-**Statut.** Rôles et règles écrits, titulaires à nommer, numéro d’urgence à nommer, exercice à blanc à passer.
+**Statut.** Rôles et règles écrits, titulaires à nommer, numéro d’urgence à nommer, exercice à blanc à passer. L’astreinte est armée quand les critères de sortie sont vrais, selon A-05, sans date de lancement fixée.
 
 **Périmètre des plateformes.** L'astreinte lit les alertes avec la ville et la plateforme : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l'application exécutable Windows et macOS, rapide, sans lenteur. Linux est différé. Une coupure peut toucher le client `desktop` seul. Aucun nom de titulaire n'est supposé.
 

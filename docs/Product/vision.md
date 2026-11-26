@@ -65,7 +65,7 @@ Le mur n'est pas à l'entrée. Il est placé au premier geste qui crée une trac
 
 **Gratuité par phase.** Les phases 1 à 4 sont gratuites, conformément à D-005. La Phase 5 introduit un niveau organisations payant dont le nom et les privilèges sont définis par D-011, retenue le 26 novembre 2026. Aucun classement payant dans la recherche. Les offres signalées éventuelles restent hors recherche et relèvent de la Phase 5.
 
-**Ancrage géographique.** Pro commence par les deux Congo : la République du Congo (Brazzaville) et la RDC (Kinshasa) forment le premier marché. Le reste de l'Afrique vient ensuite, puis le monde. Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.
+**Ancrage géographique.** Pro commence par les deux Congo : la République du Congo (Brazzaville) et la RDC (Kinshasa) forment le premier marché. Le reste de l'Afrique vient ensuite, puis le monde. Français d'abord. Le français est la seule langue des phases 0, 1 et 2 selon A-08, arbitrée le 26 novembre 2026. Toute langue ajoutée à partir de la Phase 3 est inscrite au registre avec date, responsable et marché avant le premier contenu dans cette langue. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.
 
 Les moments de conversion ne sont pas des interstitiels plein écran. Ce sont des phrases courtes, liées à une action, avec un marqueur de phase :
 

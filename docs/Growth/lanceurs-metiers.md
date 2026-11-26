@@ -3,9 +3,9 @@
 **Déclencheur.** Avant le fil public et avant toute campagne liée.  
 **Dépendances.** [Recherche UX](../UX/ux-research.md), [PRD](../Product/prd.md), [Dictionnaire de mesures](../Product/mesure.md), [animation des créateurs](../Operations/animation-createurs.md).  
 **Propriétaire.** Référent croissance, à nommer. Référent ville par ville, à nommer.  
-**Statut.** Cibles chiffrées écrites, seuil de fil non vide à trancher, métiers à confirmer par écrit.
+**Statut.** Cibles chiffrées écrites comme hypothèses de planification, seuil de fil non vide tranché par A-10 : aucun seuil et repli immédiat vers le fil général de la ville concernée, métiers à confirmer par écrit.
 
-**Périmètre des plateformes.** Les messages, les liens et les relances couvrent les trois clients de la dimension `plateforme` : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l'application exécutable Windows et macOS, rapide, sans lenteur, et restent sans promesse d'emploi. Linux est différé. Les cibles par ville et le seuil de fil non vide ne changent pas.
+**Périmètre des plateformes.** Les messages, les liens et les relances couvrent les trois clients de la dimension `plateforme` : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l'application exécutable Windows et macOS, rapide, sans lenteur, et restent sans promesse d'emploi. Linux est différé. Les cibles par ville restent des hypothèses de planification. Le seuil de fil non vide est tranché par A-10 : aucun seuil.
 
 ## Semis par ville
 
@@ -18,9 +18,9 @@ Les libellés viennent de la liste de secteurs du plan de terrain de la [recherc
 
 ## Seuil de fil non vide
 
-Le seuil minimal de vidéos visibles par métier est **à trancher** par le référent ville, à nommer, avant ouverture. Aucun nombre n’est imposé ici. Tant qu’il n’est pas tranché, le résultat des cibles ci-dessus reste un semis contrôlé, pas une preuve que le fil est suffisant.
+Aucun seuil minimal de vidéos visibles par métier ou par ville n'est fixé, selon A-10 arbitrée le 26 novembre 2026 et inscrite au registre. Les cibles ci-dessus restent un semis contrôlé, pas une preuve que le fil est suffisant.
 
-Si le seuil n’est pas atteint dans une ville, le repli vers le fil général s’applique à cette ville seulement. La décision est écrite avec la ville, la date et le propriétaire. Elle n’est pas transposée à l’autre ville.
+Si un métier n'a pas de vidéo modérée dans une ville, le fil général de cette ville est servi immédiatement, sans écran vide et sans attente. Le repli est écrit avec la ville, la date et le propriétaire. Aucune valeur ni décision de repli n'est transposée à l'autre ville.
 
 ## Engagement et relance
 

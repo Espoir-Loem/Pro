@@ -3,7 +3,7 @@
 **Déclencheur.** Avant la phase 1 et avant l’ouverture du fil public.  
 **Dépendances.** [lanceurs-metiers](../Growth/lanceurs-metiers.md), [Recherche UX](../UX/ux-research.md), [PRD](../Product/prd.md), [Dictionnaire de mesures](../Product/mesure.md).  
 **Propriétaire.** Référent ville, à nommer, pour Brazzaville et pour Kinshasa.  
-**Statut.** Cibles et engagement écrits, métiers à confirmer par écrit, seuil de fil non vide à trancher.
+**Statut.** Cibles et engagement écrits, métiers à confirmer par écrit, seuil de fil non vide tranché par A-10 : aucun seuil et repli immédiat vers le fil général de la ville concernée. Recrutement déclenché par les critères de sortie selon A-05, sans date de lancement fixée.
 
 ## Semis par ville
 
@@ -14,7 +14,7 @@
 
 Ces libellés reprennent la liste de secteurs du plan de terrain de la [recherche UX](../UX/ux-research.md), section 8. Ils ne sont pas des résultats d’entretiens et n’établissent aucune prévalence locale. La personne qui mène la recherche confirme chaque métier par écrit avant le recrutement.
 
-La vérification utilise `video_published` avec le champ `city`, puis le passage en modération. Le seuil de fil non vide est à trancher dans [lanceurs-metiers](../Growth/lanceurs-metiers.md). S’il n’est pas atteint, le repli vers le fil général est appliqué pour la ville concernée, sans recopier cette décision pour l’autre ville.
+La vérification utilise `video_published` avec le champ `city`, puis le passage en modération. Le seuil de fil non vide est tranché par A-10 dans [lanceurs-metiers](../Growth/lanceurs-metiers.md) : aucun seuil chiffré. Si un métier n’a pas de vidéo modérée, le fil général de la ville concernée est servi immédiatement. Le repli est écrit avec la ville, la date et le propriétaire, sans recopier cette décision pour l’autre ville. Les J-14, J-10, J-7, J-3 et J+7 sont relatifs à l’ouverture effective, pas à une date de lancement fixée à l’avance, selon A-05.
 
 ## Calendrier de relance
 
