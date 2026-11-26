@@ -62,7 +62,7 @@ Profil fictif, hors cycle 1 et hors MVP. Le lien retenu est la phase 2 et l'oppo
 
 **Objectif.** Donner accès aux bonnes personnes sans partager de mot de passe.
 
-**Tension.** Il doit faire vérifier une entité avant d'ouvrir une page publique crédible, alors que la vérification N2 reste à trancher. O1 et H2.
+**Tension.** Il doit faire vérifier une entité avant d'ouvrir une page publique crédible, alors que la vérification N2 est cadrée par D-010, retenue le 26 novembre 2026. O1 et H2.
 
 **Plateforme.** Profil fictif hors MVP, sans appareil supposé. La gestion de page est à observer sur application mobile, site web ou application desktop.
 
