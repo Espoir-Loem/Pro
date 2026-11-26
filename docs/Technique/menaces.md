@@ -23,4 +23,4 @@
 
 ## Revue
 
-La revue est déclenchée avant `securite.md` et `architecture.md`, puis avant FS-07 et FS-09. Les six menaces et leurs tests couvrent les trois clients livrés ensemble, y compris le client desktop. Aucune particularité de l'installateur, des mises à jour ou du cache local ne crée d'exception : la visibilité est revalidée à chaque réponse et aucun identifiant d'appareil permanent n'est écrit, y compris sur desktop. Le niveau ASVS visé reste à trancher et est inscrit dans `responsabilites.md`.
+La revue est déclenchée avant `securite.md` et `architecture.md`, puis avant FS-07 et FS-09. Les six menaces et leurs tests couvrent les trois clients livrés ensemble, y compris le client desktop. Aucune particularité de l'installateur, des mises à jour ou du cache local ne crée d'exception : la visibilité est revalidée à chaque réponse et aucun identifiant d'appareil permanent n'est écrit, y compris sur desktop. Le niveau OWASP ASVS 2 visé est inscrit dans `responsabilites.md` et `securite.md` depuis le 26 novembre 2026.
