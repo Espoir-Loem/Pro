@@ -8,7 +8,7 @@ Aucune donnée de participant n'est inventée dans ce document. Les dossiers et 
 
 ## 1. Emplacement prévu
 
-Le référentiel est prévu sous `research_notes/Cycle-1/`. Ce dossier n'est pas créé par ce document. Il est rempli après J2, quand les douze personnes recrutées ont donné leur consentement. La ville, la situation et le secteur de chaque P sont inscrits alors, sans être devinés ici.
+Le référentiel est prévu sous `research_notes/Cycle-1/`. Le [kit d'exécution](../../research_notes/Cycle-1/README.md) y est préparé le 26 novembre 2026 avec les modèles et les protocoles décrits dans ce document. Les dossiers `participants/P.../` sont créés après J2, quand les douze personnes recrutées ont donné leur consentement. La ville, la situation et le secteur de chaque P sont inscrits alors, sans être devinés ici.
 
 ```text
 research_notes/Cycle-1/
@@ -108,6 +108,8 @@ Deux personnes codent la même fiche. Un désaccord est noté dans `codage/desac
 | `guide/changelog.md` | continu | J1 à J10 | Date, motif, personne responsable |
 | `protocole/J7-taches-v1.md` | v1 | J3 | Consigne, tâches, critères de réussite, enregistrement des gestes |
 | `protocole/J8-variantes-v1.md` | v1 | J3 | Deux formulations, dénominateur unique, définition de l'abandon |
+
+Les modèles correspondants sont préparés dans le [kit d'exécution](../../research_notes/Cycle-1/README.md). Leur date de passation est renseignée au moment de J1, J3 ou J7 et J8. Aucune version du guide, du protocole ou du stimuli n'est datée rétroactivement.
 
 Ces versions et les phases J1 à J10 qui les utilisent valent pour application mobile, site web ou application desktop. La plateforme de chaque phase est consignée dans la fiche de session, sans changement de version automatique entre plateformes.
 
