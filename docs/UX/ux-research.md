@@ -21,14 +21,14 @@ La forme s'inspire de pratiques documentées. Google décrit des immersions de c
 | Lecture publique sans compte, identité au premier geste social | D-001, [Décisions](../Product/decisions.md), PRD FS-01 | Le moment précis où la personne accepte de s'identifier |
 | Vidéo courte et authentique, 60 secondes maximum | PRD FS-02 | Ce qui rend une vidéo croyable |
 | Métier et ville choisis à la première ouverture, sans compte | PRD FS-03 | Si ces deux filtres sont les premiers réflexes |
-| Langues : « Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage. » | D-008, [Décisions](../Product/decisions.md) | Le terrain du cycle 1 se déroule en français ; aucune autre langue n'est programmée |
+| Langues : « Français d'abord. Le français est la seule langue des phases 0, 1 et 2 selon A-08. Toute langue ajoutée à partir de la Phase 3 est inscrite au registre avec date, responsable et marché avant le premier contenu dans cette langue. » | D-008, A-08, [Décisions](../Product/decisions.md) | Le terrain du cycle 1 se déroule en français ; aucune autre langue n'est programmée avant la Phase 3 |
 | Sous-titres du MVP : « Les vidéos avec son du MVP disposent de sous-titres générés automatiquement et corrigés par l'auteur avant publication. Si la correction n'est pas faite, la vidéo reste en brouillon et n'est pas publiée. » | D-021, [Décisions](../Product/decisions.md), parcours B | La correction des sous-titres fait partie de la préparation de la vidéo et du contrôle en modération |
 | Gratuité totale pendant l'acquisition | D-005, PRD section 14.5 | Si la confiance vient de la preuve de travail plus que d'un badge |
 | Chat 1:1 entre membres | PRD FS-07 | Ce qui rassure avant de répondre à un inconnu |
 | Aucun identifiant permanent pour le visiteur | D-012, [Décisions](../Product/decisions.md) | Aucune solution proposée ne réintroduit de suivi permanent |
 | deux Congo d'abord | D-007, PRD section 2 | Aucune extrapolation au continent sans second cycle |
 
-Les définitions de mesure et les dénominateurs canoniques relèvent de [mesure.md](../Product/mesure.md). D-009 est retenue et décrite dans `../Technique/adr-001-stack.md`. Les décisions D-010 et D-011 sont retenues depuis le 26 novembre 2026 et restent hors du cycle 1.
+Les définitions de mesure et les dénominateurs canoniques relèvent de [mesure.md](../Product/mesure.md). D-009 est retenue et décrite dans `../Technique/adr-001-stack.md`. Les décisions D-010 et D-011 sont retenues depuis le 26 novembre 2026 et restent hors du cycle 1. Les arbitrages A-04, A-05, A-08 et A-10 sont inscrits au registre le 26 novembre 2026 sans modifier les hypothèses ni les seuils de ce cycle.
 
 **Plateformes.** La dimension `plateforme` prend trois valeurs : `mobile` pour les applications natives iOS et Android sur téléphone, `web` pour le site responsive dans un navigateur, `desktop` pour l'application exécutable Windows et macOS. Linux est différé. Les trois plateformes sont livrées ensemble. Le cycle 1 couvre les trois plateformes déclarées, `mobile`, `web` et `desktop`, sans présumer que les usages desktop soient identiques au mobile.
 

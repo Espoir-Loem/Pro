@@ -2,7 +2,7 @@
 
 **Statut** : structure version 5, 25 novembre 2026
 **Règle typographique** : aucun tiret cadratin ni demi-cadratin dans les fichiers du dossier
-**Langue** : Français d'abord. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.
+**Langue** : Français d'abord. Le français est la seule langue des phases 0, 1 et 2 selon A-08, arbitrée le 26 novembre 2026. Toute langue ajoutée à partir de la Phase 3 est inscrite au registre avec date, responsable et marché avant le premier contenu dans cette langue. Les langues suivantes sont validées marché par marché, avec date et responsable inscrits au registre. Aucune autre langue n'est datée dans ce cadrage.
 
 Cette architecture range les documents par métier, pour que chaque personne sache quel fichier elle utilise et lequel elle met à jour. La liste ci-dessous recense les cinquante-neuf fichiers présents, y compris ce README.
 

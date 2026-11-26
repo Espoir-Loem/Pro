@@ -24,13 +24,16 @@ Les fiches [incidents.md](./incidents.md) et [support.md](./support.md) lisent c
 
 ## Décisions à trancher avant ouverture
 
-- Modèle bénévole ou salarié de la modération, sans le présenter comme déjà choisi.
-- Seuil de fil non vide, dans [lanceurs-metiers.md](../Growth/lanceurs-metiers.md).
+- Modèle bénévole ou salarié de la modération, point A-09, sans le présenter comme déjà choisi.
 - Ajout des avertissements arnaque à FS-07, dans [veille-arnaque.md](./veille-arnaque.md).
 
 ## Décisions déjà écrites
 
 Le budget CDN et modération est inscrit dans [decisions.md](../Product/decisions.md) au point D-022 : 1 000 USD par mois, répartis en 500 USD pour Brazzaville et 500 USD pour Kinshasa, sur le mois civil. Le seuil est de 0,001 USD par vue, lu séparément par ville, soit 1 USD pour 1 000 vues. La décision est révisée après 30 jours d’exploitation et ne choisit pas le fournisseur CDN.
+
+Le seuil de fil non vide est tranché en A-10 : aucun seuil, repli immédiat vers le fil général de la ville concernée si un métier n’a pas de vidéo modérée. La décision de repli est écrite avec la ville, la date et le propriétaire, sans transposition d’une ville à l’autre. Le détail est dans [lanceurs-metiers.md](../Growth/lanceurs-metiers.md).
+
+Le calendrier est défini par critères de sortie selon A-05 : aucune date de lancement n’est inventée, la date est à nommer avant le planning, le recrutement des créateurs et l’astreinte sont déclenchés par les critères. Les cibles de semis restent des hypothèses de planification, pas une preuve que le fil est suffisant.
 
 Le recours du signalant visiteur est une **absence de recours écrite**, écrite dans [contestation.md](./contestation.md). Aucun recours anonyme n’est ouvert en parallèle.
 
