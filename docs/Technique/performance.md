@@ -1,6 +1,6 @@
 # Performance : budgets et profil de référence
 
-**Propriétaire.** à nommer. **Statut.** proposée, valeurs à confirmer. **Date.** 25 novembre 2026.
+**Propriétaire.** Espoir LOEMBA, intérimaire. **Statut.** profil R2 arbitré le 26 novembre 2026, profil R1 encore proposé. **Date.** 26 novembre 2026.
 
 ## Profil de référence
 
@@ -18,27 +18,29 @@ Le PRD dit « réseau mobile correct ». Ce n'est pas mesurable. Le profil R1 ci
 
 Le profil R1 sert les deux autres clients. Le profil R2 ci-dessous est réservé au client desktop.
 
-## Profil R2 desktop à définir
+## Profil R2 desktop arbitré
 
-Machine de référence à confirmer, sur Windows et sur macOS. Les versions de système, le processeur, la mémoire et le disque de référence sont à confirmer. Aucune mesure de Pro n'est disponible : les valeurs ci-dessous sont des cibles proposées, à confirmer.
+A-03 est arbitrée le 26 novembre 2026 : machine modeste retenue pour Windows 11 et macOS en version supportée, avec 2 cœurs, 4 Go de RAM et un disque SSD. Aucune mesure de Pro n'est disponible : les valeurs ci-dessous sont des cibles de revue, pas des résultats.
 
 Pour le client desktop, la référence de perception : application de messagerie légère citée par le porteur. Elle n'est ni une mesure relevée, ni une promesse d'égalité de performance, ni une cible contractuelle.
 
-| Paramètre | Valeur proposée | Statut |
+| Paramètre | Valeur retenue | Statut |
 |---|---|---|
-| Systèmes | Windows et macOS, versions à confirmer | à confirmer |
-| Machine de référence | processeur, mémoire et disque à confirmer | à confirmer |
-| Réseau pour la première image vidéo | profil R1 | à confirmer |
+| Systèmes | Windows 11 et macOS en version supportée, séparés | arbitré le 26 novembre 2026 |
+| Machine de référence | 2 cœurs, 4 Go de RAM, SSD | arbitré le 26 novembre 2026 |
+| Réseau pour la première image vidéo | profil R1 | proposition inchangée |
+| Méthode | 30 lancements à froid par système, p75, traces jointes | arbitré le 26 novembre 2026 |
+| Revue | 26 décembre 2026 | arbitré le 26 novembre 2026 |
 
-| Mesure | Cible proposée | Condition | Statut |
-|---|---|---|---|
-| Démarrage à froid jusqu'au fil interactif | moins de 2 secondes | machine de référence R2 à confirmer, Windows et macOS séparés | à confirmer |
-| Changement de vue locale | moins de 100 ms | machine de référence R2 à confirmer | à confirmer |
-| Première image vidéo | moins de 300 ms | profil R1, cache froid et cache chaud séparés | à confirmer |
-| Mémoire au repos | moins de 150 Mo | machine de référence R2 à confirmer | à confirmer |
-| Installateur | moins de 80 Mo | Windows et macOS séparés | à confirmer |
+| Mesure | Cible de revue | Condition |
+|---|---|---|
+| Démarrage à froid jusqu'au fil interactif | moins de 2 secondes | machine R2, Windows et macOS séparés, p75 sur 30 lancements |
+| Changement de vue locale | moins de 100 ms | machine R2, Windows et macOS séparés |
+| Première image vidéo | moins de 300 ms | profil R1, cache froid et cache chaud séparés |
+| Mémoire au repos | moins de 150 Mo | machine R2, Windows et macOS séparés |
+| Installateur | moins de 80 Mo | Windows et macOS séparés |
 
-Aucun de ces seuils n'est présenté comme mesuré. La confirmation passe par une machine de référence écrite et par des traces jointes aux revues de `architecture.md`, `video.md` et `responsabilites.md`.
+Aucun de ces seuils n'est présenté comme mesuré. La revue du 26 décembre 2026 joint les traces à `architecture.md`, `video.md` et `responsabilites.md`, et révise les cibles si la machine modeste les rend irréalistes.
 
 ## Budgets
 
@@ -59,4 +61,4 @@ WCAG 2.2 niveau AA visé. Cibles de 24 sur 24 pixels CSS au minimum AA, objectif
 
 ## Déclencheur
 
-Ce document précède `architecture.md` et `video.md`. Tout changement du profil R1 entraîne une relecture de `architecture.md` et de `video.md`. La confirmation du profil R2 déclenche la revue de performance desktop inscrite dans `responsabilites.md`.
+Ce document précède `architecture.md` et `video.md`. Tout changement du profil R1 entraîne une relecture de `architecture.md` et de `video.md`. Le profil R2 est arrêté ; la revue de performance desktop du 26 décembre 2026 est inscrite dans `responsabilites.md`.
