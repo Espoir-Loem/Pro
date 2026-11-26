@@ -16,6 +16,7 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Tâches architecture | [architecture-taches.md](./sprint/architecture-taches.md) | Ordre d'exécution des fiches, titulaires à nommer signalés |
 | Tâches CI | [ci-taches.md](./sprint/ci-taches.md) | Contrôles à rejouer sur chaque pull request et à chaque release |
 | Grille des prestataires `desktop` | [prestataires-desktop.md](./prestataires-desktop.md) | Points à vérifier avant de nommer les prestataires Windows et macOS, aucun nom avancé |
+| Protocole des mises à jour | [controle-mises-a-jour.md](./controle-mises-a-jour.md) | Scénarios et preuves à rejouer avant FS-01, aucun contrôle exécuté |
 
 ## Portes avant le premier commit de code
 
@@ -24,7 +25,7 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 3. A-12 levée par un avis local écrit d'un conseil externe avant hébergeur, région de stockage et première migration.
 4. Prestataires `desktop` Windows et macOS nommés avant le premier commit de code de stack, selon A-04. La [grille de vérification](./prestataires-desktop.md) prépare cette nomination sans désigner personne.
 5. Titulaires des fiches techniques : Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04, inscrit le 26 novembre 2026 dans les sept fiches, identité de session, menaces, architecture, API, données, observation et responsabilités. Cette porte est levée. Une nomination définitive reste à écrire sans créer de nouvelle porte.
-6. Preuve de signature, de retour arrière et de non interruption de session attendue au premier rendu signé des trois clients.
+6. Preuve de signature, de retour arrière et de non interruption de session attendue au premier rendu signé des trois clients. Le [protocole de contrôle](./controle-mises-a-jour.md) prépare les scénarios à rejouer avant FS-01, sans exécuter ni déclarer de contrôle.
 7. Contrôle SEO de l'issue #11 à passer sur un rendu web réel, donc après l'existence d'un rendu.
 
 ## Ce que ce dossier ne fait pas
