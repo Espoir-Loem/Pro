@@ -1,6 +1,6 @@
 # Menaces : modélisation avant architecture
 
-**Propriétaire.** à nommer. **Statut.** proposée. **Date.** 25 novembre 2026.
+**Propriétaire.** Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04. **Statut.** proposée. **Date.** 25 novembre 2026.
 **Source.** [OWASP Threat Modeling](https://owasp.org/www-community/Threat_Modeling), [OWASP ASVS](https://owasp.org/projects/asvs).
 
 ## Les quatre questions OWASP

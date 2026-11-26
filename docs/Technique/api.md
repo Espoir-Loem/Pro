@@ -1,6 +1,6 @@
 # API : points d'accès, réponses et limites
 
-**Propriétaire.** à nommer. **Statut.** proposée. **Date.** 25 novembre 2026.
+**Propriétaire.** Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04. **Statut.** proposée. **Date.** 25 novembre 2026.
 **Dépendances.** `architecture.md`, `adr-002-identite-session.md`.
 
 ## Points d'accès utiles au MVP
