@@ -36,9 +36,9 @@ US-06 ne promet pas de fil personnalisé : la sauvegarde est un geste volontaire
 | US-13 | En tant que propriétaire, je veux créer une page département ou antenne, afin de représenter chaque équipe | Toutes les pages ont les mêmes capacités | P1, hors sprint MVP | O1, H2 | Section 14.1 |
 | US-14 | En tant que propriétaire, je veux nommer un administrateur, afin de répartir la gestion sans partager de mot de passe | Les rôles sont propres à chaque page | P1, hors sprint MVP | O5, H6 | Section 14.2 |
 | US-15 | En tant que recruteur, je veux publier une offre au nom d'une page, afin d'atteindre les personnes qui ont vu le travail de l'équipe | Les offres arrivent avec la phase emploi | P1, hors sprint MVP | O4, H5 | Section 14 |
-| US-16 | En tant que membre vérifié, je veux postuler avec un dossier, afin que l'employeur sache qui je suis | La règle N2 reste à trancher | Non priorisée, D-010 ouverte | O4, H5, à confirmer avec D-010 | Section 13 |
+| US-16 | En tant que membre vérifié, je veux postuler avec un dossier, afin que l'employeur sache qui je suis | La règle N2 est cadrée par D-010 | Non priorisée, D-010 retenue | O4, H5, selon D-010 | Section 13 |
 
-US-16 reste sans priorité tant que D-010 est ouverte au [registre](../Product/decisions.md). Le recruteur et les candidatures sont hors MVP.
+US-16 reste sans priorité dans le MVP, D-010 étant retenue au [registre](../Product/decisions.md). Le recruteur et les candidatures sont hors MVP.
 
 ## Règles d'écriture d'une nouvelle histoire
 
@@ -47,4 +47,4 @@ US-16 reste sans priorité tant que D-010 est ouverte au [registre](../Product/d
 3. Renseigner la colonne Opportunité ou hypothèse avec O1 à O5 ou H1 à H9. Une histoire sans identifiant n'entre pas dans un sprint.
 4. Vérifier la limite du dénominateur associé dans [ux-research.md](./ux-research.md) avant d'écrire un seuil.
 5. Ajouter les critères d'acceptation dans le PRD, pas ici, pour garder une seule source de vérité.
-6. Ne pas transformer une décision ouverte en priorité : D-010 et D-011 restent hors sprint ; D-009 est retenue et n'entre pas dans une histoire sans FS rattachée.
+6. Ne pas transformer une décision retenue en priorité : D-010 et D-011 restent hors sprint ; D-009 est retenue et n'entre pas dans une histoire sans FS rattachée.
