@@ -93,7 +93,7 @@ jobs:
           cosign-release: v3.1.6
       - name: "Pro[CI]: sign SBOM"
         if: startsWith(github.ref, 'refs/tags/v')
-        run: cosign sign-blob --yes --output-signature .tmp/sbom.cdx.json.sig --output-certificate .tmp/sbom.cdx.json.pem sbom.cdx.json
+        run: cosign sign-blob --yes --bundle .tmp/sbom.cdx.json.sigstore.json sbom.cdx.json
       - name: "Pro[CI]: VEX"
         if: startsWith(github.ref, 'refs/tags/v')
         run: |
@@ -116,13 +116,13 @@ jobs:
           with open("vex.cdx.json", "w", encoding="utf-8") as handle:
               json.dump(document, handle, ensure_ascii=False, indent=2)
           PY
-          cosign sign-blob --yes --output-signature .tmp/vex.cdx.json.sig --output-certificate .tmp/vex.cdx.json.pem vex.cdx.json
+          cosign sign-blob --yes --bundle .tmp/vex.cdx.json.sigstore.json vex.cdx.json
       - name: "Pro[CI]: release assets"
         if: startsWith(github.ref, 'refs/tags/v')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          assets="sbom.cdx.json vex.cdx.json .tmp/sbom.cdx.json.sig .tmp/sbom.cdx.json.pem .tmp/vex.cdx.json.sig .tmp/vex.cdx.json.pem"
+          assets="sbom.cdx.json vex.cdx.json .tmp/sbom.cdx.json.sigstore.json .tmp/vex.cdx.json.sigstore.json"
           if gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1; then
             gh release upload "${GITHUB_REF_NAME}" $assets --clobber
           else
