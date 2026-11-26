@@ -41,7 +41,7 @@
 | Sujet | Phase | État |
 |---|---|---|
 | Cibles de revue du client desktop, arbitrage A-03 et PRD section 9.1 | Phase 1 | Arbitrées le 26 novembre 2026, cinq cibles sur machine modeste, revue prévue le 26 décembre 2026, aucune valeur présentée comme mesurée |
-| Portée mobile modifiable hors binaire natif, arbitrage A-13 | Phase 1 | Arbitrée le 26 novembre 2026, six catégories servies sans binaire natif, contrôle de non interruption de session à cadrer avant FS-01 selon la section 10.1 du PRD |
+| Portée mobile modifiable hors binaire natif, arbitrage A-13 | Phase 1 | Arbitrée le 26 novembre 2026, six catégories servies sans binaire natif, contrôle de non interruption de session cadré dans `research_notes/Sprint-1/controle-mises-a-jour.md` avant FS-01 selon la section 10.1 du PRD, aucun contrôle exécuté |
 | Sous-titres corrigés des vidéos avec son, règle D-021 | Phase 1 | Règle retenue, fiche de test à nommer avant la première publication |
 | Règle N2 pour les candidatures, décision D-010 | Phase 2, hors MVP | Décision retenue le 26 novembre 2026, aucun test lancé avant la phase 2 |
 | Niveau organisations payant, décision D-011 | Phase 5 | Nom et privilèges définis le 26 novembre 2026, aucun test lancé |
