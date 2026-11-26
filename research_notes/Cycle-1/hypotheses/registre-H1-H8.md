@@ -35,7 +35,7 @@ Le rattachement KPI est une proposition de lecture, confirmée à J9. Il ne modi
 
 ## Points à trancher avant la validation
 
-1. H1 : le registre indique huit participants pour J7 et le plan de terrain en prévoit six. Aucun dénominateur n'est choisi dans ce kit. La décision est écrite et datée avant le test.
+1. H1 : le registre indique huit participants pour J7 et le plan de terrain en prévoit six. Espoir LOEMBA, intérimaire, a confirmé le 26 novembre 2026 que le choix sera écrit dans ce registre avec sa date et son motif avant J7. Aucun dénominateur n'est retenu à ce jour et aucun nombre n'est modifié.
 2. H6 et H7 : les cinq créateurs sont choisis parmi les douze personnes recrutées selon les situations enregistrées à J2. Aucun identifiant P n'est attribué par avance.
 3. H8 : une divergence observée entre les deux villes est une piste pour le cycle 2. Elle ne prouve ni la présence ni l'absence d'une différence générale.
 
