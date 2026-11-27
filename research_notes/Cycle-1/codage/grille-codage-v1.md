@@ -20,4 +20,4 @@
 4. Écrire chaque désaccord dans [desaccords.md](./desaccords.md) avec les deux interprétations.
 5. Ne pas arbitrer un désaccord par la seule ancienneté d'une personne dans l'équipe.
 
-Un constat entre dans le PRD seulement avec une citation relue par la personne participante ou une observation codée, et avec une ville. Aucun constat n'est inscrit dans cette grille à la date de préparation.
+Un constat entre dans le PRD seulement avec une citation relue par la personne participante ou une observation codée, et avec une ville. Aucun constat n'est inscrit dans cette grille à la date de préparation. La [fiche de préparation de la revue du codage](./revue-codage-v1.md) prépare la revue de ces codes et des désaccords, sans fiche codée ni résultat prérempli.
