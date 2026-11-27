@@ -36,6 +36,8 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | File armée et astreinte, condition 6 | [fiche-controle-condition6.md](./fiche-controle-condition6.md) | Points à vérifier et preuves à archiver, sans titulaire ni résultat préremplis |
 | Première publication réelle | [fiche-premiere-publication-reelle.md](./fiche-premiere-publication-reelle.md) | D-014 et D-021 à vérifier par ville et par plateforme, sans contenu ni date avancés |
 | Seuils de bascule S1, S2 et S3 | [fiche-controle-seuils-bascule.md](./fiche-controle-seuils-bascule.md) | Relevés et preuves à archiver par ville, D-022 inchangée, sans mesure préremplie |
+| Contestation | [fiche-controle-contestation.md](./fiche-controle-contestation.md) | Délai unique et ticket liés à vérifier par ville, sans donnée ni date préremplies |
+| Métiers pilotes par ville | [decision-metiers-pilotes.md](../Planning/decision-metiers-pilotes.md) | Divergence des libellés conservée, confirmation à écrire, sans métier retenu |
 
 ## Portes avant le premier commit de code
 

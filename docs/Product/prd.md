@@ -334,7 +334,7 @@ Le [modèle de décision de l'ajout des avertissements arnaque](../../research_n
 - File de modération avec priorité selon le motif et le nombre de signalements, selon la procédure décrite dans `../Operations/README.md`.
 - Actions possibles : conserver, masquer, retirer, suspendre le compte.
 - Journal d'audit pour chaque action, avec acteur `moderateur` ou acteur `system` et règle journalisée.
-- Contestation par email avec lien unique, stockée dans la table `appeal` décrite en section 8, avec expiration et usage unique.
+- Contestation par email avec lien unique, stockée dans la table `appeal` décrite en section 8, avec expiration et usage unique. La [fiche de contrôle de la contestation](../../research_notes/Sprint-1/fiche-controle-contestation.md) prépare les points à vérifier, sans ticket ni date préremplis.
 
 **Critères d’acceptation.**
 

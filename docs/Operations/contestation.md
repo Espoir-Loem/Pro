@@ -27,3 +27,5 @@ L’email canonique contient la décision finale, son motif et la date de clôtu
 ## Signalant visiteur
 
 Le recours du signalant visiteur est une **absence de recours écrite**. Ce choix est retenu pour les deux villes car aucun email ni identifiant permanent n’est disponible pour ce visiteur. Le recours anonyme n’est pas ouvert en parallèle. Le signalant visiteur garde la référence pseudonyme de son ticket, décrite dans le [PRD](../Product/prd.md), sans droit de contestation écrite.
+
+La [fiche de contrôle de la contestation](../../research_notes/Sprint-1/fiche-controle-contestation.md) prépare les points à vérifier et les preuves à archiver, sans ticket, ni date ni donnée préremplies.

@@ -17,6 +17,8 @@ Ce dossier rassemble les modèles et les protocoles prêts à être utilisés pe
 | Protocole J8 | [J8-variantes-v1.md](./protocole/J8-variantes-v1.md) | Deux formulations, un dénominateur par variante |
 | Grille de codage | [grille-codage-v1.md](./codage/grille-codage-v1.md) | Cinq codes, deux codeurs par fiche |
 | Journal des désaccords | [desaccords.md](./codage/desaccords.md) | Ouvert, aucun désaccord enregistré |
+| Revue du codage v1 | [revue-codage-v1.md](./codage/revue-codage-v1.md) | Points et traces à vérifier, sans fiche codée ni résultat prérempli |
+| Confirmation des métiers pilotes | [decision-metiers-pilotes.md](../Planning/decision-metiers-pilotes.md) | Libellés des deux sources conservés, sans métier retenu |
 | Registre H1 à H8 | [registre-H1-H8.md](./hypotheses/registre-H1-H8.md) | Seuils et validateur repris de la recherche UX, validation en attente |
 | Registre des participants | [README.md](./participants/README.md) | Douze emplacements P1 à P12, aucun attribué |
 | Plan de recrutement | [plan-recrutement.md](./plan-recrutement.md) | Cibles par ville, questionnaire et modèles de message, aucun contact effectué |
