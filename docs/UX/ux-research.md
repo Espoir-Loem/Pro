@@ -138,7 +138,7 @@ Huit entretiens principaux, quatre par ville. Les réserves servent à la fois �
 
 Les cinq créateurs sont B3, B5, B6, K3 et K5. Une personne victime d'une arnaque reste classée dans l'une de ces situations, sans catégorie supplémentaire.
 
-Secteurs retenus : deux par ville, logistique et santé. L'échantillon sert à repérer des motifs, pas à estimer une prévalence ni à comparer statistiquement les deux villes. Il ne sature ni deux villes, ni quatre situations, ni davantage de secteurs. Un troisième secteur peut être ajouté au cycle 2 seulement.
+Secteurs retenus : deux par ville, logistique et santé. L'échantillon sert à repérer des motifs, pas à estimer une prévalence ni à comparer statistiquement les deux villes. Il ne sature ni deux villes, ni quatre situations, ni davantage de secteurs. Un troisième secteur peut être ajouté au cycle 2 seulement. Le [modèle de décision des métiers pilotes](../../research_notes/Planning/decision-metiers-pilotes.md) conserve ces libellés à côté de ceux de l'animation des créateurs, sans trancher leur divergence.
 
 ### Questionnaire de sélection
 
