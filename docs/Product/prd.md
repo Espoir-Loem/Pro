@@ -482,8 +482,8 @@ Règles communes :
 Une brique est terminée quand les sept conditions sont réunies :
 
 1. Les critères d’acceptation de chaque FS sont vérifiés sur les trois plateformes, `mobile`, `web` et `desktop`.
-2. Les événements prévus sont émis et visibles dans le tableau de bord décrit dans `./tableau-de-bord.md`.
-3. Les cas d’erreur décrits dans le parcours correspondant ont été testés.
+2. Les événements prévus sont émis et visibles dans le tableau de bord décrit dans `./tableau-de-bord.md`. La [fiche de contrôle de cette condition](../../research_notes/Sprint-1/revue-evenements-tableau-bord-condition2.md) prépare les points et les preuves à archiver, sans relevé prérempli.
+3. Les cas d’erreur décrits dans le parcours correspondant ont été testés. La [fiche de contrôle de cette condition](../../research_notes/Sprint-1/revue-cas-erreur-condition3.md) prépare les cas à rejouer et les traces à archiver, sans cas supposé ni résultat prérempli.
 4. La revue de code et la revue d’accessibilité sont passées. La [fiche de contrôle de ces revues](../../research_notes/Sprint-1/revue-code-accessibilite-condition4.md) prépare les points et les traces à archiver, sans revue tenue ni résultat prérempli.
 5. La revue de confidentialité confirme qu'aucun identifiant permanent n'a été introduit pour un visiteur. La [fiche de contrôle de cette condition](../../research_notes/Sprint-1/revue-confidentialite-condition5.md) prépare la revue sans résultat prérempli.
 6. La file de modération est armée, l'astreinte est nominée et le test à blanc du signalement visiteur jusqu'à la notification d'auteur est réussi.
