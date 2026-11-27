@@ -24,6 +24,7 @@ Ce dossier rassemble les modèles et les protocoles prêts à être utilisés pe
 | Plan de recrutement | [plan-recrutement.md](./plan-recrutement.md) | Cibles par ville, questionnaire et modèles de message, aucun contact effectué |
 | Modèle de consentement | [consentement-modele.md](./consentements/consentement-modele.md) | À remplir avant toute prise de notes |
 | Modèles de citation | [citation-modele.md](./citations/citation-modele.md), [retrait-modele.md](./citations/retrait-modele.md) | Aucune citation publiée sans relecture |
+| Contrôle du retrait des citations | [controle-retrait-citations.md](./citations/controle-retrait-citations.md) | Relecture et retrait à vérifier avant J10, sans extrait ni identifiant P préremplis |
 | Stimuli RQ1, RQ3 et J8 | [stimuli/](./stimuli/changelog.md) | Ordres et scénarios prêts, adresse de test à fournir |
 | Test interne J3 | [J3-interne.md](./sessionnels/J3-interne.md) | Aucun identifiant de participant |
 | Décisions J10 | [J10-decisions.md](./decisions/J10-decisions.md) | Aucune décision de clôture écrite |
