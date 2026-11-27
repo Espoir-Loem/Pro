@@ -38,5 +38,6 @@ Le rattachement KPI est une proposition de lecture, confirmée à J9. Il ne modi
 1. H1 : le registre indique huit participants pour J7 et le plan de terrain en prévoit six. Espoir LOEMBA, intérimaire, a confirmé le 26 novembre 2026 que le choix sera écrit dans ce registre avec sa date et son motif avant J7. Aucun dénominateur n'est retenu à ce jour et aucun nombre n'est modifié. Un [modèle de décision](./decision-denominateur-H1.md) prépare cette écriture sans nombre prérempli.
 2. H6 et H7 : les cinq créateurs sont choisis parmi les douze personnes recrutées selon les situations enregistrées à J2. Aucun identifiant P n'est attribué par avance.
 3. H8 : une divergence observée entre les deux villes est une piste pour le cycle 2. Elle ne prouve ni la présence ni l'absence d'une différence générale.
+4. H4 : le registre indique dix participants, huit principaux et deux réserves, avec un repli à six. La roadmap demande au validateur de nommer le dénominateur retenu avant J8 et d'écrire ce choix au registre des décisions. Aucun dénominateur n'est retenu ici. Un [modèle de décision](./decision-denominateur-H4.md) prépare cette écriture sans nombre prérempli.
 
 H9 est suivie dans la recherche UX comme branche du parcours C. Elle ne fait pas partie des huit hypothèses de la porte de Phase 0 décrite dans `AGENT.md`. Aucune preuve de H9 n'est enregistrée ici.
