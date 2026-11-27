@@ -2,7 +2,7 @@
 
 **Statut** : préparé le 26 novembre 2026, aucune hypothèse validée par le terrain  
 **Source canonique** : [Recherche UX](../../../docs/UX/ux-research.md), section 7  
-**Validateur** : Espoir LOEMBA, intérimaire depuis le 25 novembre 2026, pour les huit hypothèses  
+**Validateur** : Espoir LOEMBA, intérimaire depuis le 25 novembre 2026, pour les huit hypothèses. Un [modèle de nomination](./nomination-validateurs.md) prépare les nominations définitives à écrire avant J1, sans nom prérempli  
 **Règle** : une hypothèse n'est pas réécrite pour passer son seuil. Le passage au niveau Élevée exige une preuve archivée et une date.
 
 ## Cadre de test, repris sans modification
