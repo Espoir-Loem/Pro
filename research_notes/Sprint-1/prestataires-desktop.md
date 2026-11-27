@@ -30,7 +30,7 @@ Aucune piste publique, aucun nom et aucun résultat de vérification ne sont ins
 
 ## 2. écriture de la nomination
 
-Au moment où les deux prestataires sont retenus, une nomination distincte est écrite pour chacun avec les champs suivants. Aucun de ces champs n'est rempli par avance.
+Au moment où les deux prestataires sont retenus, une nomination distincte est écrite pour chacun avec les champs suivants. Aucun de ces champs n'est rempli par avance. Un [modèle de nomination](./nomination-prestataires-desktop.md) prépare ces deux écritures, par système, sans nom ni contact préremplis.
 
 | Champ | Windows | macOS |
 |---|---|---|
