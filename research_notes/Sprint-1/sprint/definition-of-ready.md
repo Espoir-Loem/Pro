@@ -1,7 +1,7 @@
 # Définition de prêt du sprint 1
 
 **Statut** : préparée le 26 novembre 2026, aucune histoire encore prête  
-**Source des critères d'acceptation** : [PRD](../../../docs/Product/prd.md), section 7. Ce fichier ne les recopie pas.  
+**Source des critères d'acceptation** : [PRD](../../../docs/Product/prd.md), section 7. Ce fichier ne les recopie pas. La [grille de validation de la condition 1](./grille-validation-criteres-FS.md) enregistre les preuves à archiver par FS et par plateforme, sans recopier les critères ni case cochée.  
 **Règle** : une histoire qui échoue à une condition reste au backlog. Aucune implémentation partielle n'ouvre la porte du code.
 
 | Condition | Ce qui est vérifié | Source |

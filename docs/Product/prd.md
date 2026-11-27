@@ -481,7 +481,7 @@ Règles communes :
 
 Une brique est terminée quand les sept conditions sont réunies :
 
-1. Les critères d’acceptation de chaque FS sont vérifiés sur les trois plateformes, `mobile`, `web` et `desktop`.
+1. Les critères d’acceptation de chaque FS sont vérifiés sur les trois plateformes, `mobile`, `web` et `desktop`. La [grille de validation de cette condition](../../research_notes/Sprint-1/sprint/grille-validation-criteres-FS.md) porte les preuves à archiver par FS et par plateforme, sans recopier les critères ni case cochée.
 2. Les événements prévus sont émis et visibles dans le tableau de bord décrit dans `./tableau-de-bord.md`. La [fiche de contrôle de cette condition](../../research_notes/Sprint-1/revue-evenements-tableau-bord-condition2.md) prépare les points et les preuves à archiver, sans relevé prérempli.
 3. Les cas d’erreur décrits dans le parcours correspondant ont été testés. La [fiche de contrôle de cette condition](../../research_notes/Sprint-1/revue-cas-erreur-condition3.md) prépare les cas à rejouer et les traces à archiver, sans cas supposé ni résultat prérempli.
 4. La revue de code et la revue d’accessibilité sont passées. La [fiche de contrôle de ces revues](../../research_notes/Sprint-1/revue-code-accessibilite-condition4.md) prépare les points et les traces à archiver, sans revue tenue ni résultat prérempli.

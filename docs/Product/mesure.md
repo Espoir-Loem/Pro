@@ -17,7 +17,7 @@ Aucune cible chiffrée n'est inventée dans ce cadrage. Chaque cible est nommée
 - Événements canoniques autorisés : `app_open`, `feed_session_start`, `video_impression`, `video_complete`, `guest_save_attempt`, `signup_start`, `signup_verified`, `push_opt_in`, `video_publish_attempt`, `video_published`, `message_sent`, `report_created`, `report_resolved`, `moderation_action`, `appeal_opened`, `appeal_resolved`, `queue_depth`, `report_age`.
 - Chaque événement porte `plateforme` avec une valeur parmi `mobile`, `web` et `desktop`. Il peut porter `city`, `trade` et `campaign_ref`. Ces quatre dimensions de lecture restent séparées et ne sont jamais des identifiants permanents.
 - Aucune mesure ne fusionne les plateformes sans le dire : une lecture par plateforme porte la valeur `mobile`, `web` ou `desktop`, et une lecture agrégée est nommée explicitement « toutes plateformes » dans le nom de la tuile et dans la population.
-- Conservation des événements : 30 jours. Les agrégats ont une finalité et une durée inscrites au registre avant la première mesure.
+- Conservation des événements : 30 jours. Les agrégats ont une finalité et une durée inscrites au registre avant la première mesure. Le [modèle de décision](../../research_notes/Sprint-1/decision-conservation-agregats.md) prépare cette écriture, sans durée ni finalité préremplies.
 - Aucun identifiant d'appareil permanent, aucun traceur tiers, aucune correspondance entre appareils.
 - D-020 : La mesure à sept jours porte sur les comptes ayant un email vérifié. Aucune cohorte visiteur à sept jours n'est calculée, puisqu'aucun identifiant permanent visiteur n'est conservé.
 - Les dénominateurs ne sont pas fusionnés : une mesure par session de fil reste distincte d'une mesure par compte vérifié.
