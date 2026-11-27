@@ -40,7 +40,7 @@ Pour le client desktop, la référence de perception : application de messagerie
 | Mémoire au repos | moins de 150 Mo | machine R2, Windows et macOS séparés |
 | Installateur | moins de 80 Mo | Windows et macOS séparés |
 
-Aucun de ces seuils n'est présenté comme mesuré. La revue du 26 décembre 2026 joint les traces à `architecture.md`, `video.md` et `responsabilites.md`, et révise les cibles si la machine modeste les rend irréalistes.
+Aucun de ces seuils n'est présenté comme mesuré. La revue du 26 décembre 2026 joint les traces à `architecture.md`, `video.md` et `responsabilites.md`, et révise les cibles si la machine modeste les rend irréalistes. La [fiche de contrôle de cette revue](../../research_notes/Planning/revue-performance-desktop-A03.md) prépare les points et les traces à archiver, sans mesure ni cible révisée préremplie.
 
 ## Budgets
 
