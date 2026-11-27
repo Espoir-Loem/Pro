@@ -26,4 +26,4 @@ Phase 1 est le MVP. Phase 2 introduit les organisations et pages. La phase emplo
 
 ## Première action
 
-Faire valider `perimetre-juridique.md` par un conseil local, puis nommer les propriétaires de validation. La stack est retenue en D-009 et décrite dans `../Technique/adr-001-stack.md`. Tant que cette validation manque, aucun hébergeur ni région de stockage n'est arrêté et la première migration est différée. Aucune affirmation de droit congolais n'est ajoutée entre-temps.
+Faire valider `perimetre-juridique.md` par un conseil local, puis nommer les propriétaires de validation. La [fiche de contrôle des durées de conservation](../../research_notes/Planning/controle-durees-conservation.md) prépare la vérification des durées déjà écrites, sans confirmation avancée. La stack est retenue en D-009 et décrite dans `../Technique/adr-001-stack.md`. Tant que cette validation manque, aucun hébergeur ni région de stockage n'est arrêté et la première migration est différée. Aucune affirmation de droit congolais n'est ajoutée entre-temps.

@@ -22,6 +22,6 @@ Chaque événement porte les champs `city`, `trade`, `campaign_ref` et `platefor
 | Chat | `message_sent` | Non agrégé avec la découverte | `city`, `trade`, `plateforme` | Aucun contenu de message dans l’événement |
 | Push | `push_opt_in` | `app_open` | `city`, `campaign_ref`, `plateforme` | Population membres, jamais fusionnée avec les visiteurs |
 
-**Interdiction explicite.** Le dénominateur avant `signup_verified` et le dénominateur après `signup_verified` ne peuvent pas être fusionnés dans un graphique, un total ou un export. Les deux séries restent séparées pour Brazzaville et pour Kinshasa, et lues par `plateforme` sans fusion entre `mobile`, `web` et `desktop`.
+**Interdiction explicite.** Le dénominateur avant `signup_verified` et le dénominateur après `signup_verified` ne peuvent pas être fusionnés dans un graphique, un total ou un export. Les deux séries restent séparées pour Brazzaville et pour Kinshasa, et lues par `plateforme` sans fusion entre `mobile`, `web` et `desktop`. La [fiche de contrôle des phrases et des campagnes](../../research_notes/Planning/controle-phrases-campagnes.md) prépare la vérification de ces règles de lecture, sans relevé ni résultat prérempli.
 
 La profondeur de file et l’âge des signalements alimentent aussi les alertes de [journée type](../Operations/journee-type-moderation.md) avec les mêmes seuils et les mêmes destinataires.
