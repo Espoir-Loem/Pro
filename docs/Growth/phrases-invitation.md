@@ -36,4 +36,4 @@ Ces phrases décrivent une action visible et ne promettent aucun résultat d'emb
 | Brazzaville | À choisir parmi les phrases autorisées | à nommer | à nommer | validation écrite en attente |
 | Kinshasa | À choisir parmi les phrases autorisées | à nommer | à nommer | validation écrite en attente |
 
-La validation est écrite dans le canal de campagne de la ville, avec la phrase exacte, le validateur et la date. Une phrase validée à Brazzaville n’est pas valable à Kinshasa sans validation distincte.
+La validation est écrite dans le canal de campagne de la ville, avec la phrase exacte, le validateur et la date. Une phrase validée à Brazzaville n’est pas valable à Kinshasa sans validation distincte. La [fiche de contrôle des phrases et des campagnes](../../research_notes/Planning/controle-phrases-campagnes.md) prépare ces vérifications par ville et par plateforme, sans campagne ni phrase retenue préremplies.
