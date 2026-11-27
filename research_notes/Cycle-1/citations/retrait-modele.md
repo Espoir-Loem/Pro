@@ -12,4 +12,4 @@
 | Date de retrait effectif | À renseigner |
 | Confirmation de retrait | À renseigner |
 
-Aucune trace du texte cité ne reste dans le PRD après retrait. Le fait anonymisé du retrait peut être conservé jusqu'à J10 pour la traçabilité du protocole.
+Aucune trace du texte cité ne reste dans le PRD après retrait. Le fait anonymisé du retrait peut être conservé jusqu'à J10 pour la traçabilité du protocole. La [fiche de contrôle du retrait des citations](./controle-retrait-citations.md) prépare ces vérifications, sans citation ni date préremplies.

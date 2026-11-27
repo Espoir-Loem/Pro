@@ -22,4 +22,4 @@ La formule « sauf obligation légale contraire documentée » n'est pas une por
 
 ## Vérification
 
-Un test de purge vérifie qu'aucun `analytics_event` n'excède trente jours, qu'aucun objet vidéo retiré ne reste après le délai retenu et qu'aucune ligne de contestation expirée n'est consultable. Le test est joué sur `mobile`, `web` et `desktop`, avec la dimension `plateforme` en lecture, sans changer les durées ci-dessus. Les durées marquées « à confirmer » ne sont pas appliquées comme des faits juridiques.
+Un test de purge vérifie qu'aucun `analytics_event` n'excède trente jours, qu'aucun objet vidéo retiré ne reste après le délai retenu et qu'aucune ligne de contestation expirée n'est consultable. Le test est joué sur `mobile`, `web` et `desktop`, avec la dimension `plateforme` en lecture, sans changer les durées ci-dessus. Les durées marquées « à confirmer » ne sont pas appliquées comme des faits juridiques. La [fiche de contrôle des durées de conservation](../../research_notes/Planning/controle-durees-conservation.md) prépare ces vérifications, sans test exécuté ni durée ajoutée.

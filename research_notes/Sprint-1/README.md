@@ -41,6 +41,7 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Registre des incidents et postmortem | [fiche-controle-registre-incidents.md](./fiche-controle-registre-incidents.md) | Gravité et actions datées à vérifier, sans incident ni décideur préremplis |
 | Réponses support | [fiche-controle-reponses-support.md](./fiche-controle-reponses-support.md) | Points à vérifier par ville et par plateforme, sans question ni référent préremplis |
 | Dimensionnement de la modération | [fiche-controle-dimensionnement-moderation.md](./fiche-controle-dimensionnement-moderation.md) | Hypothèses à confirmer après sept jours, sans relevé ni effectif préremplis |
+| Durées de conservation | [controle-durees-conservation.md](../Planning/controle-durees-conservation.md) | D-015 inchangée, durées à confirmer sans valeur préremplie |
 
 ## Portes avant le premier commit de code
 
