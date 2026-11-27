@@ -40,7 +40,7 @@ flowchart LR
   F -->|Oui| G["Prechargement reduit et campagne suspendue"]
 ```
 
-Le budget CDN est fixé par [D-022](../Product/decisions.md) : 1 000 USD par mois, 500 USD par ville, fenêtre de mois civil et seuil de 0,001 USD par vue. La décision est révisée après 30 jours d'exploitation. Le fournisseur n'est pas choisi dans cette fiche et aucun montant n'est présenté comme mesuré.
+Le budget CDN est fixé par [D-022](../Product/decisions.md) : 1 000 USD par mois, 500 USD par ville, fenêtre de mois civil et seuil de 0,001 USD par vue. La décision est révisée après 30 jours d'exploitation. Le [modèle de révision](../../research_notes/Planning/revision-D022-apres-30-jours.md) prépare cette écriture, sans date ni résultat préremplis. Le fournisseur n'est pas choisi dans cette fiche et aucun montant n'est présenté comme mesuré.
 
 ## Capacité de modération
 

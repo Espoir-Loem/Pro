@@ -34,7 +34,7 @@ L'ADR de stack retient le stockage objet compatible S3 et le CDN derrière une i
 | Archive de la décision et historique | À renseigner |
 | État | En attente de décision |
 
-Une ligne sans tarif convenu ni preuve d'interface n'autorise aucun engagement de dépense. Le seuil de 0,001 USD par vue et l'enveloppe de 1 000 USD par mois ne sont pas réécrits pour faire passer un fournisseur.
+Une ligne sans tarif convenu ni preuve d'interface n'autorise aucun engagement de dépense. Le seuil de 0,001 USD par vue et l'enveloppe de 1 000 USD par mois ne sont pas réécrits pour faire passer un fournisseur. Le [modèle de révision après 30 jours d'exploitation](../Planning/revision-D022-apres-30-jours.md) prépare la décision séparée qui suivra, sans date ni résultat préremplis.
 
 ## 3. Distinctions à conserver
 
