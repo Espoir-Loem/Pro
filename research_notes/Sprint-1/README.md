@@ -26,6 +26,9 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Modèle de révision D-022 | [revision-D022-apres-30-jours.md](../Planning/revision-D022-apres-30-jours.md) | À écrire après 30 jours d'exploitation, sans date ni résultat préremplis |
 | Revue de code et accessibilité, condition 4 | [revue-code-accessibilite-condition4.md](./revue-code-accessibilite-condition4.md) | Points et traces à vérifier, aucune revue tenue ni résultat avancé |
 | Modèle de nomination prestataires `desktop` | [nomination-prestataires-desktop.md](./nomination-prestataires-desktop.md) | Windows et macOS séparés, aucun nom ni montant prérempli |
+| Événements et tableau de bord, condition 2 | [revue-evenements-tableau-bord-condition2.md](./revue-evenements-tableau-bord-condition2.md) | Points et preuves à vérifier, aucun relevé prérempli |
+| Cas d'erreur par parcours, condition 3 | [revue-cas-erreur-condition3.md](./revue-cas-erreur-condition3.md) | Cas à rejouer et traces à archiver, aucun cas supposé |
+| Revue de performance desktop A-03 | [revue-performance-desktop-A03.md](../Planning/revue-performance-desktop-A03.md) | Cibles et traces à vérifier, aucune mesure relevée |
 
 ## Portes avant le premier commit de code
 
