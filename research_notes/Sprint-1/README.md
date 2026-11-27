@@ -38,6 +38,9 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Seuils de bascule S1, S2 et S3 | [fiche-controle-seuils-bascule.md](./fiche-controle-seuils-bascule.md) | Relevés et preuves à archiver par ville, D-022 inchangée, sans mesure préremplie |
 | Contestation | [fiche-controle-contestation.md](./fiche-controle-contestation.md) | Délai unique et ticket liés à vérifier par ville, sans donnée ni date préremplies |
 | Métiers pilotes par ville | [decision-metiers-pilotes.md](../Planning/decision-metiers-pilotes.md) | Divergence des libellés conservée, confirmation à écrire, sans métier retenu |
+| Registre des incidents et postmortem | [fiche-controle-registre-incidents.md](./fiche-controle-registre-incidents.md) | Gravité et actions datées à vérifier, sans incident ni décideur préremplis |
+| Réponses support | [fiche-controle-reponses-support.md](./fiche-controle-reponses-support.md) | Points à vérifier par ville et par plateforme, sans question ni référent préremplis |
+| Dimensionnement de la modération | [fiche-controle-dimensionnement-moderation.md](./fiche-controle-dimensionnement-moderation.md) | Hypothèses à confirmer après sept jours, sans relevé ni effectif préremplis |
 
 ## Portes avant le premier commit de code
 

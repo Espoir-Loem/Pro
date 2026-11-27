@@ -47,4 +47,4 @@ flowchart LR
 
 ## Contrôle de sortie
 
-Un exercice à blanc doit parcourir ce flux pour chaque ville et pour chaque plateforme (`mobile`, `web`, `desktop`), du signalement visiteur jusqu’à la notification d’auteur, avec validation du délai P1. Le compte rendu est écrit dans le canal unique de l’astreinte avant tout lien public.
+Un exercice à blanc doit parcourir ce flux pour chaque ville et pour chaque plateforme (`mobile`, `web`, `desktop`), du signalement visiteur jusqu’à la notification d’auteur, avec validation du délai P1. Le compte rendu est écrit dans le canal unique de l’astreinte avant tout lien public. La [fiche de contrôle des hypothèses de dimensionnement](../../research_notes/Sprint-1/fiche-controle-dimensionnement-moderation.md) prépare leur confirmation après sept jours de mesure, sans relevé ni effectif préremplis.
