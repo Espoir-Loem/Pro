@@ -294,6 +294,8 @@ Chemin d'erreur : si le destinataire a bloqué l'expéditeur, l'envoi est refus�
 - Accusé de lecture affiché quand le destinataire a ouvert le message.
 - L'état de livraison et l'état de modération d'un message sont deux champs distincts, spécifiés en section 9.
 
+Le [modèle de décision de l'ajout des avertissements arnaque](../../research_notes/Planning/decision-avertissements-arnaque-FS07.md) prépare la décision à trancher avant la première campagne, sans texte ni date préremplis. Tant que la décision n'est pas écrite, le chat reste inchangé.
+
 **Critères d’acceptation.**
 
 - Soit un visiteur, quand il touche « Message », alors il est invité à créer un compte avec une phrase sur l'identité de l'interlocuteur.

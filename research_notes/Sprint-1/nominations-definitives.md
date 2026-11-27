@@ -8,7 +8,7 @@
 
 La porte 5 du sprint 1 est levée : les fiches identité, menaces, architecture, API, données, observation et responsabilités portent Espoir LOEMBA comme titulaire intérimaire depuis le 25 novembre 2026 au titre de A-04. Les lignes correspondantes sont recensées dans `docs/Technique/responsabilites.md` et dans l'index des fiches techniques. Une nomination définitive reste à écrire, sans créer de nouvelle porte.
 
-A-04 dispose que le porteur unique est intérimaire, appuyé par les outils IA jamais auteurs, et que toute délégation est écrite puis assignée explicitement. Aucune délégation tacite n'est admise. Le conseil juridique local reste externe et à nommer avant le jalon lié à A-12. Ce modèle s'applique à toute ligne qui porte la mention intérimaire, sans en exclure une autre et sans en fixer le nombre par avance.
+A-04 dispose que le porteur unique est intérimaire, appuyé par les outils IA jamais auteurs, et que toute délégation est écrite puis assignée explicitement. Aucune délégation tacite n'est admise. Le conseil juridique local reste externe et à nommer avant le jalon lié à A-12. Ce modèle s'applique à toute ligne qui porte la mention intérimaire, sans en exclure une autre et sans en fixer le nombre par avance. Les titulaires opérationnels relèvent d'un [modèle distinct](../Planning/nomination-titulaires-operations.md), sans nom prérempli ni délégation tacite.
 
 ## 2. Champs à remplir au moment de la nomination
 
