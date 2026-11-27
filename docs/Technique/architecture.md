@@ -70,4 +70,4 @@ Mécanisme retenu :
 
 ## Budgets appliqués
 
-Les seuils de `performance.md` sont la grille de revue, y compris le profil R2 pour le client desktop. Le transcodage et les octets servis sont décrits dans `video.md`.
+Les seuils de `performance.md` sont la grille de revue, y compris le profil R2 pour le client desktop. Le transcodage et les octets servis sont décrits dans `video.md`. Le [modèle de décision du profil R1](../../research_notes/Planning/decision-profil-R1.md) prépare le choix encore ouvert et la relecture de cette fiche, sans valeur préremplie.

@@ -69,6 +69,6 @@ Une alerte franchie pendant un test déclenche la règle d'arrêt de `./experime
 ## Conservation et limites
 
 - Les événements sont conservés 30 jours, comme dans FS-11 du [PRD](./prd.md) et D-015.
-- Les agrégats sont conservés pour la finalité de mesure inscrite au registre, avec une durée à nommer avant la première mesure.
+- Les agrégats sont conservés pour la finalité de mesure inscrite au registre, avec une durée à nommer avant la première mesure. Le [modèle de décision](../../research_notes/Sprint-1/decision-conservation-agregats.md) prépare cette écriture, sans durée ni finalité préremplies.
 - Aucune donnée n'est affichée par appareil, par identifiant publicitaire ou par traceur tiers.
 - Aucune mesure du tableau de bord n'est présentée comme une preuve de confiance : la confiance se lit aussi dans les décisions de modération tracées, décrites dans `../Conformite/README.md`.
