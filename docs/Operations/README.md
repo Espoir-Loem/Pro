@@ -6,7 +6,7 @@
 **Propriétaire.** Coordinateur des opérations, à nommer. Un référent par ville, à nommer.  
 **Statut.** Procédures écrites, titulaires et numéro d’urgence à nommer, exercice à blanc à passer. Renfort bénévole coopté et encadré retenu en A-09. Budget CDN inscrit en D-022, capacité de modération à confirmer.
 
-**Règle.** La file de modération existe dès le MVP. Brazzaville et Kinshasa sont deux villes distinctes : volumes, garde, incidents et mesures ne sont pas fusionnés. Aucune valeur de l’une n’est extrapolée vers l’autre. La dimension `plateforme` s’ajoute à la ville comme dimension de lecture : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l’application exécutable Windows et macOS, rapide, sans lenteur. Linux est différé. Une coupure peut toucher le client desktop seul. L’exercice à blanc et la montée en charge couvrent les trois clients. Aucun titulaire n’est inventé : les propriétaires restent « à nommer ».
+**Règle.** La file de modération existe dès le MVP. Brazzaville et Kinshasa sont deux villes distinctes : volumes, garde, incidents et mesures ne sont pas fusionnés. Aucune valeur de l’une n’est extrapolée vers l’autre. La dimension `plateforme` s’ajoute à la ville comme dimension de lecture : `mobile` pour les applications natives iOS et Android, `web` pour le navigateur, `desktop` pour l’application exécutable Windows et macOS, rapide, sans lenteur. Linux est différé. Une coupure peut toucher le client desktop seul. L’exercice à blanc et la montée en charge couvrent les trois clients. Aucun titulaire n'est inventé : les propriétaires restent « à nommer ». Le [modèle de nomination des titulaires opérationnels](../../research_notes/Planning/nomination-titulaires-operations.md) prépare ces écritures, sans nom prérempli.
 
 | Document | Question traitée | Ville | Déclencheur | Propriétaire |
 |---|---|---|---|---|
@@ -25,11 +25,11 @@ Les fiches [incidents.md](./incidents.md) et [support.md](./support.md) lisent c
 ## Décisions à trancher avant ouverture
 
 - Renfort bénévole de la modération, coopté par le référent ville et encadré, selon A-09.
-- Ajout des avertissements arnaque à FS-07, dans [veille-arnaque.md](./veille-arnaque.md).
+- Ajout des avertissements arnaque à FS-07, dans [veille-arnaque.md](./veille-arnaque.md). Le [modèle de décision](../../research_notes/Planning/decision-avertissements-arnaque-FS07.md) prépare ce point, sans texte ni date préremplis.
 
 ## Décisions déjà écrites
 
-Le budget CDN et modération est inscrit dans [decisions.md](../Product/decisions.md) au point D-022 : 1 000 USD par mois, répartis en 500 USD pour Brazzaville et 500 USD pour Kinshasa, sur le mois civil. Le seuil est de 0,001 USD par vue, lu séparément par ville, soit 1 USD pour 1 000 vues. La décision est révisée après 30 jours d’exploitation et ne choisit pas le fournisseur CDN.
+Le budget CDN et modération est inscrit dans [decisions.md](../Product/decisions.md) au point D-022 : 1 000 USD par mois, répartis en 500 USD pour Brazzaville et 500 USD pour Kinshasa, sur le mois civil. Le seuil est de 0,001 USD par vue, lu séparément par ville, soit 1 USD pour 1 000 vues. La décision est révisée après 30 jours d’exploitation et ne choisit pas le fournisseur CDN. La [fiche de contrôle des seuils S1, S2 et S3](../../research_notes/Sprint-1/fiche-controle-seuils-bascule.md) prépare le relevé de ces seuils, sans valeur mesurée préremplie.
 
 Le seuil de fil non vide est tranché en A-10 : aucun seuil, repli immédiat vers le fil général de la ville concernée si un métier n’a pas de vidéo modérée. La décision de repli est écrite avec la ville, la date et le propriétaire, sans transposition d’une ville à l’autre. Le détail est dans [lanceurs-metiers.md](../Growth/lanceurs-metiers.md).
 
