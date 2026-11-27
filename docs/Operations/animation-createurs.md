@@ -12,7 +12,7 @@
 | Brazzaville | Artisanat, commerce, santé | 3 créateurs, 9 vidéos publiées et modérées | 1 vidéo par créateur et par semaine | à nommer |
 | Kinshasa | Logistique, enseignement, tech | 4 créateurs, 12 vidéos publiées et modérées | 1 vidéo par créateur et par semaine | à nommer |
 
-Ces libellés reprennent la liste de secteurs du plan de terrain de la [recherche UX](../UX/ux-research.md), section 8. Ils ne sont pas des résultats d’entretiens et n’établissent aucune prévalence locale. La personne qui mène la recherche confirme chaque métier par écrit avant le recrutement.
+Ces libellés reprennent la liste de secteurs du plan de terrain de la [recherche UX](../UX/ux-research.md), section 8. Ils ne sont pas des résultats d’entretiens et n’établissent aucune prévalence locale. La personne qui mène la recherche confirme chaque métier par écrit avant le recrutement. Le [modèle de décision des métiers pilotes](../../research_notes/Planning/decision-metiers-pilotes.md) prépare cette écriture par ville, en conservant les libellés des deux sources sans les fusionner.
 
 La vérification utilise `video_published` avec le champ `city`, puis le passage en modération. Le seuil de fil non vide est tranché par A-10 dans [lanceurs-metiers](../Growth/lanceurs-metiers.md) : aucun seuil chiffré. Si un métier n’a pas de vidéo modérée, le fil général de la ville concernée est servi immédiatement. Le repli est écrit avec la ville, la date et le propriétaire, sans recopier cette décision pour l’autre ville. Les J-14, J-10, J-7, J-3 et J+7 sont relatifs à l’ouverture effective, pas à une date de lancement fixée à l’avance, selon A-05.
 
