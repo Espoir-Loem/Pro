@@ -24,4 +24,4 @@ Après ouverture, trois signalements récurrents sur sept jours dans une ville d
 
 ## Décision à trancher
 
-L’ajout de ces avertissements au FS-07 du [PRD](../Product/prd.md) est une **décision à trancher** avant la première campagne. Propriétaire : référent produit, à nommer. Tant que la décision n’est pas écrite, le chat reste inchangé et les textes ci-dessus demeurent une proposition opérationnelle, pas une fonction livrée.
+L’ajout de ces avertissements au FS-07 du [PRD](../Product/prd.md) est une **décision à trancher** avant la première campagne. Propriétaire : référent produit, à nommer. Tant que la décision n’est pas écrite, le chat reste inchangé et les textes ci-dessus demeurent une proposition opérationnelle, pas une fonction livrée. Le [modèle de décision](../../research_notes/Planning/decision-avertissements-arnaque-FS07.md) prépare cette écriture, par ville, sans texte ni date préremplis.
