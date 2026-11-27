@@ -60,4 +60,4 @@ Les dossiers de preuve suivent le référentiel de recherche : notes d'entretien
 
 ## 4. Ce que cette trame ne fait pas
 
-Elle ne choisit aucune opportunité, ne confirme ni n'infirme aucune hypothèse, ne remplace pas le compte rendu de J10 ni le registre H1 à H8, ne modifie aucun seuil, n'écrit aucune citation, n'archive aucune preuve, ne prononce pas la clôture de la Phase 0 et ne contient aucun code applicatif.
+Elle ne choisit aucune opportunité, ne confirme ni n'infirme aucune hypothèse, ne remplace pas le compte rendu de J10 ni le registre H1 à H8, ne modifie aucun seuil, n'écrit aucune citation, n'archive aucune preuve, ne prononce pas la clôture de la Phase 0 et ne contient aucun code applicatif. La [fiche de contrôle de l'écriture de l'opportunité](./controle-ecriture-opportunite.md) prépare la vérification de ces champs, sans identifiant ni citation préremplis.
