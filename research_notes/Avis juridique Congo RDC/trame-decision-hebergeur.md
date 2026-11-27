@@ -6,7 +6,7 @@
 
 ## 1. Préalable à toute décision
 
-A-12 n'est levée qu'après réception des deux avis écrits, un pour la République du Congo et un pour la République démocratique du Congo, confrontés et conservés avec leurs références. La levée est alors écrite au registre des décisions avec date, motif, propriétaire, source liée, portée et historique. Les deux conseils sont nommés à cette occasion. Ce n'est qu'après cette écriture qu'un hébergeur, une région de stockage et une première migration peuvent être choisis.
+A-12 n'est levée qu'après réception des deux avis écrits, un pour la République du Congo et un pour la République démocratique du Congo, confrontés et conservés avec leurs références. La levée est alors écrite au registre des décisions avec date, motif, propriétaire, source liée, portée et historique. Les deux conseils sont nommés à cette occasion. Ce n'est qu'après cette écriture qu'un hébergeur, une région de stockage et une première migration peuvent être choisis. Le [modèle de décision de la première migration](../Planning/decision-premiere-migration.md) prépare l'étape suivante, sans date ni donnée préremplie.
 
 La [grille de confrontation](./confrontation-avis.md) compare les deux avis sans trancher les divergences. La [shortlist documentée](./shortlist-cabinets.md) classe des présences publiques sans désigner de conseil. Aucune de ces deux notes ne produit un avis juridique ni une autorisation d'hébergement.
 
