@@ -3,7 +3,7 @@
 **Statut** : préparé le 26 novembre 2026, sélection finale en attente  
 **Règle** : un sprint traite une seule opportunité O1 à O5, selon la section 12 de la [recherche UX](../../docs/UX/ux-research.md). La Phase 0 n'a pas encore écrit l'opportunité retenue. Ce tableau est donc un candidat, pas un sprint figé.
 
-Aucune histoire n'entre dans le sprint sans identifiant O1 à O5 ou H1 à H9, conformément au [backlog canonique](../../docs/UX/userstories.md). Les critères d'acceptation restent dans le [PRD](../../docs/Product/prd.md), section 7. Ce fichier ne les recopie pas.
+Aucune histoire n'entre dans le sprint sans identifiant O1 à O5 ou H1 à H9, conformément au [backlog canonique](../../docs/UX/userstories.md). Les critères d'acceptation restent dans le [PRD](../../docs/Product/prd.md), section 7. Ce fichier ne les recopie pas. La [grille de validation de la condition 1](./grille-validation-criteres-FS.md) porte les preuves à archiver par FS et par plateforme, sans recopier les critères ni case cochée.
 
 ## Histoires P0 classées par opportunité
 
