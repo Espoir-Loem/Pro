@@ -27,7 +27,7 @@ Aucun scénario n'est marqué comme réussi dans cette fiche. Aucun identifiant 
 
 ## 3. Moments du contrôle et responsabilité
 
-Le contrôle de préparation intervient avant l'envoi et le contrôle de modération avant la mise en ligne, comme dans le parcours B. La fiche est à rejouer avant la première publication, puis en revue de sortie MVP avec l'identifiant du relecteur et la date.
+Le contrôle de préparation intervient avant l'envoi et le contrôle de modération avant la mise en ligne, comme dans le parcours B. La fiche est à rejouer avant la première publication, puis en revue de sortie MVP avec l'identifiant du relecteur et la date. La [fiche de contrôle de la première publication réelle](./fiche-premiere-publication-reelle.md) prépare le point D-021 au moment du premier contenu publié, sans vidéo ni date préremplies.
 
 Le cadrage est assuré par Espoir LOEMBA, intérimaire depuis le 25 novembre 2026 au titre de A-04. Le registre des décisions porte encore la mention « titulaire à nommer » pour D-021. Aucune nomination définitive n'est écrite ici, aucune délégation tacite n'est créée.
 

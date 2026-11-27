@@ -8,7 +8,7 @@
 
 L'astreinte est armée quand les critères de sortie sont vrais, selon A-05, sans date de lancement fixée. L'exercice à blanc a lieu avant ouverture, puis chaque mois. Il est joué pour Brazzaville et pour Kinshasa, sur `mobile`, `web` et `desktop`. Le scénario va du signalement visiteur au ticket pseudonymé, à la priorité P1, à la relecture par une deuxième personne, à l'email canonique, au push neutre, au bandeau pour membre connecté, puis à `report_resolved`. Le délai cible de prise en charge est de 15 minutes et le délai cible de décision est de 1 heure. Un scénario complémentaire simule une coupure touchant le seul client `desktop` et vérifie l'ouverture d'un incident avec `plateforme=desktop`. L'écart constaté est inscrit comme action datée dans `incidents.md`.
 
-Le canal `astreinte-pro` est le seul canal qui fait foi. Les discussions parallèles ne déclenchent aucune action. Les rôles sont coordinateur de garde, communication et opérations, par ville et pour le commun. Aucun nom ni numéro n'est supposé : chaque titulaire reste à nommer. La couverture A-09 est de 08:00 à 20:00 en heure locale, avec astreinte pour les P1 hors plage.
+Le canal `astreinte-pro` est le seul canal qui fait foi. Les discussions parallèles ne déclenchent aucune action. Les rôles sont coordinateur de garde, communication et opérations, par ville et pour le commun. Aucun nom ni numéro n'est supposé : chaque titulaire reste à nommer. La couverture A-09 est de 08:00 à 20:00 en heure locale, avec astreinte pour les P1 hors plage. La [fiche de contrôle de la condition 6](./fiche-controle-condition6.md) prépare la vérification de la file armée et de l'astreinte nominée, sans titulaire ni résultat préremplis.
 
 ## 2. Scénarios à rejouer
 

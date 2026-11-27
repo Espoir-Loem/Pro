@@ -36,7 +36,7 @@ Aucun scénario n'est marqué comme réussi dans ce document. Aucun identifiant 
 
 Le titulaire intérimaire des fiches techniques concernées est Espoir LOEMBA depuis le 25 novembre 2026 au titre de A-04. Il cadre le protocole et exécute le premier passage avant FS-01, sans délégation tacite. Le contrôle est rejoué en revue de sortie MVP avec l'identifiant du relecteur et la date, conformément à la roadmap et à `responsabilites.md`.
 
-La preuve attendue au titre de la porte 6 du sprint 1 reste liée au premier rendu signé des trois clients. Ce protocole ne la remplace pas. Aucune signature de release, aucun tag et aucun résultat de contrôle ne sont avancés ici.
+La preuve attendue au titre de la porte 6 du sprint 1 reste liée au premier rendu signé des trois clients. Ce protocole ne la remplace pas. La [fiche de préparation du premier rendu signé](./fiche-premier-rendu-signe.md) prépare l'archivage de cette preuve par client, sans signature ni résultat préremplis. Aucune signature de release, aucun tag et aucun résultat de contrôle ne sont avancés ici.
 
 ## 4. Ce que ce protocole ne fait pas
 
