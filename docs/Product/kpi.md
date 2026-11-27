@@ -9,7 +9,7 @@
 
 Chaque mesure possède un identifiant, un nom, une formule, une source, un propriétaire, une cible, une fréquence et un seuil d'alerte. Les identifiants sont stables et ne sont pas réutilisés. Une mesure sans source datée n'est pas publiée. Les mesures produit reprennent les événements canoniques décrits dans [mesure.md](./mesure.md). Les mesures UX s'appuient sur les hypothèses de [ux-research.md](../UX/ux-research.md). Aucun classement payant n'entre dans ces mesures, conformément au registre des décisions.
 
-Les chiffres ci-dessous sont des cibles intérimaires écrites le 26 novembre 2026. Ils ne constituent pas un résultat relevé, une promesse contractuelle ou une déduction d'une observation. Leur révision suit la procédure de décision écrite du registre, avec date, motif, propriétaire et historique. Le porteur unique cumule les dix propriétés de manière intérimaire depuis le 25 novembre 2026.
+Les chiffres ci-dessous sont des cibles intérimaires écrites le 26 novembre 2026. Ils ne constituent pas un résultat relevé, une promesse contractuelle ou une déduction d'une observation. Leur révision suit la procédure de décision écrite du registre, avec date, motif, propriétaire et historique. Le [modèle de décision des cibles après la Phase 0](../../research_notes/Planning/decision-cibles-KPI.md) prépare cette écriture, sans chiffre prérempli. Le porteur unique cumule les dix propriétés de manière intérimaire depuis le 25 novembre 2026.
 
 ## 2. Bugs
 
