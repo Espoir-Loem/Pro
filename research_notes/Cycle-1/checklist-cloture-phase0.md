@@ -48,4 +48,4 @@ Cette check-list porte sur la Phase 0. Elle ne couvre ni A-12, ni la nomination 
 
 ## 5. Ce que cette check-list ne fait pas
 
-Elle n'exécute aucun entretien, n'attribue aucun identifiant P, ne recueille aucun consentement, ne valide aucune hypothèse, ne retient aucune opportunité, ne prononce pas la clôture de la Phase 0, ne lève aucune porte et ne contient aucun code applicatif.
+Elle n'exécute aucun entretien, n'attribue aucun identifiant P, ne recueille aucun consentement, ne valide aucune hypothèse, ne retient aucune opportunité, ne prononce pas la clôture de la Phase 0, ne lève aucune porte et ne contient aucun code applicatif. La [fiche de contrôle des conditions de sortie](./controle-sortie-phase0.md) prépare la vérification de ces lignes, sans case cochée ni résultat prérempli.

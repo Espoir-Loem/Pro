@@ -29,11 +29,13 @@ Ce dossier rassemble les modèles et les protocoles prêts à être utilisés pe
 | Test interne J3 | [J3-interne.md](./sessionnels/J3-interne.md) | Aucun identifiant de participant |
 | Décisions J10 | [J10-decisions.md](./decisions/J10-decisions.md) | Aucune décision de clôture écrite |
 | Trame de l'opportunité O | [trame-opportunite-O.md](./trame-opportunite-O.md) | Cinq opportunités canoniques et champs à remplir après J10, aucun choix |
+| Contrôle de l'écriture de l'opportunité | [controle-ecriture-opportunite.md](./controle-ecriture-opportunite.md) | Champs à vérifier pour l'écriture à J10, sans opportunité ni citation préremplies |
 | Modèle de décision H1 | [decision-denominateur-H1.md](./hypotheses/decision-denominateur-H1.md) | Décision à écrire avant J7, aucun nombre prérempli |
 | Modèle de décision H4 | [decision-denominateur-H4.md](./hypotheses/decision-denominateur-H4.md) | Décision à écrire avant J8, aucun nombre prérempli |
 | Seuils qualitatifs H2, H3 et H8 | [decision-seuils-qualitatifs-H2-H3-H8.md](./hypotheses/decision-seuils-qualitatifs-H2-H3-H8.md) | Conversion à écrire avant chaque test, aucun seuil prérempli |
 | Cibles KPI après la Phase 0 | [decision-cibles-KPI.md](../Planning/decision-cibles-KPI.md) | Écriture à faire après clôture, sans chiffre prérempli |
 | Check-list de clôture | [checklist-cloture-phase0.md](./checklist-cloture-phase0.md) | Critères de sortie de la Phase 0, aucune case cochée |
+| Contrôle des conditions de sortie | [controle-sortie-phase0.md](./controle-sortie-phase0.md) | Points et preuves à vérifier, sans case cochée ni clôture prononcée |
 
 ## Ce qui reste à faire
 
