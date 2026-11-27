@@ -29,6 +29,9 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Événements et tableau de bord, condition 2 | [revue-evenements-tableau-bord-condition2.md](./revue-evenements-tableau-bord-condition2.md) | Points et preuves à vérifier, aucun relevé prérempli |
 | Cas d'erreur par parcours, condition 3 | [revue-cas-erreur-condition3.md](./revue-cas-erreur-condition3.md) | Cas à rejouer et traces à archiver, aucun cas supposé |
 | Revue de performance desktop A-03 | [revue-performance-desktop-A03.md](../Planning/revue-performance-desktop-A03.md) | Cibles et traces à vérifier, aucune mesure relevée |
+| Critères d'acceptation FS, condition 1 | [grille-validation-criteres-FS.md](./sprint/grille-validation-criteres-FS.md) | Une ligne par FS et par plateforme, sans recopie des critères ni case cochée |
+| Conservation des agrégats | [decision-conservation-agregats.md](./decision-conservation-agregats.md) | D-015 inchangée, durée et finalité à inscrire avant la première mesure |
+| Profil réseau R1 | [decision-profil-R1.md](../Planning/decision-profil-R1.md) | Propositions inchangées, aucune valeur retenue ni mesure avancée |
 
 ## Portes avant le premier commit de code
 

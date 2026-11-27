@@ -4,7 +4,7 @@
 
 ## Profil de référence
 
-Le PRD dit « réseau mobile correct ». Ce n'est pas mesurable. Le profil R1 ci-dessous est proposé et sert de grille de revue commune à `architecture.md` et `video.md`.
+Le PRD dit « réseau mobile correct ». Ce n'est pas mesurable. Le profil R1 ci-dessous est proposé et sert de grille de revue commune à `architecture.md` et `video.md`. Le [modèle de décision du profil R1](../../research_notes/Planning/decision-profil-R1.md) prépare l'écriture de ce choix, sans valeur préremplie ni mesure avancée.
 
 | Paramètre | Valeur proposée | Statut |
 |---|---|---|

@@ -4,7 +4,7 @@
 
 ## Octets et bitrates
 
-Échelle proposée, à confirmer avec `performance.md`. Les valeurs servent au calcul, pas à un engagement de qualité.
+Échelle proposée, à confirmer avec `performance.md`. Les valeurs servent au calcul, pas à un engagement de qualité. Le [modèle de décision du profil R1](../../research_notes/Planning/decision-profil-R1.md) prépare le choix encore ouvert et la relecture de cette fiche, sans valeur préremplie ni mesure avancée.
 
 | Rendu | Bitrate cible | Octets pour 60 secondes | Usage |
 |---|---:|---:|---|
