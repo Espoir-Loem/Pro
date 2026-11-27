@@ -22,7 +22,7 @@ R : réalise. A : approuve. C : consulté. I : informé. Aucun nom n'est invent�
 | Test d'API sur les trois plateformes, `mobile`, `web` et `desktop` | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique | équipe technique | à nommer |
 | Portée mobile modifiable hors binaire natif, six catégories fermées, point A-13 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Produit, Conformité, Opérations | équipe technique | arbitré le 26 novembre 2026 |
 | Niveau OWASP ASVS 2, arbitrage A-11 du 26 novembre 2026 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique | équipe produit | arbitré le 26 novembre 2026 |
-| Première migration de données | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Conformité conservation | équipe technique | à nommer |
+| Première migration de données | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Conformité conservation | équipe technique | à nommer, [modèle de décision](../../research_notes/Planning/decision-premiere-migration.md) préparé après la levée écrite de A-12 |
 | Gouvernance intérimaire du porteur unique et outils IA jamais auteurs, A-04 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique, Conformité | équipe produit | arbitrée le 26 novembre 2026 |
 | Prestataires du client `desktop` à nommer avant le premier commit de code de stack, A-04 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Technique | équipe produit | à nommer avant le premier commit de code de stack |
 | Calendrier par critères de sortie sans date de lancement, A-05 | Espoir LOEMBA, intérimaire | Espoir LOEMBA | Croissance, Opérations | équipe produit | arbitrée le 26 novembre 2026 |

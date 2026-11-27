@@ -4,7 +4,7 @@
 **Rôle** : source unique des noms, formules, dénominateurs et garde-fous. Toute autre formulation dans la [vision](./vision.md), le [manifeste](./manifeste.md) ou le [PRD](./prd.md) renvoie à ce fichier.  
 **Documents liés** : [Décisions](./decisions.md), [Expérimentation](./experimentation.md), [Tableau de bord](./tableau-de-bord.md), [Observation](../Technique/README.md)
 
-Aucune cible chiffrée n'est inventée dans ce cadrage. Chaque cible est nommée après la sortie de la Phase 0, puis inscrite au registre avec sa date et son propriétaire. Les garde-fous relatives sont définies à partir d'une base relevée pendant la Phase 0 ou les deux premières semaines d'observation, puis journalisées au registre.
+Aucune cible chiffrée n'est inventée dans ce cadrage. Chaque cible est nommée après la sortie de la Phase 0, puis inscrite au registre avec sa date et son propriétaire. Le [modèle de décision des cibles KPI](../../research_notes/Planning/decision-cibles-KPI.md) prépare cette écriture, sans chiffre prérempli. Les garde-fous relatives sont définies à partir d'une base relevée pendant la Phase 0 ou les deux premières semaines d'observation, puis journalisées au registre.
 
 ## Règles communes
 
