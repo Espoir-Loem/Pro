@@ -32,6 +32,9 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Critères d'acceptation FS, condition 1 | [grille-validation-criteres-FS.md](./sprint/grille-validation-criteres-FS.md) | Une ligne par FS et par plateforme, sans recopie des critères ni case cochée |
 | Conservation des agrégats | [decision-conservation-agregats.md](./decision-conservation-agregats.md) | D-015 inchangée, durée et finalité à inscrire avant la première mesure |
 | Profil réseau R1 | [decision-profil-R1.md](../Planning/decision-profil-R1.md) | Propositions inchangées, aucune valeur retenue ni mesure avancée |
+| Premier rendu signé, condition 7 | [fiche-premier-rendu-signe.md](./fiche-premier-rendu-signe.md) | Preuves par client à archiver, sans tag ni signature préremplis |
+| File armée et astreinte, condition 6 | [fiche-controle-condition6.md](./fiche-controle-condition6.md) | Points à vérifier et preuves à archiver, sans titulaire ni résultat préremplis |
+| Première publication réelle | [fiche-premiere-publication-reelle.md](./fiche-premiere-publication-reelle.md) | D-014 et D-021 à vérifier par ville et par plateforme, sans contenu ni date avancés |
 
 ## Portes avant le premier commit de code
 

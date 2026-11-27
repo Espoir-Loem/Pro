@@ -20,6 +20,8 @@
 | Secrets | Clés de pseudonymisation conservées séparément des pseudonymes, rotation journalisée | Une clé remplacée est tracée et les anciennes valeurs restent lisibles selon `conservation.md` |
 | Mise à jour automatique | Paquet signé et vérifié avant installation sur `desktop`, retour à la version précédente en cas d'échec, aucune interruption de session, aucun identifiant d'appareil ou d'installation | Une mise à jour non signée est refusée ; la version précédente reste active ; la session en cours n'est pas coupée ; aucun identifiant machine n'est écrit dans `analytics_event` |
 
+La [fiche de préparation du premier rendu signé](../../research_notes/Sprint-1/fiche-premier-rendu-signe.md) prépare l'archivage des preuves de la condition 7, par client, sans contrôle exécuté ni signature avancée.
+
 ## Chaîne d'approvisionnement
 
 Les contrôles suivants sont requis au merge et à la release. Ils sont décidés le 26 novembre 2026 par le porteur unique. Les versions sont épinglées, vérifiées le 26 novembre 2026 sur les dépôts officiels et archivées dans `../../memoires/2026-11-26-outils-securite.md`. Aucun canal `latest`, `canary`, `beta`, `rc` ou alpha n'est accepté.
