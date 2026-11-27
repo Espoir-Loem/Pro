@@ -39,4 +39,4 @@ Le recours du signalant visiteur est une **absence de recours écrite**, écrite
 
 ## Première action
 
-Jouer l’exercice à blanc décrit dans [astreinte.md](./astreinte.md) : signalement visiteur, ticket pseudonymé, priorité P1, relecture, notification d’auteur et validation du délai cible. Le résultat est consigné dans le canal unique avant tout lien public.
+Jouer l’exercice à blanc décrit dans [astreinte.md](./astreinte.md) : signalement visiteur, ticket pseudonymé, priorité P1, relecture, notification d’auteur et validation du délai cible. Le résultat est consigné dans le canal unique avant tout lien public. La [fiche de contrôle de la condition 6](../../research_notes/Sprint-1/fiche-controle-condition6.md) prépare la vérification de la file armée et de l'astreinte nominée, sans titulaire ni résultat préremplis.
