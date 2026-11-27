@@ -28,7 +28,7 @@ Les valeurs sont des hypothèses de planification écrites avant ouverture, pas 
 | S2 file | Brazzaville puis Kinshasa, séparément | `queue_depth` supérieur à 20 ou p95 de `report_age` supérieur à 4 heures | Passer à 2 modérateurs et 1 relecteur pour la ville concernée | Coordinateur des opérations, à nommer | 30 minutes |
 | S3 coût | Brazzaville puis Kinshasa, séparément | Coût par vue supérieur à 0,001 USD dans la ville, selon D-022 | Réduire le préchargement, forcer le transcodage adaptatif, suspendre la nouvelle campagne dans la ville | Référent technique, à nommer | 1 heure |
 
-Le seuil S1 est lu par ville et par plateforme quand les données le permettent : le trafic `web` et le trafic `desktop` sont distingués dans la mesure, sans inventer de seuil propre à chacun. Quand les données ne permettent pas cette distinction, la lecture reste agrégée par ville et elle est signalée comme telle. Le seuil S3 s'applique aussi au client `desktop`, sans modifier l'arbitrage D-022.
+Le seuil S1 est lu par ville et par plateforme quand les données le permettent : le trafic `web` et le trafic `desktop` sont distingués dans la mesure, sans inventer de seuil propre à chacun. Quand les données ne permettent pas cette distinction, la lecture reste agrégée par ville et elle est signalée comme telle. Le seuil S3 s'applique aussi au client `desktop`, sans modifier l'arbitrage D-022. La [fiche de contrôle des seuils de bascule](../../research_notes/Sprint-1/fiche-controle-seuils-bascule.md) prépare les relevés et les preuves à archiver, sans mesure ni franchissement préremplis.
 
 ```mermaid
 flowchart LR
