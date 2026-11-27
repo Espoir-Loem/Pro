@@ -485,7 +485,7 @@ Une brique est terminée quand les sept conditions sont réunies :
 2. Les événements prévus sont émis et visibles dans le tableau de bord décrit dans `./tableau-de-bord.md`.
 3. Les cas d’erreur décrits dans le parcours correspondant ont été testés.
 4. La revue de code et la revue d’accessibilité sont passées.
-5. La revue de confidentialité confirme qu’aucun identifiant permanent n’a été introduit pour un visiteur.
+5. La revue de confidentialité confirme qu'aucun identifiant permanent n'a été introduit pour un visiteur. La [fiche de contrôle de cette condition](../../research_notes/Sprint-1/revue-confidentialite-condition5.md) prépare la revue sans résultat prérempli.
 6. La file de modération est armée, l'astreinte est nominée et le test à blanc du signalement visiteur jusqu'à la notification d'auteur est réussi.
 7. La mise à jour automatique est vérifiée sur `mobile`, `web` et `desktop` selon la section 10.1, avec la preuve du contrôle de signature, du retour arrière et de la non interruption de session.
 

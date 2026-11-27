@@ -11,7 +11,7 @@ Une phase se termine quand ses critères de sortie sont vrais et que les preuves
 
 **Livrables.** Cycle de dix jours ouvrés prévu dans la recherche UX, huit entretiens à Brazzaville et Kinshasa, personas corrigés, arbre d'opportunités à jour, preuves archivées.
 
-**Seuils H1 à H8 et validateurs.** Les seuils et conditions d'infirmation ci-dessous sont repris du registre d'hypothèses de `UX/ux-research.md`. Chaque résultat est confirmé ou infirmé par le validateur nommé, puis inscrit au compte rendu de J10.
+**Seuils H1 à H8 et validateurs.** Les seuils et conditions d'infirmation ci-dessous sont repris du registre d'hypothèses de `UX/ux-research.md`. Chaque résultat est confirmé ou infirmé par le validateur nommé, puis inscrit au compte rendu de J10. Le [modèle de nomination](../../research_notes/Cycle-1/hypotheses/nomination-validateurs.md) prépare ces huit désignations avant J1, sans nom prérempli ni hypothèse validée par avance.
 
 | Hypothèse | Condition d'infirmation | Condition de confirmation | Validateur nommé |
 |---|---|---|---|
