@@ -24,6 +24,8 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Trame de décision vidéo et CDN | [decision-fournisseur-video-CDN.md](./decision-fournisseur-video-CDN.md) | D-022 inchangée, aucun fournisseur ni tarif prérempli |
 | Revue de confidentialité, condition 5 | [revue-confidentialite-condition5.md](./revue-confidentialite-condition5.md) | Points et preuves à vérifier, aucune revue tenue ni résultat avancé |
 | Modèle de révision D-022 | [revision-D022-apres-30-jours.md](../Planning/revision-D022-apres-30-jours.md) | À écrire après 30 jours d'exploitation, sans date ni résultat préremplis |
+| Revue de code et accessibilité, condition 4 | [revue-code-accessibilite-condition4.md](./revue-code-accessibilite-condition4.md) | Points et traces à vérifier, aucune revue tenue ni résultat avancé |
+| Modèle de nomination prestataires `desktop` | [nomination-prestataires-desktop.md](./nomination-prestataires-desktop.md) | Windows et macOS séparés, aucun nom ni montant prérempli |
 
 ## Portes avant le premier commit de code
 
