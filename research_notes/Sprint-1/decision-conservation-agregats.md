@@ -6,7 +6,7 @@
 
 ## 1. Ce qui est déjà écrit
 
-D-015 fixe la conservation des événements de session à 30 jours, décision retenue le 25 novembre 2026. Les agrégats sont conservés pour la finalité de mesure inscrite au registre, avec une durée à nommer avant la première mesure. Cette règle est reprise dans le schéma de lecture du tableau de bord, dans le dictionnaire de mesures, en FS-11 et dans la section 10 du PRD. Aucune durée ni finalité n'est avancée à la date de préparation de ce modèle.
+D-015 fixe la conservation des événements de session à 30 jours, décision retenue le 25 novembre 2026. Les agrégats sont conservés pour la finalité de mesure inscrite au registre, avec une durée à nommer avant la première mesure. Cette règle est reprise dans le schéma de lecture du tableau de bord, dans le dictionnaire de mesures, en FS-11 et dans la section 10 du PRD. Aucune durée ni finalité n'est avancée à la date de préparation de ce modèle. La [fiche de contrôle des durées de conservation](../Planning/controle-durees-conservation.md) prépare la vérification des durées écrites, sans résultat de purge ni valeur préremplie.
 
 Les agrégats portent sur les mesures canoniques du dictionnaire : inscriptions avec email vérifié pour 1 000 sessions de fil, vidéos vues par session, part des membres qui publient, retour à sept jours des comptes vérifiés, délai de première décision de modération, taux de contestation et taux de renversement. Le taux de sauvegarde, les messages envoyés et les signalements sont lus comme des événements sources, avec la même règle de conservation. Aucune nouvelle mesure n'est créée ici.
 

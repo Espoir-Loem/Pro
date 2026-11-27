@@ -17,6 +17,7 @@
 | [phrases-invitation.md](./phrases-invitation.md) | Brazzaville, Kinshasa | Phrases autorisées, liste fermée, validation écrite | Avant la première campagne | Référent ville, à nommer |
 | [mesure-campagnes.md](./mesure-campagnes.md) | Brazzaville, Kinshasa | Événements, champs, dénominateurs séparés | Avant le premier lien de campagne | Référent mesure, à nommer |
 | [extension-afrique.md](./extension-afrique.md) | Hors deux villes | Conditions d’un marché suivant sans extrapolation | Après la phase 1 | Référent produit, à nommer |
+| [Fiche de contrôle des phrases et campagnes](../../research_notes/Planning/controle-phrases-campagnes.md) | Brazzaville, Kinshasa | Points à vérifier et preuves à archiver, sans campagne ni phrase retenue | Avant la première campagne | À renseigner |
 
 ```mermaid
 flowchart LR

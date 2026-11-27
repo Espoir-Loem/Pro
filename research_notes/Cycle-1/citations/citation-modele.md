@@ -15,4 +15,4 @@
 | Date de relecture par la personne | À renseigner |
 | Date de retrait éventuel | À renseigner, sinon aucune |
 
-Le texte ne contient aucun nom, email, téléphone, identifiant de compte ni détail permettant de reconnaître la personne. Si un récit d'arnaque est évoqué, l'entretien reste sur le parcours, sans conseil juridique ni recueil de preuve d'argent. La relecture est consignée dans un fichier distinct portant le même identifiant de citation.
+Le texte ne contient aucun nom, email, téléphone, identifiant de compte ni détail permettant de reconnaître la personne. Si un récit d'arnaque est évoqué, l'entretien reste sur le parcours, sans conseil juridique ni recueil de preuve d'argent. La relecture est consignée dans un fichier distinct portant le même identifiant de citation. La [fiche de contrôle du retrait des citations](./controle-retrait-citations.md) prépare la vérification de la relecture et du retrait, sans extrait ni identifiant P préremplis.
