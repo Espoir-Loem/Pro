@@ -23,6 +23,8 @@ La dimension de lecture `plateforme` prend trois valeurs : `mobile` pour les app
 | Signalement visiteur | Référence pseudonyme issue de la clé de modération | Aucune jointure avec `signup_verified` |
 | Mise à jour automatique | Aucun identifiant d'appareil, d'installation ou de machine créé par le mécanisme de mise à jour, aucune jointure avec `signup_verified` ; la version appliquée reste dans un journal technique sans rattachement à une personne | Revue du journal technique : zéro identifiant d'installation et aucune jointure |
 
+Une [fiche de contrôle](../../research_notes/Sprint-1/revue-confidentialite-condition5.md) prépare la revue de la condition 5 de la section 11 du PRD, avec les points à vérifier et les preuves à archiver, sans revue tenue ni résultat avancé.
+
 ## Voie de recours du signalant
 
 Choix produit déjà écrit : le signalement fait par un visiteur n'ouvre pas de notification nominative ni de recours rattachés à une identité. Le recours anonyme par jeton n'est pas ouvert en parallèle, selon [contestation.md](../Operations/contestation.md). Si l'Union européenne est desservie, la question est à soumettre à conseil avec l'article 20 du DSA, sans en déduire une règle actuelle.

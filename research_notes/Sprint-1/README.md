@@ -22,6 +22,8 @@ Ce dossier rend le sprint 1 prêt à être ouvert sans écrire une ligne de code
 | Fiche de test D-021 | [test-sous-titres-D021.md](./test-sous-titres-D021.md) | Sous-titres corrigés avant la première publication, aucun test exécuté |
 | Modèle de nomination définitive | [nominations-definitives.md](./nominations-definitives.md) | Champs à remplir pour remplacer l'intérimariat, aucun nom proposé, aucune porte créée |
 | Trame de décision vidéo et CDN | [decision-fournisseur-video-CDN.md](./decision-fournisseur-video-CDN.md) | D-022 inchangée, aucun fournisseur ni tarif prérempli |
+| Revue de confidentialité, condition 5 | [revue-confidentialite-condition5.md](./revue-confidentialite-condition5.md) | Points et preuves à vérifier, aucune revue tenue ni résultat avancé |
+| Modèle de révision D-022 | [revision-D022-apres-30-jours.md](../Planning/revision-D022-apres-30-jours.md) | À écrire après 30 jours d'exploitation, sans date ni résultat préremplis |
 
 ## Portes avant le premier commit de code
 
